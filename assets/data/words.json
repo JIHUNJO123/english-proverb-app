@@ -1,0 +1,2602 @@
+[
+  {
+    "id": 1,
+    "word": "Actions speak louder than words",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "What you do is more important than what you say. People judge you by your behavior, not your promises.",
+    "example": "He always promises to help but never does. Actions speak louder than words."
+  },
+  {
+    "id": 2,
+    "word": "Better late than never",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "It is better to arrive or do something late than not at all.",
+    "example": "You finally called me back after two weeks? Well, better late than never!"
+  },
+  {
+    "id": 3,
+    "word": "No pain, no gain",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "You have to work hard and sometimes suffer to achieve your goals.",
+    "example": "My muscles hurt from exercising, but no pain, no gain!"
+  },
+  {
+    "id": 4,
+    "word": "Practice makes perfect",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "The more you practice something, the better you become at it.",
+    "example": "Don't give up on learning guitar. Practice makes perfect."
+  },
+  {
+    "id": 5,
+    "word": "Honesty is the best policy",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "It is always better to tell the truth than to lie.",
+    "example": "I admitted my mistake to my boss. Honesty is the best policy."
+  },
+  {
+    "id": 6,
+    "word": "The early bird catches the worm",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "People who start early or arrive first have a better chance of success.",
+    "example": "I got to the sale first and found great deals. The early bird catches the worm!"
+  },
+  {
+    "id": 7,
+    "word": "An apple a day keeps the doctor away",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Eating healthy food regularly helps you stay healthy and avoid illness.",
+    "example": "I eat fresh vegetables every day. An apple a day keeps the doctor away."
+  },
+  {
+    "id": 8,
+    "word": "Easy come, easy go",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Something gained easily is also lost easily, especially money.",
+    "example": "He won $1000 gambling but lost it all the next day. Easy come, easy go."
+  },
+  {
+    "id": 9,
+    "word": "Time is money",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Time is valuable and should not be wasted because it can be used to earn money.",
+    "example": "Stop chatting and get back to work. Time is money!"
+  },
+  {
+    "id": 10,
+    "word": "Love is blind",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "When you love someone, you cannot see their faults or mistakes.",
+    "example": "She doesn't see any of his bad habits. Love is blind."
+  },
+  {
+    "id": 11,
+    "word": "Don't count your chickens before they hatch",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't assume you will be successful before it actually happens. Don't celebrate too early.",
+    "example": "You haven't passed the exam yet, so don't count your chickens before they hatch."
+  },
+  {
+    "id": 12,
+    "word": "Every cloud has a silver lining",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Every difficult or sad situation has a positive or hopeful side.",
+    "example": "Losing my job led me to start my own business. Every cloud has a silver lining."
+  },
+  {
+    "id": 13,
+    "word": "Rome wasn't built in a day",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Important achievements take time and patience. Don't expect instant results.",
+    "example": "You can't become fluent in English in one month. Rome wasn't built in a day."
+  },
+  {
+    "id": 14,
+    "word": "When in Rome, do as the Romans do",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "When visiting a foreign place, follow the local customs and behave like the local people.",
+    "example": "In Japan, I took off my shoes indoors. When in Rome, do as the Romans do."
+  },
+  {
+    "id": 15,
+    "word": "You can't judge a book by its cover",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "You cannot know what someone or something is really like just by looking at their appearance.",
+    "example": "That old car runs perfectly! You can't judge a book by its cover."
+  },
+  {
+    "id": 16,
+    "word": "Two wrongs don't make a right",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If someone does something bad to you, doing something bad back to them is not justified.",
+    "example": "He insulted you, but insulting him back won't help. Two wrongs don't make a right."
+  },
+  {
+    "id": 17,
+    "word": "A penny saved is a penny earned",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Money that you save is just as valuable as money you work hard to earn.",
+    "example": "I pack my lunch instead of eating out. A penny saved is a penny earned."
+  },
+  {
+    "id": 18,
+    "word": "Look before you leap",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Think carefully about the possible problems before making a decision or taking action.",
+    "example": "Before investing all your savings, look before you leap."
+  },
+  {
+    "id": 19,
+    "word": "A friend in need is a friend indeed",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "A real friend is someone who helps you when you are in trouble, not just in good times.",
+    "example": "She stayed with me when I was sick. A friend in need is a friend indeed."
+  },
+  {
+    "id": 20,
+    "word": "Birds of a feather flock together",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "People who have similar interests, ideas, or characteristics tend to spend time together.",
+    "example": "All the artists in town hang out together. Birds of a feather flock together."
+  },
+  {
+    "id": 21,
+    "word": "Beggars can't be choosers",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "When you need something badly, you must accept whatever is offered without being picky.",
+    "example": "The free apartment is small, but beggars can't be choosers."
+  },
+  {
+    "id": 22,
+    "word": "Don't put all your eggs in one basket",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't risk everything on a single opportunity. Spread your resources or investments.",
+    "example": "Invest in different stocks. Don't put all your eggs in one basket."
+  },
+  {
+    "id": 23,
+    "word": "The grass is always greener on the other side",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Other people's situations always seem better than your own, but they often aren't.",
+    "example": "He thinks my job is easy, but the grass is always greener on the other side."
+  },
+  {
+    "id": 24,
+    "word": "Where there's smoke, there's fire",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If there are rumors or signs of something, there is probably some truth behind them.",
+    "example": "Everyone says he's dishonest. Where there's smoke, there's fire."
+  },
+  {
+    "id": 25,
+    "word": "You can lead a horse to water, but you can't make it drink",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "You can give someone an opportunity, but you cannot force them to take it.",
+    "example": "I showed him how to study, but he won't do it. You can lead a horse to water, but you can't make it drink."
+  },
+  {
+    "id": 26,
+    "word": "When the cat's away, the mice will play",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "When a person in authority is absent, people will behave badly or lazily.",
+    "example": "The workers stopped working when the boss left. When the cat's away, the mice will play."
+  },
+  {
+    "id": 27,
+    "word": "Kill two birds with one stone",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Accomplish two different tasks with a single action.",
+    "example": "By cycling to work, I exercise and save money. I kill two birds with one stone."
+  },
+  {
+    "id": 28,
+    "word": "Don't bite the hand that feeds you",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't be ungrateful to or harm someone who helps or supports you.",
+    "example": "Don't complain about your boss publicly. Don't bite the hand that feeds you."
+  },
+  {
+    "id": 29,
+    "word": "A picture is worth a thousand words",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "An image can convey a complex idea more effectively than a long explanation.",
+    "example": "Instead of describing the accident, just show the photo. A picture is worth a thousand words."
+  },
+  {
+    "id": 30,
+    "word": "Blood is thicker than water",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Family relationships are stronger and more important than relationships with friends or others.",
+    "example": "I have to help my brother first. Blood is thicker than water."
+  },
+  {
+    "id": 31,
+    "word": "The pen is mightier than the sword",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Writing, ideas, and communication are more powerful and effective than violence or military force.",
+    "example": "The journalist's article changed the law. The pen is mightier than the sword."
+  },
+  {
+    "id": 32,
+    "word": "All that glitters is not gold",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Things that appear attractive or valuable on the surface may not be so in reality.",
+    "example": "That fancy car broke down after a week. All that glitters is not gold."
+  },
+  {
+    "id": 33,
+    "word": "A leopard can't change its spots",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "People cannot change their fundamental nature or character, especially bad habits.",
+    "example": "He promised to be honest, but he lied again. A leopard can't change its spots."
+  },
+  {
+    "id": 34,
+    "word": "The squeaky wheel gets the grease",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "The person who complains the most or makes the most noise gets attention and help first.",
+    "example": "I kept asking for a raise until I got one. The squeaky wheel gets the grease."
+  },
+  {
+    "id": 35,
+    "word": "Curiosity killed the cat",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Being too curious or nosy about things can lead to trouble or danger.",
+    "example": "Stop asking about his private life. Curiosity killed the cat."
+  },
+  {
+    "id": 36,
+    "word": "The road to hell is paved with good intentions",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Good intentions alone are not enough; what matters is actually doing good things, not just planning to.",
+    "example": "He meant to help but made things worse. The road to hell is paved with good intentions."
+  },
+  {
+    "id": 37,
+    "word": "You reap what you sow",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Your actions have consequences. You will eventually experience the results of your behavior.",
+    "example": "He never studied and failed the exam. You reap what you sow."
+  },
+  {
+    "id": 38,
+    "word": "Fortune favors the bold",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "People who take risks and are brave are more likely to be successful.",
+    "example": "I asked for a promotion and got it! Fortune favors the bold."
+  },
+  {
+    "id": 39,
+    "word": "Absence makes the heart grow fonder",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "When you are away from someone you love, your love for them becomes stronger.",
+    "example": "After a month apart, we missed each other so much. Absence makes the heart grow fonder."
+  },
+  {
+    "id": 40,
+    "word": "Too many cooks spoil the broth",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "When too many people try to do the same job, the result is often bad.",
+    "example": "With five managers giving different instructions, the project failed. Too many cooks spoil the broth."
+  },
+  {
+    "id": 41,
+    "word": "People who live in glass houses shouldn't throw stones",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Don't criticize others for faults that you have yourself.",
+    "example": "You're always late too, so don't criticize me. People who live in glass houses shouldn't throw stones."
+  },
+  {
+    "id": 42,
+    "word": "A rolling stone gathers no moss",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "A person who keeps moving from place to place or changing jobs will not accumulate wealth or responsibilities.",
+    "example": "He changes jobs every year and has no savings. A rolling stone gathers no moss."
+  },
+  {
+    "id": 43,
+    "word": "The apple doesn't fall far from the tree",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Children often behave like their parents and inherit their characteristics.",
+    "example": "She became a doctor like her mother. The apple doesn't fall far from the tree."
+  },
+  {
+    "id": 44,
+    "word": "Don't cry over spilled milk",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Don't waste time being upset about something that has already happened and cannot be changed.",
+    "example": "You lost the game. Don't cry over spilled milk; just practice for next time."
+  },
+  {
+    "id": 45,
+    "word": "Necessity is the mother of invention",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "When people really need something, they find creative ways to get or create it.",
+    "example": "Without money for tools, he built his own. Necessity is the mother of invention."
+  },
+  {
+    "id": 46,
+    "word": "Great minds think alike",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Intelligent people often have the same ideas or opinions (often used humorously).",
+    "example": "We both chose the same restaurant! Great minds think alike."
+  },
+  {
+    "id": 47,
+    "word": "Beauty is in the eye of the beholder",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "What one person finds beautiful, another may not. Beauty is subjective.",
+    "example": "I love that painting, but my friend hates it. Beauty is in the eye of the beholder."
+  },
+  {
+    "id": 48,
+    "word": "Strike while the iron is hot",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Take advantage of an opportunity immediately, while conditions are favorable.",
+    "example": "The boss is in a good mood. Ask for a raise now! Strike while the iron is hot."
+  },
+  {
+    "id": 49,
+    "word": "One man's trash is another man's treasure",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "What one person considers worthless may be valuable to someone else.",
+    "example": "I sold my old records online for good money. One man's trash is another man's treasure."
+  },
+  {
+    "id": 50,
+    "word": "The best things in life are free",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "The most valuable things, like love, friendship, and health, don't cost money.",
+    "example": "Spending time with family makes me happiest. The best things in life are free."
+  },
+  {
+    "id": 51,
+    "word": "Haste makes waste",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Doing things too quickly often leads to mistakes and wasted effort.",
+    "example": "Slow down and check your work. Haste makes waste."
+  },
+  {
+    "id": 52,
+    "word": "Out of sight, out of mind",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "When you don't see someone or something, you tend to forget about them.",
+    "example": "After she moved away, we lost touch. Out of sight, out of mind."
+  },
+  {
+    "id": 53,
+    "word": "What goes around comes around",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "The way you treat others will eventually come back to you, good or bad.",
+    "example": "He was always helpful, and now everyone helps him. What goes around comes around."
+  },
+  {
+    "id": 54,
+    "word": "Money doesn't grow on trees",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Money is not easily obtained and should not be wasted.",
+    "example": "You can't buy everything you want. Money doesn't grow on trees."
+  },
+  {
+    "id": 55,
+    "word": "The bigger they are, the harder they fall",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Powerful or important people suffer more when they fail.",
+    "example": "The CEO lost everything in the scandal. The bigger they are, the harder they fall."
+  },
+  {
+    "id": 56,
+    "word": "Don't make a mountain out of a molehill",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't treat a small problem as if it were a big, serious issue.",
+    "example": "It's just a small scratch on the car. Don't make a mountain out of a molehill."
+  },
+  {
+    "id": 57,
+    "word": "Two heads are better than one",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Working with someone else can help you solve problems more effectively.",
+    "example": "Let's work on this together. Two heads are better than one."
+  },
+  {
+    "id": 58,
+    "word": "If the shoe fits, wear it",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If a criticism or description applies to you, accept it.",
+    "example": "I said lazy people fail. If the shoe fits, wear it."
+  },
+  {
+    "id": 59,
+    "word": "Let sleeping dogs lie",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't disturb a situation that might cause problems if you interfere.",
+    "example": "Don't mention the old argument. Let sleeping dogs lie."
+  },
+  {
+    "id": 60,
+    "word": "Never put off till tomorrow what you can do today",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't delay doing something that can be done now.",
+    "example": "Finish your homework now. Never put off till tomorrow what you can do today."
+  },
+  {
+    "id": 61,
+    "word": "A watched pot never boils",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Time seems to pass slowly when you're waiting anxiously for something.",
+    "example": "Stop checking your email every minute. A watched pot never boils."
+  },
+  {
+    "id": 62,
+    "word": "Laughter is the best medicine",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Being happy and laughing helps you feel better when you're sad or sick.",
+    "example": "Watch a funny movie when you're stressed. Laughter is the best medicine."
+  },
+  {
+    "id": 63,
+    "word": "A journey of a thousand miles begins with a single step",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Even the biggest task starts with one small action.",
+    "example": "Just start writing one page. A journey of a thousand miles begins with a single step."
+  },
+  {
+    "id": 64,
+    "word": "Ignorance is bliss",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Sometimes it's better not to know about problems because knowing causes worry.",
+    "example": "I was happier before I knew about the company's troubles. Ignorance is bliss."
+  },
+  {
+    "id": 65,
+    "word": "Old habits die hard",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "It's difficult to change behavior or habits you've had for a long time.",
+    "example": "He still smokes even after the doctor's warning. Old habits die hard."
+  },
+  {
+    "id": 66,
+    "word": "Silence is golden",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Sometimes it's better to say nothing than to speak.",
+    "example": "Don't argue with angry customers. Silence is golden."
+  },
+  {
+    "id": 67,
+    "word": "All good things must come to an end",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Nothing pleasant lasts forever.",
+    "example": "Our vacation is over. All good things must come to an end."
+  },
+  {
+    "id": 68,
+    "word": "There's no place like home",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Home is the most comfortable and satisfying place to be.",
+    "example": "After a long trip, I'm glad to be back. There's no place like home."
+  },
+  {
+    "id": 69,
+    "word": "It takes two to tango",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Both people involved in a situation are responsible for it.",
+    "example": "They both caused the argument. It takes two to tango."
+  },
+  {
+    "id": 70,
+    "word": "If it ain't broke, don't fix it",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't change something that is working well.",
+    "example": "The old system works fine. If it ain't broke, don't fix it."
+  },
+  {
+    "id": 71,
+    "word": "The pot calling the kettle black",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Criticizing someone for a fault you have yourself.",
+    "example": "You're calling me lazy? That's the pot calling the kettle black!"
+  },
+  {
+    "id": 72,
+    "word": "Every dog has its day",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Everyone will have success or good luck at some point in their life.",
+    "example": "I finally won the competition! Every dog has its day."
+  },
+  {
+    "id": 73,
+    "word": "Don't look a gift horse in the mouth",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Don't criticize or be ungrateful for something given to you for free.",
+    "example": "The free laptop is old, but don't look a gift horse in the mouth."
+  },
+  {
+    "id": 74,
+    "word": "Jack of all trades, master of none",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Someone who can do many things but is not an expert in any of them.",
+    "example": "He can fix anything but not perfectly. He's a jack of all trades, master of none."
+  },
+  {
+    "id": 75,
+    "word": "Barking dogs seldom bite",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "People who threaten loudly rarely take action.",
+    "example": "He threatens to sue but never does. Barking dogs seldom bite."
+  },
+  {
+    "id": 76,
+    "word": "An ounce of prevention is worth a pound of cure",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "It's easier to prevent problems than to fix them later.",
+    "example": "Regular car maintenance saves expensive repairs. An ounce of prevention is worth a pound of cure."
+  },
+  {
+    "id": 77,
+    "word": "Familiarity breeds contempt",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Knowing someone or something too well can make you lose respect for them.",
+    "example": "Living together, they started to annoy each other. Familiarity breeds contempt."
+  },
+  {
+    "id": 78,
+    "word": "Nothing ventured, nothing gained",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "You must take risks to achieve something worthwhile.",
+    "example": "I'll apply for that dream job. Nothing ventured, nothing gained."
+  },
+  {
+    "id": 79,
+    "word": "The truth will out",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "The truth will eventually be discovered, no matter how hard people try to hide it.",
+    "example": "They tried to cover up the scandal, but the truth will out."
+  },
+  {
+    "id": 80,
+    "word": "Still waters run deep",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "A quiet person often has deep thoughts or hidden talents.",
+    "example": "She's quiet but incredibly smart. Still waters run deep."
+  },
+  {
+    "id": 81,
+    "word": "Empty vessels make the most noise",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Foolish or ignorant people often talk the most.",
+    "example": "He speaks loudly but knows nothing. Empty vessels make the most noise."
+  },
+  {
+    "id": 82,
+    "word": "One swallow does not make a summer",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "A single event doesn't mean a trend has started.",
+    "example": "He won one game, but one swallow does not make a summer."
+  },
+  {
+    "id": 83,
+    "word": "There are plenty of fish in the sea",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "There are many other opportunities or people available, especially after a breakup.",
+    "example": "Don't be sad about the breakup. There are plenty of fish in the sea."
+  },
+  {
+    "id": 84,
+    "word": "You can't have your cake and eat it too",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "You can't have two incompatible things at the same time.",
+    "example": "You want to save money but buy expensive things? You can't have your cake and eat it too."
+  },
+  {
+    "id": 85,
+    "word": "A bird in the hand is worth two in the bush",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Something you already have is more valuable than something you might get.",
+    "example": "Take this job offer now. A bird in the hand is worth two in the bush."
+  },
+  {
+    "id": 86,
+    "word": "Make hay while the sun shines",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Take advantage of good conditions while they last.",
+    "example": "Business is booming, so work hard now. Make hay while the sun shines."
+  },
+  {
+    "id": 87,
+    "word": "A chain is only as strong as its weakest link",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "A group or organization is only as good as its weakest member.",
+    "example": "Train all employees well. A chain is only as strong as its weakest link."
+  },
+  {
+    "id": 88,
+    "word": "There's no such thing as a free lunch",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Everything has a cost, even if it's not obvious.",
+    "example": "That free trial requires your credit card. There's no such thing as a free lunch."
+  },
+  {
+    "id": 89,
+    "word": "Fools rush in where angels fear to tread",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Inexperienced people often act carelessly in dangerous situations that wiser people avoid.",
+    "example": "He invested without research. Fools rush in where angels fear to tread."
+  },
+  {
+    "id": 90,
+    "word": "The devil is in the details",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Small details in a plan or document can cause problems if not carefully examined.",
+    "example": "Read the contract carefully. The devil is in the details."
+  },
+  {
+    "id": 91,
+    "word": "Pride comes before a fall",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "If you are too proud or confident, you will make mistakes that lead to failure.",
+    "example": "He bragged about winning, then lost the final. Pride comes before a fall."
+  },
+  {
+    "id": 92,
+    "word": "Half a loaf is better than none",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Getting only part of what you want is better than getting nothing at all.",
+    "example": "I only got a partial refund, but half a loaf is better than none."
+  },
+  {
+    "id": 93,
+    "word": "Don't throw the baby out with the bathwater",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't discard something valuable while trying to get rid of something unwanted.",
+    "example": "The plan has problems, but don't throw the baby out with the bathwater."
+  },
+  {
+    "id": 94,
+    "word": "He who hesitates is lost",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "If you delay making a decision, you may lose the opportunity.",
+    "example": "I waited too long, and someone else got the apartment. He who hesitates is lost."
+  },
+  {
+    "id": 95,
+    "word": "Let bygones be bygones",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Forget past disagreements and move forward.",
+    "example": "Let's stop fighting about old problems. Let bygones be bygones."
+  },
+  {
+    "id": 96,
+    "word": "A stitch in time saves nine",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Fixing a small problem now prevents it from becoming a bigger problem later.",
+    "example": "Fix that small leak now. A stitch in time saves nine."
+  },
+  {
+    "id": 97,
+    "word": "Give credit where credit is due",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Acknowledge and praise people who deserve it.",
+    "example": "She did most of the work, so give credit where credit is due."
+  },
+  {
+    "id": 98,
+    "word": "Discretion is the better part of valor",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Sometimes it's braver to avoid danger than to face it unnecessarily.",
+    "example": "I didn't argue with the angry man. Discretion is the better part of valor."
+  },
+  {
+    "id": 99,
+    "word": "Those who cannot remember the past are condemned to repeat it",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "If you don't learn from history, you will make the same mistakes again.",
+    "example": "Study what caused past failures. Those who cannot remember the past are condemned to repeat it."
+  },
+  {
+    "id": 100,
+    "word": "Don't burn your bridges",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't damage relationships or ruin opportunities that you might need later.",
+    "example": "Leave your job politely. Don't burn your bridges."
+  },
+  {
+    "id": 101,
+    "word": "Better safe than sorry",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "It's better to be careful and avoid risks than to regret later.",
+    "example": "Wear your seatbelt. Better safe than sorry."
+  },
+  {
+    "id": 102,
+    "word": "Cleanliness is next to godliness",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Being clean is almost as important as being morally good.",
+    "example": "Always keep your room tidy. Cleanliness is next to godliness."
+  },
+  {
+    "id": 103,
+    "word": "First come, first served",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "People who arrive first get served or helped before others.",
+    "example": "Get there early for the best seats. First come, first served."
+  },
+  {
+    "id": 104,
+    "word": "Good things come to those who wait",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Patience is rewarded; if you wait, you will get what you want.",
+    "example": "Be patient with your career. Good things come to those who wait."
+  },
+  {
+    "id": 105,
+    "word": "It's never too late to learn",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "You can learn new things at any age.",
+    "example": "My grandmother started painting at 70. It's never too late to learn."
+  },
+  {
+    "id": 106,
+    "word": "Knowledge is power",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "The more you know, the more influence and capability you have.",
+    "example": "Keep studying and reading. Knowledge is power."
+  },
+  {
+    "id": 107,
+    "word": "Like father, like son",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Sons often resemble their fathers in behavior or appearance.",
+    "example": "He loves cars just like his dad. Like father, like son."
+  },
+  {
+    "id": 108,
+    "word": "Misery loves company",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Unhappy people like to be around other unhappy people.",
+    "example": "He always complains to others. Misery loves company."
+  },
+  {
+    "id": 109,
+    "word": "No news is good news",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If you haven't heard anything, assume everything is fine.",
+    "example": "The doctor hasn't called back. No news is good news."
+  },
+  {
+    "id": 110,
+    "word": "Once bitten, twice shy",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "After a bad experience, you become more careful.",
+    "example": "I won't invest in that company again. Once bitten, twice shy."
+  },
+  {
+    "id": 111,
+    "word": "Out of the frying pan into the fire",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Going from a bad situation to an even worse one.",
+    "example": "He quit his bad job and got a worse one. Out of the frying pan into the fire."
+  },
+  {
+    "id": 112,
+    "word": "Patience is a virtue",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Being patient is a good and admirable quality.",
+    "example": "Wait calmly for your turn. Patience is a virtue."
+  },
+  {
+    "id": 113,
+    "word": "Prevention is better than cure",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "It's better to stop problems before they happen than to fix them later.",
+    "example": "Exercise regularly to stay healthy. Prevention is better than cure."
+  },
+  {
+    "id": 114,
+    "word": "Seeing is believing",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "You need to see something yourself to believe it's true.",
+    "example": "I didn't believe the magic trick until I saw it. Seeing is believing."
+  },
+  {
+    "id": 115,
+    "word": "Slow and steady wins the race",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Consistent, patient effort leads to success.",
+    "example": "Don't rush your studies. Slow and steady wins the race."
+  },
+  {
+    "id": 116,
+    "word": "The early bird gets the worm",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Those who act early have the best chance of success.",
+    "example": "Apply for jobs now before others do. The early bird gets the worm."
+  },
+  {
+    "id": 117,
+    "word": "There's no time like the present",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Now is the best time to do something; don't delay.",
+    "example": "Start your project today. There's no time like the present."
+  },
+  {
+    "id": 118,
+    "word": "Time heals all wounds",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Emotional pain will eventually go away with time.",
+    "example": "You'll feel better about the breakup eventually. Time heals all wounds."
+  },
+  {
+    "id": 119,
+    "word": "To each his own",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Everyone has their own preferences and tastes.",
+    "example": "I don't like that music, but to each his own."
+  },
+  {
+    "id": 120,
+    "word": "Truth is stranger than fiction",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Real life is sometimes more surprising than made-up stories.",
+    "example": "He actually won the lottery twice! Truth is stranger than fiction."
+  },
+  {
+    "id": 121,
+    "word": "United we stand, divided we fall",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "People are stronger when they work together.",
+    "example": "Let's cooperate as a team. United we stand, divided we fall."
+  },
+  {
+    "id": 122,
+    "word": "Variety is the spice of life",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Having different experiences makes life interesting.",
+    "example": "Try new foods when you travel. Variety is the spice of life."
+  },
+  {
+    "id": 123,
+    "word": "Walls have ears",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Be careful what you say because someone might be listening.",
+    "example": "Don't discuss secrets here. Walls have ears."
+  },
+  {
+    "id": 124,
+    "word": "What doesn't kill you makes you stronger",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Difficult experiences help you become more resilient.",
+    "example": "That failure taught me a lot. What doesn't kill you makes you stronger."
+  },
+  {
+    "id": 125,
+    "word": "When it rains, it pours",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "When something bad happens, more bad things often follow.",
+    "example": "I lost my job and my car broke down. When it rains, it pours."
+  },
+  {
+    "id": 126,
+    "word": "You can't make an omelet without breaking eggs",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "You can't achieve something without some sacrifice or difficulty.",
+    "example": "Some people will be upset by the changes, but you can't make an omelet without breaking eggs."
+  },
+  {
+    "id": 127,
+    "word": "You can't teach an old dog new tricks",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "It's difficult to change someone's habits, especially older people.",
+    "example": "My grandfather refuses to use a smartphone. You can't teach an old dog new tricks."
+  },
+  {
+    "id": 128,
+    "word": "Your guess is as good as mine",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "I don't know the answer either.",
+    "example": "Where did he go? Your guess is as good as mine."
+  },
+  {
+    "id": 129,
+    "word": "A bad workman blames his tools",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Someone who does poor work blames their equipment instead of themselves.",
+    "example": "He said the computer was too slow. A bad workman blames his tools."
+  },
+  {
+    "id": 130,
+    "word": "A fool and his money are soon parted",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Foolish people spend or lose their money quickly.",
+    "example": "He bought a useless gadget. A fool and his money are soon parted."
+  },
+  {
+    "id": 131,
+    "word": "A little knowledge is a dangerous thing",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Knowing only a little about something can lead to overconfidence and mistakes.",
+    "example": "He thinks he can fix the car after watching one video. A little knowledge is a dangerous thing."
+  },
+  {
+    "id": 132,
+    "word": "A man is known by the company he keeps",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "People judge you by the friends you have.",
+    "example": "Choose your friends wisely. A man is known by the company he keeps."
+  },
+  {
+    "id": 133,
+    "word": "A problem shared is a problem halved",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Talking about your problems with someone makes them easier to deal with.",
+    "example": "Tell me what's wrong. A problem shared is a problem halved."
+  },
+  {
+    "id": 134,
+    "word": "A word to the wise is enough",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Smart people understand with just a small hint.",
+    "example": "I'll just say be careful around him. A word to the wise is enough."
+  },
+  {
+    "id": 135,
+    "word": "All work and no play makes Jack a dull boy",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Working all the time without rest or fun is unhealthy.",
+    "example": "Take a vacation! All work and no play makes Jack a dull boy."
+  },
+  {
+    "id": 136,
+    "word": "An eye for an eye",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If someone hurts you, you should punish them equally.",
+    "example": "He broke my toy, so I broke his. An eye for an eye."
+  },
+  {
+    "id": 137,
+    "word": "Ask no questions and hear no lies",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "If you don't ask about something, you won't be told lies about it.",
+    "example": "I didn't ask where he got the money. Ask no questions and hear no lies."
+  },
+  {
+    "id": 138,
+    "word": "Bad news travels fast",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "People spread negative information quickly.",
+    "example": "Everyone heard about his mistake immediately. Bad news travels fast."
+  },
+  {
+    "id": 139,
+    "word": "Charity begins at home",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Take care of your family and close ones before helping others.",
+    "example": "Help your parents first. Charity begins at home."
+  },
+  {
+    "id": 140,
+    "word": "Cut your coat according to your cloth",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Live within your means; don't spend more than you have.",
+    "example": "Buy a cheaper car. Cut your coat according to your cloth."
+  },
+  {
+    "id": 141,
+    "word": "Distance makes the heart grow fonder",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Being apart from someone makes you love them more.",
+    "example": "After studying abroad, I missed my family so much. Distance makes the heart grow fonder."
+  },
+  {
+    "id": 142,
+    "word": "Don't cross the bridge until you come to it",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Don't worry about problems until they actually happen.",
+    "example": "Stop worrying about the exam. Don't cross the bridge until you come to it."
+  },
+  {
+    "id": 143,
+    "word": "Don't judge a man until you've walked in his shoes",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Don't criticize someone until you understand their situation.",
+    "example": "You don't know what she's been through. Don't judge until you've walked in her shoes."
+  },
+  {
+    "id": 144,
+    "word": "Even a broken clock is right twice a day",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Even someone who is usually wrong can be correct sometimes.",
+    "example": "He finally gave good advice. Even a broken clock is right twice a day."
+  },
+  {
+    "id": 145,
+    "word": "Experience is the best teacher",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "You learn best by actually doing things yourself.",
+    "example": "I learned more from my mistakes than from books. Experience is the best teacher."
+  },
+  {
+    "id": 146,
+    "word": "Failing to plan is planning to fail",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Without proper planning, you are likely to fail.",
+    "example": "Make a study schedule. Failing to plan is planning to fail."
+  },
+  {
+    "id": 147,
+    "word": "Give a man a fish and feed him for a day; teach him to fish and feed him for life",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "It's better to teach someone a skill than to do things for them.",
+    "example": "Show him how to solve the problem himself. Teach a man to fish."
+  },
+  {
+    "id": 148,
+    "word": "God helps those who help themselves",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "You must make an effort; you can't just wait for luck.",
+    "example": "Start applying for jobs. God helps those who help themselves."
+  },
+  {
+    "id": 149,
+    "word": "He who laughs last laughs longest",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "The final winner has the greatest satisfaction.",
+    "example": "They mocked me, but I won in the end. He who laughs last laughs longest."
+  },
+  {
+    "id": 150,
+    "word": "Home is where the heart is",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Your true home is where the people you love are.",
+    "example": "I feel at home wherever my family is. Home is where the heart is."
+  },
+  {
+    "id": 151,
+    "word": "If at first you don't succeed, try, try again",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Keep trying until you succeed, even after failures.",
+    "example": "Failed the test? Study harder and try again. If at first you don't succeed, try again."
+  },
+  {
+    "id": 152,
+    "word": "If you want something done right, do it yourself",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "You can only be sure of quality when you do it yourself.",
+    "example": "Nobody cleaned it properly, so I did it myself. If you want something done right, do it yourself."
+  },
+  {
+    "id": 153,
+    "word": "It takes a thief to catch a thief",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "The best person to catch a wrongdoer is someone who knows their tricks.",
+    "example": "They hired a hacker to find security holes. It takes a thief to catch a thief."
+  },
+  {
+    "id": 154,
+    "word": "Keep your friends close and your enemies closer",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Watch your enemies carefully to know what they're planning.",
+    "example": "I stay friendly with my rival to know his plans. Keep your enemies closer."
+  },
+  {
+    "id": 155,
+    "word": "Least said, soonest mended",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "The less you say about a problem, the faster it will be forgotten.",
+    "example": "Don't keep talking about the argument. Least said, soonest mended."
+  },
+  {
+    "id": 156,
+    "word": "Let the buyer beware",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "It's the buyer's responsibility to check quality before purchasing.",
+    "example": "Check the used car carefully. Let the buyer beware."
+  },
+  {
+    "id": 157,
+    "word": "Lightning never strikes twice",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "The same unlikely event won't happen again to the same person.",
+    "example": "He won't have another accident there. Lightning never strikes twice."
+  },
+  {
+    "id": 158,
+    "word": "Live and learn",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "You learn from your experiences, especially mistakes.",
+    "example": "I trusted the wrong person. Live and learn."
+  },
+  {
+    "id": 159,
+    "word": "Live and let live",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Accept others' differences and don't interfere with how they live.",
+    "example": "His lifestyle is different, but live and let live."
+  },
+  {
+    "id": 160,
+    "word": "Look on the bright side",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Try to see the positive aspects of a bad situation.",
+    "example": "You didn't get the job, but look on the bright side—now you can find a better one."
+  },
+  {
+    "id": 161,
+    "word": "Many hands make light work",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "A task becomes easier when more people help.",
+    "example": "Let's all clean together. Many hands make light work."
+  },
+  {
+    "id": 162,
+    "word": "Mind your own business",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Don't interfere in other people's affairs.",
+    "example": "Stop asking about my salary. Mind your own business."
+  },
+  {
+    "id": 163,
+    "word": "Money talks",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Money gives people power and influence.",
+    "example": "He got special treatment because he's rich. Money talks."
+  },
+  {
+    "id": 164,
+    "word": "Necessity knows no law",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "In desperate situations, people will do anything, even break rules.",
+    "example": "He stole bread to feed his family. Necessity knows no law."
+  },
+  {
+    "id": 165,
+    "word": "Never look a gift horse in the mouth",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Don't question the value of a gift; be grateful.",
+    "example": "The free phone is old but works fine. Never look a gift horse in the mouth."
+  },
+  {
+    "id": 166,
+    "word": "Never say never",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Anything is possible; don't rule out possibilities.",
+    "example": "I thought I'd never travel abroad, but I did. Never say never."
+  },
+  {
+    "id": 167,
+    "word": "No man is an island",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Nobody can live completely alone; we all need others.",
+    "example": "Ask for help when you need it. No man is an island."
+  },
+  {
+    "id": 168,
+    "word": "Nothing is certain but death and taxes",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Death and taxes are the only things guaranteed in life.",
+    "example": "You can't avoid paying taxes. Nothing is certain but death and taxes."
+  },
+  {
+    "id": 169,
+    "word": "One good turn deserves another",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If someone helps you, you should help them in return.",
+    "example": "He helped me move, so I helped him paint. One good turn deserves another."
+  },
+  {
+    "id": 170,
+    "word": "Opposites attract",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "People with different personalities are often attracted to each other.",
+    "example": "She's outgoing and he's shy, but they're perfect together. Opposites attract."
+  },
+  {
+    "id": 171,
+    "word": "Penny wise, pound foolish",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Being careful with small amounts but wasteful with large ones.",
+    "example": "He saves on coffee but buys expensive cars. Penny wise, pound foolish."
+  },
+  {
+    "id": 172,
+    "word": "Practice what you preach",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Do what you tell others to do.",
+    "example": "You tell me to exercise but you don't. Practice what you preach."
+  },
+  {
+    "id": 173,
+    "word": "Revenge is a dish best served cold",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Revenge is more satisfying when it's planned and delayed.",
+    "example": "He waited years to get back at his rival. Revenge is best served cold."
+  },
+  {
+    "id": 174,
+    "word": "Rome was not built in a day",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Great achievements take time.",
+    "example": "Don't expect instant results. Rome was not built in a day."
+  },
+  {
+    "id": 175,
+    "word": "Save for a rainy day",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Save money for future emergencies.",
+    "example": "Put some money aside each month. Save for a rainy day."
+  },
+  {
+    "id": 176,
+    "word": "Seek and you shall find",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If you look hard enough, you will find what you need.",
+    "example": "Keep searching for job opportunities. Seek and you shall find."
+  },
+  {
+    "id": 177,
+    "word": "Spare the rod, spoil the child",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Children need discipline to develop properly.",
+    "example": "Set rules for your kids. Spare the rod, spoil the child."
+  },
+  {
+    "id": 178,
+    "word": "Speak of the devil",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Said when someone you were just talking about appears.",
+    "example": "We were just discussing John, and here he comes. Speak of the devil!"
+  },
+  {
+    "id": 179,
+    "word": "Speech is silver, silence is golden",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Speaking is good, but sometimes staying quiet is better.",
+    "example": "Don't say anything in this meeting. Speech is silver, silence is golden."
+  },
+  {
+    "id": 180,
+    "word": "The best defense is a good offense",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Attacking is the best way to protect yourself.",
+    "example": "In business, launch products before competitors. The best defense is a good offense."
+  },
+  {
+    "id": 181,
+    "word": "The customer is always right",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Businesses should satisfy customers even if they're wrong.",
+    "example": "Apologize to the customer. The customer is always right."
+  },
+  {
+    "id": 182,
+    "word": "The end justifies the means",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "If the result is good, the method used doesn't matter.",
+    "example": "He lied to protect her. The end justifies the means."
+  },
+  {
+    "id": 183,
+    "word": "The leopard cannot change his spots",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "People cannot change their basic nature.",
+    "example": "He promised to change but didn't. The leopard cannot change his spots."
+  },
+  {
+    "id": 184,
+    "word": "The more things change, the more they stay the same",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "Despite apparent changes, fundamental things remain unchanged.",
+    "example": "New technology, same problems. The more things change, the more they stay the same."
+  },
+  {
+    "id": 185,
+    "word": "The proof is in the pudding",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "You can only judge something by its results.",
+    "example": "Let's see if the plan works. The proof is in the pudding."
+  },
+  {
+    "id": 186,
+    "word": "The show must go on",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Despite difficulties, you must continue.",
+    "example": "Even though she was sick, she performed. The show must go on."
+  },
+  {
+    "id": 187,
+    "word": "There are two sides to every story",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Every situation can be seen from different perspectives.",
+    "example": "Hear his side too. There are two sides to every story."
+  },
+  {
+    "id": 188,
+    "word": "There's a time and place for everything",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Some things are only appropriate in certain situations.",
+    "example": "Don't joke at funerals. There's a time and place for everything."
+  },
+  {
+    "id": 189,
+    "word": "There's more than one way to skin a cat",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "There are many ways to achieve the same goal.",
+    "example": "Try a different approach. There's more than one way to skin a cat."
+  },
+  {
+    "id": 190,
+    "word": "There's no smoke without fire",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "Rumors usually have some basis in truth.",
+    "example": "People keep saying he cheats. There's no smoke without fire."
+  },
+  {
+    "id": 191,
+    "word": "Think before you speak",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Consider the effect of your words before saying them.",
+    "example": "Don't say something you'll regret. Think before you speak."
+  },
+  {
+    "id": 192,
+    "word": "Those who live by the sword die by the sword",
+    "level": "C1",
+    "partOfSpeech": "proverb",
+    "definition": "People who use violence will eventually suffer from it.",
+    "example": "The gangster was killed by his enemies. Those who live by the sword die by the sword."
+  },
+  {
+    "id": 193,
+    "word": "Tomorrow is another day",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Things can improve in the future; don't lose hope.",
+    "example": "Today was tough, but tomorrow is another day."
+  },
+  {
+    "id": 194,
+    "word": "Treat others as you wish to be treated",
+    "level": "A2",
+    "partOfSpeech": "proverb",
+    "definition": "Be kind to others if you want them to be kind to you.",
+    "example": "Be respectful to everyone. Treat others as you wish to be treated."
+  },
+  {
+    "id": 195,
+    "word": "Turn over a new leaf",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "Start behaving better; make a fresh start.",
+    "example": "After prison, he turned over a new leaf."
+  },
+  {
+    "id": 196,
+    "word": "Two can play at that game",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "I can do the same thing you're doing to me.",
+    "example": "You're ignoring me? Two can play at that game."
+  },
+  {
+    "id": 197,
+    "word": "Waste not, want not",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If you don't waste things, you'll always have enough.",
+    "example": "Finish all your food. Waste not, want not."
+  },
+  {
+    "id": 198,
+    "word": "Well begun is half done",
+    "level": "B2",
+    "partOfSpeech": "proverb",
+    "definition": "A good start makes the rest of the work easier.",
+    "example": "Plan your project carefully at the start. Well begun is half done."
+  },
+  {
+    "id": 199,
+    "word": "What you see is what you get",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "This person or thing is exactly as they appear.",
+    "example": "I'm honest and direct. What you see is what you get."
+  },
+  {
+    "id": 200,
+    "word": "Where there's a will, there's a way",
+    "level": "B1",
+    "partOfSpeech": "proverb",
+    "definition": "If you really want to do something, you'll find a way.",
+    "example": "You can finish college if you try. Where there's a will, there's a way."
+  },
+  {
+    "id": 201,
+    "word": "A bad penny always turns up",
+    "definition": "Disreputable or undesirable people always reappear",
+    "definitionKo": "불량한 사람은 항상 다시 나타난다",
+    "example": "I thought we'd seen the last of him, but a bad penny always turns up.",
+    "exampleKo": "그를 마지막으로 봤다고 생각했지만, 나쁜 동전은 항상 돌아온다.",
+    "level": "B2",
+    "category": "behavior"
+  },
+  {
+    "id": 202,
+    "word": "A bird in the hand is worth two in the bush",
+    "definition": "It's better to hold onto something you have than risk losing it by trying to get more",
+    "definitionKo": "더 많은 것을 얻으려다 가진 것을 잃는 것보다 확실한 것을 지키는 게 낫다",
+    "example": "Take the job offer now - a bird in the hand is worth two in the bush.",
+    "exampleKo": "지금 그 일자리를 받아들여 - 손 안의 새 한 마리가 숲 속의 두 마리보다 낫다.",
+    "level": "B1",
+    "category": "wisdom"
+  },
+  {
+    "id": 203,
+    "word": "A chain is only as strong as its weakest link",
+    "definition": "The overall strength of a group depends on the weakest member",
+    "definitionKo": "전체의 강도는 가장 약한 부분에 의해 결정된다",
+    "example": "We need to train everyone properly - a chain is only as strong as its weakest link.",
+    "exampleKo": "모든 사람을 제대로 훈련시켜야 해 - 사슬은 가장 약한 고리만큼만 강하다.",
+    "level": "B2",
+    "category": "teamwork"
+  },
+  {
+    "id": 204,
+    "word": "A friend in need is a friend indeed",
+    "definition": "A true friend helps you when you're in trouble",
+    "definitionKo": "어려울 때 도와주는 친구가 진정한 친구다",
+    "example": "She helped me through my difficult times - a friend in need is a friend indeed.",
+    "exampleKo": "그녀가 어려운 시기에 나를 도와줬어 - 어려울 때 친구가 진정한 친구다.",
+    "level": "A2",
+    "category": "friendship"
+  },
+  {
+    "id": 205,
+    "word": "A journey of a thousand miles begins with a single step",
+    "definition": "Even the longest journey starts with one small action",
+    "definitionKo": "천 리 길도 한 걸음부터 시작된다",
+    "example": "Start learning today - a journey of a thousand miles begins with a single step.",
+    "exampleKo": "오늘부터 배우기 시작해 - 천 리 길도 한 걸음부터 시작된다.",
+    "level": "B1",
+    "category": "motivation"
+  },
+  {
+    "id": 206,
+    "word": "A leopard cannot change its spots",
+    "definition": "People cannot change their fundamental nature",
+    "definitionKo": "사람의 본성은 바뀌지 않는다",
+    "example": "Don't expect him to be honest - a leopard cannot change its spots.",
+    "exampleKo": "그가 정직해지길 기대하지 마 - 표범은 자기 점을 바꿀 수 없다.",
+    "level": "B2",
+    "category": "character"
+  },
+  {
+    "id": 207,
+    "word": "A penny saved is a penny earned",
+    "definition": "Money saved is just as valuable as money earned",
+    "definitionKo": "절약한 돈은 번 돈만큼 가치가 있다",
+    "example": "I always look for discounts - a penny saved is a penny earned.",
+    "exampleKo": "나는 항상 할인을 찾아 - 절약한 돈이 번 돈이다.",
+    "level": "A2",
+    "category": "money"
+  },
+  {
+    "id": 208,
+    "word": "A picture is worth a thousand words",
+    "definition": "An image can convey meaning more effectively than words",
+    "definitionKo": "그림 한 장이 천 마디 말보다 낫다",
+    "example": "Show them the chart - a picture is worth a thousand words.",
+    "exampleKo": "그들에게 차트를 보여줘 - 그림 한 장이 천 마디 말보다 낫다.",
+    "level": "A2",
+    "category": "communication"
+  },
+  {
+    "id": 209,
+    "word": "A rolling stone gathers no moss",
+    "definition": "Someone who keeps moving will not accumulate responsibilities or possessions",
+    "definitionKo": "구르는 돌에는 이끼가 끼지 않는다",
+    "example": "He never stays in one job long - a rolling stone gathers no moss.",
+    "exampleKo": "그는 한 직장에 오래 있지 않아 - 구르는 돌에는 이끼가 끼지 않는다.",
+    "level": "B2",
+    "category": "lifestyle"
+  },
+  {
+    "id": 210,
+    "word": "A stitch in time saves nine",
+    "definition": "Fixing a problem early prevents it from becoming worse",
+    "definitionKo": "제때 한 바늘이 나중의 아홉 바늘을 덜어준다",
+    "example": "Fix that leak now - a stitch in time saves nine.",
+    "exampleKo": "그 누수를 지금 고쳐 - 제때 한 바늘이 나중의 아홉 바늘을 덜어준다.",
+    "level": "B1",
+    "category": "planning"
+  },
+  {
+    "id": 211,
+    "word": "Absence makes the heart grow fonder",
+    "definition": "Being apart from someone makes you love them more",
+    "definitionKo": "떨어져 있으면 마음이 더 그리워진다",
+    "example": "I miss her even more now - absence makes the heart grow fonder.",
+    "exampleKo": "지금 그녀가 더 그리워 - 떨어져 있으면 마음이 더 그리워진다.",
+    "level": "B1",
+    "category": "love"
+  },
+  {
+    "id": 212,
+    "word": "All good things must come to an end",
+    "definition": "Nothing pleasant lasts forever",
+    "definitionKo": "좋은 일은 언젠가는 끝난다",
+    "example": "The vacation is over - all good things must come to an end.",
+    "exampleKo": "휴가가 끝났어 - 좋은 일은 언젠가는 끝난다.",
+    "level": "A2",
+    "category": "life"
+  },
+  {
+    "id": 213,
+    "word": "All roads lead to Rome",
+    "definition": "There are many different ways to achieve the same goal",
+    "definitionKo": "모든 길은 로마로 통한다",
+    "example": "You can learn programming many ways - all roads lead to Rome.",
+    "exampleKo": "프로그래밍을 여러 방법으로 배울 수 있어 - 모든 길은 로마로 통한다.",
+    "level": "B1",
+    "category": "wisdom"
+  },
+  {
+    "id": 214,
+    "word": "An apple a day keeps the doctor away",
+    "definition": "Eating healthy food helps you stay healthy",
+    "definitionKo": "하루에 사과 하나면 의사가 필요 없다",
+    "example": "I eat fruit every morning - an apple a day keeps the doctor away.",
+    "exampleKo": "나는 매일 아침 과일을 먹어 - 하루에 사과 하나면 의사가 필요 없다.",
+    "level": "A1",
+    "category": "health"
+  },
+  {
+    "id": 215,
+    "word": "As you sow, so shall you reap",
+    "definition": "Your actions determine your consequences",
+    "definitionKo": "뿌린 대로 거둔다",
+    "example": "He studied hard and got good grades - as you sow, so shall you reap.",
+    "exampleKo": "그는 열심히 공부해서 좋은 성적을 받았어 - 뿌린 대로 거둔다.",
+    "level": "B1",
+    "category": "consequence"
+  },
+  {
+    "id": 216,
+    "word": "Barking dogs seldom bite",
+    "definition": "People who make threats rarely carry them out",
+    "definitionKo": "짖는 개는 물지 않는다",
+    "example": "Don't worry about his threats - barking dogs seldom bite.",
+    "exampleKo": "그의 위협에 대해 걱정하지 마 - 짖는 개는 물지 않는다.",
+    "level": "B1",
+    "category": "behavior"
+  },
+  {
+    "id": 217,
+    "word": "Beauty is in the eye of the beholder",
+    "definition": "Different people have different opinions about what is beautiful",
+    "definitionKo": "아름다움은 보는 사람의 눈에 달려 있다",
+    "example": "Not everyone likes modern art - beauty is in the eye of the beholder.",
+    "exampleKo": "모든 사람이 현대 미술을 좋아하는 건 아니야 - 아름다움은 보는 사람의 눈에 달려 있다.",
+    "level": "B1",
+    "category": "perception"
+  },
+  {
+    "id": 218,
+    "word": "Beggars can't be choosers",
+    "definition": "People who need something should accept what's offered",
+    "definitionKo": "구걸하는 사람은 선택할 수 없다",
+    "example": "Take the room that's available - beggars can't be choosers.",
+    "exampleKo": "있는 방을 받아 - 구걸하는 사람은 선택할 수 없다.",
+    "level": "B1",
+    "category": "acceptance"
+  },
+  {
+    "id": 219,
+    "word": "Better late than never",
+    "definition": "It's better to do something late than not at all",
+    "definitionKo": "늦더라도 안 하는 것보다 낫다",
+    "example": "He finally apologized - better late than never.",
+    "exampleKo": "그가 드디어 사과했어 - 늦더라도 안 하는 것보다 낫다.",
+    "level": "A2",
+    "category": "timing"
+  },
+  {
+    "id": 220,
+    "word": "Better safe than sorry",
+    "definition": "It's wise to be cautious to avoid future regret",
+    "definitionKo": "후회하는 것보다 조심하는 게 낫다",
+    "example": "Bring an umbrella - better safe than sorry.",
+    "exampleKo": "우산을 가져가 - 후회하는 것보다 조심하는 게 낫다.",
+    "level": "A2",
+    "category": "caution"
+  },
+  {
+    "id": 221,
+    "word": "Blood is thicker than water",
+    "definition": "Family relationships are stronger than other relationships",
+    "definitionKo": "피는 물보다 진하다",
+    "example": "He'll always support his brother - blood is thicker than water.",
+    "exampleKo": "그는 항상 형제를 지지할 거야 - 피는 물보다 진하다.",
+    "level": "B1",
+    "category": "family"
+  },
+  {
+    "id": 222,
+    "word": "Clothes don't make the man",
+    "definition": "A person's character isn't determined by their appearance",
+    "definitionKo": "옷이 사람을 만들지 않는다",
+    "example": "Judge him by his actions, not his suit - clothes don't make the man.",
+    "exampleKo": "그의 양복이 아닌 행동으로 판단해 - 옷이 사람을 만들지 않는다.",
+    "level": "B2",
+    "category": "character"
+  },
+  {
+    "id": 223,
+    "word": "Curiosity killed the cat",
+    "definition": "Being too curious can lead to trouble",
+    "definitionKo": "호기심이 화를 부른다",
+    "example": "Stop asking so many questions - curiosity killed the cat.",
+    "exampleKo": "질문을 그만해 - 호기심이 화를 부른다.",
+    "level": "B1",
+    "category": "warning"
+  },
+  {
+    "id": 224,
+    "word": "Don't bite off more than you can chew",
+    "definition": "Don't try to do more than you can handle",
+    "definitionKo": "씹을 수 있는 것보다 많이 물지 마라",
+    "example": "Three projects at once? Don't bite off more than you can chew.",
+    "exampleKo": "프로젝트 세 개를 동시에? 감당할 수 있는 것 이상을 떠맡지 마.",
+    "level": "B1",
+    "category": "advice"
+  },
+  {
+    "id": 225,
+    "word": "Don't count your chickens before they hatch",
+    "definition": "Don't plan based on things that haven't happened yet",
+    "definitionKo": "부화하기 전에 병아리를 세지 마라",
+    "example": "Wait until you get the job offer - don't count your chickens before they hatch.",
+    "exampleKo": "일자리 제안을 받을 때까지 기다려 - 부화하기 전에 병아리를 세지 마라.",
+    "level": "B1",
+    "category": "planning"
+  },
+  {
+    "id": 226,
+    "word": "Don't cry over spilled milk",
+    "definition": "Don't waste time regretting things that cannot be changed",
+    "definitionKo": "엎질러진 우유에 울지 마라",
+    "example": "What's done is done - don't cry over spilled milk.",
+    "exampleKo": "이미 일어난 일이야 - 엎질러진 우유에 울지 마라.",
+    "level": "A2",
+    "category": "acceptance"
+  },
+  {
+    "id": 227,
+    "word": "Don't judge a book by its cover",
+    "definition": "Don't judge something based on appearance alone",
+    "definitionKo": "겉모습만 보고 판단하지 마라",
+    "example": "Give him a chance - don't judge a book by its cover.",
+    "exampleKo": "그에게 기회를 줘 - 겉모습만 보고 판단하지 마라.",
+    "level": "A2",
+    "category": "judgment"
+  },
+  {
+    "id": 228,
+    "word": "Don't put all your eggs in one basket",
+    "definition": "Don't risk everything on a single opportunity",
+    "definitionKo": "모든 달걀을 한 바구니에 담지 마라",
+    "example": "Invest in different stocks - don't put all your eggs in one basket.",
+    "exampleKo": "다양한 주식에 투자해 - 모든 달걀을 한 바구니에 담지 마라.",
+    "level": "B1",
+    "category": "risk"
+  },
+  {
+    "id": 229,
+    "word": "Easy come, easy go",
+    "definition": "Things obtained without effort are often lost quickly",
+    "definitionKo": "쉽게 얻은 것은 쉽게 잃는다",
+    "example": "He won money gambling and lost it all - easy come, easy go.",
+    "exampleKo": "그는 도박으로 돈을 따고 다 잃었어 - 쉽게 얻은 것은 쉽게 잃는다.",
+    "level": "A2",
+    "category": "money"
+  },
+  {
+    "id": 230,
+    "word": "Every cloud has a silver lining",
+    "definition": "There's something positive in every bad situation",
+    "definitionKo": "모든 구름에는 은빛 테두리가 있다",
+    "example": "Losing that job led to a better one - every cloud has a silver lining.",
+    "exampleKo": "그 일을 잃은 것이 더 좋은 일자리로 이어졌어 - 모든 구름에는 은빛 테두리가 있다.",
+    "level": "B1",
+    "category": "optimism"
+  },
+  {
+    "id": 231,
+    "word": "Every dog has its day",
+    "definition": "Everyone will have a moment of success or good fortune",
+    "definitionKo": "모든 개에게도 좋은 날이 있다",
+    "example": "Keep trying - every dog has its day.",
+    "exampleKo": "계속 노력해 - 모든 개에게도 좋은 날이 있다.",
+    "level": "B1",
+    "category": "hope"
+  },
+  {
+    "id": 232,
+    "word": "Familiarity breeds contempt",
+    "definition": "Knowing someone too well can lead to lack of respect",
+    "definitionKo": "익숙함이 경멸을 낳는다",
+    "example": "They worked together too long - familiarity breeds contempt.",
+    "exampleKo": "그들은 너무 오래 함께 일했어 - 익숙함이 경멸을 낳는다.",
+    "level": "C1",
+    "category": "relationships"
+  },
+  {
+    "id": 233,
+    "word": "First come, first served",
+    "definition": "The first people to arrive will be attended to first",
+    "definitionKo": "먼저 온 사람이 먼저 받는다",
+    "example": "Tickets are limited - first come, first served.",
+    "exampleKo": "티켓이 제한되어 있어 - 먼저 온 사람이 먼저 받는다.",
+    "level": "A2",
+    "category": "fairness"
+  },
+  {
+    "id": 234,
+    "word": "Fortune favors the bold",
+    "definition": "Success comes to those who take risks",
+    "definitionKo": "행운은 용감한 자에게 온다",
+    "example": "Start your business now - fortune favors the bold.",
+    "exampleKo": "지금 사업을 시작해 - 행운은 용감한 자에게 온다.",
+    "level": "B2",
+    "category": "courage"
+  },
+  {
+    "id": 235,
+    "word": "Give credit where credit is due",
+    "definition": "Acknowledge someone's contribution or achievement",
+    "definitionKo": "공적이 있는 곳에 공을 돌려라",
+    "example": "She did most of the work - give credit where credit is due.",
+    "exampleKo": "그녀가 대부분의 일을 했어 - 공적이 있는 곳에 공을 돌려라.",
+    "level": "B2",
+    "category": "fairness"
+  },
+  {
+    "id": 236,
+    "word": "Good fences make good neighbors",
+    "definition": "Clear boundaries help maintain good relationships",
+    "definitionKo": "좋은 울타리가 좋은 이웃을 만든다",
+    "example": "Let's agree on property lines - good fences make good neighbors.",
+    "exampleKo": "재산 경계에 대해 합의하자 - 좋은 울타리가 좋은 이웃을 만든다.",
+    "level": "B2",
+    "category": "relationships"
+  },
+  {
+    "id": 237,
+    "word": "Great minds think alike",
+    "definition": "Intelligent people often have the same ideas",
+    "definitionKo": "위대한 생각은 같다",
+    "example": "We both suggested the same solution - great minds think alike!",
+    "exampleKo": "우리 둘 다 같은 해결책을 제안했어 - 위대한 생각은 같다!",
+    "level": "B1",
+    "category": "agreement"
+  },
+  {
+    "id": 238,
+    "word": "Haste makes waste",
+    "definition": "Rushing leads to mistakes and wasted effort",
+    "definitionKo": "서두르면 일을 망친다",
+    "example": "Take your time - haste makes waste.",
+    "exampleKo": "시간을 들여 - 서두르면 일을 망친다.",
+    "level": "B1",
+    "category": "patience"
+  },
+  {
+    "id": 239,
+    "word": "He who laughs last laughs best",
+    "definition": "The final winner has the greatest satisfaction",
+    "definitionKo": "마지막에 웃는 자가 가장 잘 웃는다",
+    "example": "Don't celebrate too early - he who laughs last laughs best.",
+    "exampleKo": "너무 일찍 기뻐하지 마 - 마지막에 웃는 자가 가장 잘 웃는다.",
+    "level": "B1",
+    "category": "victory"
+  },
+  {
+    "id": 240,
+    "word": "History repeats itself",
+    "definition": "Similar events happen over time",
+    "definitionKo": "역사는 반복된다",
+    "example": "Economic bubbles keep happening - history repeats itself.",
+    "exampleKo": "경제 거품이 계속 발생해 - 역사는 반복된다.",
+    "level": "B1",
+    "category": "wisdom"
+  },
+  {
+    "id": 241,
+    "word": "Home is where the heart is",
+    "definition": "Your true home is where you feel most comfortable",
+    "definitionKo": "마음이 있는 곳이 집이다",
+    "example": "I love traveling but miss my family - home is where the heart is.",
+    "exampleKo": "여행을 좋아하지만 가족이 그리워 - 마음이 있는 곳이 집이다.",
+    "level": "B1",
+    "category": "family"
+  },
+  {
+    "id": 242,
+    "word": "Honesty is the best policy",
+    "definition": "It's always better to tell the truth",
+    "definitionKo": "정직이 최선의 방책이다",
+    "example": "Just tell them what happened - honesty is the best policy.",
+    "exampleKo": "무슨 일이 있었는지 그냥 말해 - 정직이 최선의 방책이다.",
+    "level": "A2",
+    "category": "honesty"
+  },
+  {
+    "id": 243,
+    "word": "If it ain't broke, don't fix it",
+    "definition": "Don't change something that works well",
+    "definitionKo": "고장나지 않았으면 고치지 마라",
+    "example": "Our process works fine - if it ain't broke, don't fix it.",
+    "exampleKo": "우리 프로세스는 잘 작동해 - 고장나지 않았으면 고치지 마라.",
+    "level": "B1",
+    "category": "practicality"
+  },
+  {
+    "id": 244,
+    "word": "If you can't beat them, join them",
+    "definition": "If you can't defeat your opponent, cooperate with them",
+    "definitionKo": "이길 수 없다면 합류해라",
+    "example": "Everyone's using social media now - if you can't beat them, join them.",
+    "exampleKo": "이제 모두가 소셜 미디어를 사용해 - 이길 수 없다면 합류해라.",
+    "level": "B1",
+    "category": "adaptation"
+  },
+  {
+    "id": 245,
+    "word": "Ignorance is bliss",
+    "definition": "Sometimes it's better not to know something",
+    "definitionKo": "모르는 게 약이다",
+    "example": "I don't want to know the details - ignorance is bliss.",
+    "exampleKo": "자세한 건 알고 싶지 않아 - 모르는 게 약이다.",
+    "level": "B2",
+    "category": "wisdom"
+  },
+  {
+    "id": 246,
+    "word": "It takes two to tango",
+    "definition": "Both parties are responsible for a situation",
+    "definitionKo": "탱고를 추려면 둘이 필요하다",
+    "example": "Don't blame only him - it takes two to tango.",
+    "exampleKo": "그만 탓하지 마 - 탱고를 추려면 둘이 필요해.",
+    "level": "B2",
+    "category": "responsibility"
+  },
+  {
+    "id": 247,
+    "word": "Keep your friends close and your enemies closer",
+    "definition": "Watch your enemies more carefully than your friends",
+    "definitionKo": "친구는 가까이, 적은 더 가까이",
+    "example": "Know what your competitors are doing - keep your friends close and your enemies closer.",
+    "exampleKo": "경쟁자들이 뭘 하는지 알아둬 - 친구는 가까이, 적은 더 가까이.",
+    "level": "B2",
+    "category": "strategy"
+  },
+  {
+    "id": 248,
+    "word": "Kill two birds with one stone",
+    "definition": "Accomplish two things with a single action",
+    "definitionKo": "일석이조",
+    "example": "I'll exercise while listening to podcasts - kill two birds with one stone.",
+    "exampleKo": "팟캐스트를 들으면서 운동할 거야 - 일석이조.",
+    "level": "B1",
+    "category": "efficiency"
+  },
+  {
+    "id": 249,
+    "word": "Knowledge is power",
+    "definition": "Being well-informed gives you advantage",
+    "definitionKo": "아는 것이 힘이다",
+    "example": "Read as much as you can - knowledge is power.",
+    "exampleKo": "최대한 많이 읽어 - 아는 것이 힘이다.",
+    "level": "A2",
+    "category": "education"
+  },
+  {
+    "id": 250,
+    "word": "Laughter is the best medicine",
+    "definition": "Humor can help heal emotional pain",
+    "definitionKo": "웃음이 최고의 약이다",
+    "example": "Let's watch a comedy - laughter is the best medicine.",
+    "exampleKo": "코미디를 보자 - 웃음이 최고의 약이다.",
+    "level": "A2",
+    "category": "health"
+  },
+  {
+    "id": 251,
+    "word": "Let sleeping dogs lie",
+    "definition": "Don't disturb a situation that is calm",
+    "definitionKo": "자는 개를 깨우지 마라",
+    "example": "Don't bring up the old argument - let sleeping dogs lie.",
+    "exampleKo": "오래된 논쟁을 꺼내지 마 - 자는 개를 깨우지 마라.",
+    "level": "B2",
+    "category": "advice"
+  },
+  {
+    "id": 252,
+    "word": "Lightning never strikes twice",
+    "definition": "The same unlikely event won't happen again",
+    "definitionKo": "번개는 같은 곳에 두 번 치지 않는다",
+    "example": "We had a flood last year but it won't happen again - lightning never strikes twice.",
+    "exampleKo": "작년에 홍수가 났지만 다시 일어나지 않을 거야 - 번개는 같은 곳에 두 번 치지 않는다.",
+    "level": "B2",
+    "category": "probability"
+  },
+  {
+    "id": 253,
+    "word": "Like father, like son",
+    "definition": "Children often resemble their parents",
+    "definitionKo": "그 아버지에 그 아들",
+    "example": "They both love fishing - like father, like son.",
+    "exampleKo": "둘 다 낚시를 좋아해 - 그 아버지에 그 아들.",
+    "level": "A2",
+    "category": "family"
+  },
+  {
+    "id": 254,
+    "word": "Look before you leap",
+    "definition": "Think carefully before taking action",
+    "definitionKo": "뛰기 전에 살펴봐라",
+    "example": "Research the company before accepting - look before you leap.",
+    "exampleKo": "수락하기 전에 회사를 조사해 - 뛰기 전에 살펴봐라.",
+    "level": "B1",
+    "category": "caution"
+  },
+  {
+    "id": 255,
+    "word": "Love is blind",
+    "definition": "People in love don't see each other's faults",
+    "definitionKo": "사랑은 눈이 멀었다",
+    "example": "She can't see his flaws - love is blind.",
+    "exampleKo": "그녀는 그의 단점을 보지 못해 - 사랑은 눈이 멀었다.",
+    "level": "A2",
+    "category": "love"
+  },
+  {
+    "id": 256,
+    "word": "Make hay while the sun shines",
+    "definition": "Take advantage of favorable conditions while they last",
+    "definitionKo": "해가 날 때 건초를 만들어라",
+    "example": "Business is good now, work hard - make hay while the sun shines.",
+    "exampleKo": "지금 사업이 좋으니 열심히 일해 - 해가 날 때 건초를 만들어라.",
+    "level": "B2",
+    "category": "opportunity"
+  },
+  {
+    "id": 257,
+    "word": "Misery loves company",
+    "definition": "Unhappy people like others to be unhappy too",
+    "definitionKo": "불행은 친구를 좋아한다",
+    "example": "He wants everyone to complain with him - misery loves company.",
+    "exampleKo": "그는 모두가 함께 불평하길 원해 - 불행은 친구를 좋아한다.",
+    "level": "B2",
+    "category": "psychology"
+  },
+  {
+    "id": 258,
+    "word": "Money doesn't grow on trees",
+    "definition": "Money is not easily obtained",
+    "definitionKo": "돈은 나무에서 자라지 않는다",
+    "example": "We can't buy everything - money doesn't grow on trees.",
+    "exampleKo": "모든 걸 살 수는 없어 - 돈은 나무에서 자라지 않는다.",
+    "level": "A2",
+    "category": "money"
+  },
+  {
+    "id": 259,
+    "word": "Money talks",
+    "definition": "Wealth gives power and influence",
+    "definitionKo": "돈이 말을 한다",
+    "example": "He got the best lawyer - money talks.",
+    "exampleKo": "그는 최고의 변호사를 구했어 - 돈이 말을 한다.",
+    "level": "B1",
+    "category": "money"
+  },
+  {
+    "id": 260,
+    "word": "Necessity is the mother of invention",
+    "definition": "Difficult times inspire creative solutions",
+    "definitionKo": "필요는 발명의 어머니다",
+    "example": "They created new tools when supplies ran low - necessity is the mother of invention.",
+    "exampleKo": "물자가 부족해지자 새로운 도구를 만들었어 - 필요는 발명의 어머니다.",
+    "level": "B2",
+    "category": "innovation"
+  },
+  {
+    "id": 261,
+    "word": "Never put off until tomorrow what you can do today",
+    "definition": "Don't delay tasks unnecessarily",
+    "definitionKo": "오늘 할 수 있는 일을 내일로 미루지 마라",
+    "example": "Finish the report now - never put off until tomorrow what you can do today.",
+    "exampleKo": "지금 보고서를 끝내 - 오늘 할 수 있는 일을 내일로 미루지 마라.",
+    "level": "B1",
+    "category": "productivity"
+  },
+  {
+    "id": 262,
+    "word": "No man is an island",
+    "definition": "Everyone needs other people",
+    "definitionKo": "어느 누구도 섬이 아니다",
+    "example": "Ask for help when you need it - no man is an island.",
+    "exampleKo": "필요할 때 도움을 요청해 - 어느 누구도 섬이 아니다.",
+    "level": "B2",
+    "category": "community"
+  },
+  {
+    "id": 263,
+    "word": "No news is good news",
+    "definition": "If you haven't heard anything, things are probably okay",
+    "definitionKo": "소식이 없는 게 좋은 소식이다",
+    "example": "The doctor hasn't called - no news is good news.",
+    "exampleKo": "의사가 전화하지 않았어 - 소식이 없는 게 좋은 소식이다.",
+    "level": "A2",
+    "category": "optimism"
+  },
+  {
+    "id": 264,
+    "word": "No pain, no gain",
+    "definition": "You must work hard to achieve results",
+    "definitionKo": "고통 없이는 얻는 것도 없다",
+    "example": "Exercise is hard but worth it - no pain, no gain.",
+    "exampleKo": "운동은 힘들지만 가치가 있어 - 고통 없이는 얻는 것도 없다.",
+    "level": "A2",
+    "category": "effort"
+  },
+  {
+    "id": 265,
+    "word": "Old habits die hard",
+    "definition": "It's difficult to change long-standing behavior",
+    "definitionKo": "오래된 습관은 죽기 힘들다",
+    "example": "He still smokes sometimes - old habits die hard.",
+    "exampleKo": "그는 아직도 가끔 담배를 피워 - 오래된 습관은 죽기 힘들다.",
+    "level": "B1",
+    "category": "behavior"
+  },
+  {
+    "id": 266,
+    "word": "Once bitten, twice shy",
+    "definition": "A bad experience makes you more cautious",
+    "definitionKo": "한 번 물리면 두 번째는 조심한다",
+    "example": "After the scam, he's careful with investments - once bitten, twice shy.",
+    "exampleKo": "사기를 당한 후 그는 투자에 조심해 - 한 번 물리면 두 번째는 조심한다.",
+    "level": "B2",
+    "category": "experience"
+  },
+  {
+    "id": 267,
+    "word": "One man's trash is another man's treasure",
+    "definition": "What one person discards may be valuable to another",
+    "definitionKo": "한 사람의 쓰레기는 다른 사람의 보물이다",
+    "example": "I sold my old records for good money - one man's trash is another man's treasure.",
+    "exampleKo": "내 오래된 레코드를 좋은 값에 팔았어 - 한 사람의 쓰레기는 다른 사람의 보물이다.",
+    "level": "B1",
+    "category": "perspective"
+  },
+  {
+    "id": 268,
+    "word": "Out of sight, out of mind",
+    "definition": "People forget things they don't see regularly",
+    "definitionKo": "눈에서 멀어지면 마음에서도 멀어진다",
+    "example": "He moved away and we lost touch - out of sight, out of mind.",
+    "exampleKo": "그가 이사 가고 우리는 연락이 끊겼어 - 눈에서 멀어지면 마음에서도 멀어진다.",
+    "level": "B1",
+    "category": "relationships"
+  },
+  {
+    "id": 269,
+    "word": "Patience is a virtue",
+    "definition": "Being able to wait calmly is a good quality",
+    "definitionKo": "인내는 미덕이다",
+    "example": "Wait for the right opportunity - patience is a virtue.",
+    "exampleKo": "적절한 기회를 기다려 - 인내는 미덕이다.",
+    "level": "B1",
+    "category": "patience"
+  },
+  {
+    "id": 270,
+    "word": "People who live in glass houses shouldn't throw stones",
+    "definition": "Don't criticize others if you have the same faults",
+    "definitionKo": "유리집에 사는 사람은 돌을 던지지 말아야 한다",
+    "example": "You're late too sometimes - people who live in glass houses shouldn't throw stones.",
+    "exampleKo": "너도 가끔 늦잖아 - 유리집에 사는 사람은 돌을 던지지 말아야 한다.",
+    "level": "B2",
+    "category": "hypocrisy"
+  },
+  {
+    "id": 271,
+    "word": "Practice what you preach",
+    "definition": "Do what you tell others to do",
+    "definitionKo": "네가 설교하는 것을 실천해라",
+    "example": "If you say be kind, be kind yourself - practice what you preach.",
+    "exampleKo": "친절하라고 말하면 너도 친절해 - 네가 설교하는 것을 실천해라.",
+    "level": "B1",
+    "category": "integrity"
+  },
+  {
+    "id": 272,
+    "word": "Pride comes before a fall",
+    "definition": "Being too proud can lead to failure",
+    "definitionKo": "자만은 몰락 전에 온다",
+    "example": "Don't be overconfident - pride comes before a fall.",
+    "exampleKo": "지나친 자신감을 가지지 마 - 자만은 몰락 전에 온다.",
+    "level": "B2",
+    "category": "humility"
+  },
+  {
+    "id": 273,
+    "word": "Rome wasn't built in a day",
+    "definition": "Great achievements take time",
+    "definitionKo": "로마는 하루아침에 세워지지 않았다",
+    "example": "Learning a language takes years - Rome wasn't built in a day.",
+    "exampleKo": "언어를 배우는 데는 수년이 걸려 - 로마는 하루아침에 세워지지 않았다.",
+    "level": "B1",
+    "category": "patience"
+  },
+  {
+    "id": 274,
+    "word": "Silence is golden",
+    "definition": "Sometimes it's better to say nothing",
+    "definitionKo": "침묵은 금이다",
+    "example": "Don't argue with them - silence is golden.",
+    "exampleKo": "그들과 다투지 마 - 침묵은 금이다.",
+    "level": "B1",
+    "category": "wisdom"
+  },
+  {
+    "id": 275,
+    "word": "Slow and steady wins the race",
+    "definition": "Consistent effort leads to success",
+    "definitionKo": "느리고 꾸준한 것이 경주에서 이긴다",
+    "example": "Don't rush, take your time - slow and steady wins the race.",
+    "exampleKo": "서두르지 마, 천천히 해 - 느리고 꾸준한 것이 경주에서 이긴다.",
+    "level": "A2",
+    "category": "perseverance"
+  },
+  {
+    "id": 276,
+    "word": "Still waters run deep",
+    "definition": "Quiet people often have hidden depths",
+    "definitionKo": "고요한 물이 깊이 흐른다",
+    "example": "He doesn't talk much but he's brilliant - still waters run deep.",
+    "exampleKo": "그는 말이 별로 없지만 뛰어나 - 고요한 물이 깊이 흐른다.",
+    "level": "B2",
+    "category": "character"
+  },
+  {
+    "id": 277,
+    "word": "Strike while the iron is hot",
+    "definition": "Take action when conditions are favorable",
+    "definitionKo": "쇠가 뜨거울 때 두들겨라",
+    "example": "They're interested now - strike while the iron is hot.",
+    "exampleKo": "그들이 지금 관심이 있어 - 쇠가 뜨거울 때 두들겨라.",
+    "level": "B1",
+    "category": "opportunity"
+  },
+  {
+    "id": 278,
+    "word": "The apple doesn't fall far from the tree",
+    "definition": "Children are similar to their parents",
+    "definitionKo": "사과는 나무에서 멀리 떨어지지 않는다",
+    "example": "She's a doctor like her mother - the apple doesn't fall far from the tree.",
+    "exampleKo": "그녀는 어머니처럼 의사야 - 사과는 나무에서 멀리 떨어지지 않는다.",
+    "level": "B1",
+    "category": "family"
+  },
+  {
+    "id": 279,
+    "word": "The best things in life are free",
+    "definition": "The most valuable things don't cost money",
+    "definitionKo": "인생에서 가장 좋은 것들은 공짜다",
+    "example": "Time with family is priceless - the best things in life are free.",
+    "exampleKo": "가족과 함께하는 시간은 값을 매길 수 없어 - 인생에서 가장 좋은 것들은 공짜다.",
+    "level": "A2",
+    "category": "values"
+  },
+  {
+    "id": 280,
+    "word": "The early bird catches the worm",
+    "definition": "Those who start early have the advantage",
+    "definitionKo": "일찍 일어나는 새가 벌레를 잡는다",
+    "example": "Wake up early for the best deals - the early bird catches the worm.",
+    "exampleKo": "좋은 거래를 위해 일찍 일어나 - 일찍 일어나는 새가 벌레를 잡는다.",
+    "level": "A2",
+    "category": "productivity"
+  },
+  {
+    "id": 281,
+    "word": "The grass is always greener on the other side",
+    "definition": "Other situations always seem better than your own",
+    "definitionKo": "남의 잔디가 항상 더 푸르게 보인다",
+    "example": "You'd miss this job if you left - the grass is always greener on the other side.",
+    "exampleKo": "떠나면 이 직장이 그리울 거야 - 남의 잔디가 항상 더 푸르게 보인다.",
+    "level": "B1",
+    "category": "contentment"
+  },
+  {
+    "id": 282,
+    "word": "The pen is mightier than the sword",
+    "definition": "Words and ideas are more powerful than violence",
+    "definitionKo": "펜은 칼보다 강하다",
+    "example": "Change minds through writing - the pen is mightier than the sword.",
+    "exampleKo": "글쓰기를 통해 마음을 바꿔 - 펜은 칼보다 강하다.",
+    "level": "B1",
+    "category": "power"
+  },
+  {
+    "id": 283,
+    "word": "The proof is in the pudding",
+    "definition": "You can only judge something by experiencing it",
+    "definitionKo": "푸딩의 증거는 먹어봐야 안다",
+    "example": "Try the product yourself - the proof is in the pudding.",
+    "exampleKo": "제품을 직접 써봐 - 푸딩의 증거는 먹어봐야 안다.",
+    "level": "B2",
+    "category": "experience"
+  },
+  {
+    "id": 284,
+    "word": "The road to hell is paved with good intentions",
+    "definition": "Good intentions can lead to bad outcomes",
+    "definitionKo": "지옥으로 가는 길은 선의로 포장되어 있다",
+    "example": "He meant well but made things worse - the road to hell is paved with good intentions.",
+    "exampleKo": "그는 좋은 의도였지만 상황을 악화시켰어 - 지옥으로 가는 길은 선의로 포장되어 있다.",
+    "level": "C1",
+    "category": "consequence"
+  },
+  {
+    "id": 285,
+    "word": "The squeaky wheel gets the grease",
+    "definition": "Those who complain loudest get attention",
+    "definitionKo": "삐걱거리는 바퀴가 기름을 얻는다",
+    "example": "Speak up about problems - the squeaky wheel gets the grease.",
+    "exampleKo": "문제에 대해 목소리를 높여 - 삐걱거리는 바퀴가 기름을 얻는다.",
+    "level": "B2",
+    "category": "assertiveness"
+  },
+  {
+    "id": 286,
+    "word": "There's no place like home",
+    "definition": "Home is the most comfortable place",
+    "definitionKo": "집만큼 좋은 곳은 없다",
+    "example": "After a long trip, I'm glad to be back - there's no place like home.",
+    "exampleKo": "긴 여행 후 돌아와서 기뻐 - 집만큼 좋은 곳은 없다.",
+    "level": "A2",
+    "category": "home"
+  },
+  {
+    "id": 287,
+    "word": "There's no smoke without fire",
+    "definition": "Rumors usually have some basis in truth",
+    "definitionKo": "아니 땐 굴뚝에 연기 나랴",
+    "example": "The stories about him might be true - there's no smoke without fire.",
+    "exampleKo": "그에 대한 이야기가 사실일 수도 있어 - 아니 땐 굴뚝에 연기 나랴.",
+    "level": "B2",
+    "category": "truth"
+  },
+  {
+    "id": 288,
+    "word": "There's no such thing as a free lunch",
+    "definition": "Everything has a cost or consequence",
+    "definitionKo": "공짜 점심 같은 건 없다",
+    "example": "What do they want in return? There's no such thing as a free lunch.",
+    "exampleKo": "그들이 대가로 뭘 원해? 공짜 점심 같은 건 없다.",
+    "level": "B1",
+    "category": "economics"
+  },
+  {
+    "id": 289,
+    "word": "Time flies when you're having fun",
+    "definition": "Time seems to pass quickly during enjoyable activities",
+    "definitionKo": "즐거울 때 시간이 빨리 간다",
+    "example": "The party ended already? Time flies when you're having fun.",
+    "exampleKo": "파티가 벌써 끝났어? 즐거울 때 시간이 빨리 간다.",
+    "level": "A2",
+    "category": "time"
+  },
+  {
+    "id": 290,
+    "word": "Time is money",
+    "definition": "Time is valuable and shouldn't be wasted",
+    "definitionKo": "시간이 돈이다",
+    "example": "Don't waste time on unimportant tasks - time is money.",
+    "exampleKo": "중요하지 않은 일에 시간을 낭비하지 마 - 시간이 돈이다.",
+    "level": "A2",
+    "category": "productivity"
+  },
+  {
+    "id": 291,
+    "word": "Too many cooks spoil the broth",
+    "definition": "Too many people involved can ruin a project",
+    "definitionKo": "요리사가 많으면 국을 망친다",
+    "example": "Let one person lead - too many cooks spoil the broth.",
+    "exampleKo": "한 사람이 이끌게 해 - 요리사가 많으면 국을 망친다.",
+    "level": "B1",
+    "category": "teamwork"
+  },
+  {
+    "id": 292,
+    "word": "Truth is stranger than fiction",
+    "definition": "Real events can be more unbelievable than stories",
+    "definitionKo": "사실이 소설보다 낯설다",
+    "example": "Can you believe what happened? Truth is stranger than fiction.",
+    "exampleKo": "무슨 일이 있었는지 믿을 수 있어? 사실이 소설보다 낯설다.",
+    "level": "B2",
+    "category": "reality"
+  },
+  {
+    "id": 293,
+    "word": "Two heads are better than one",
+    "definition": "Working together produces better results",
+    "definitionKo": "머리 둘이 하나보다 낫다",
+    "example": "Let's solve this together - two heads are better than one.",
+    "exampleKo": "함께 해결하자 - 머리 둘이 하나보다 낫다.",
+    "level": "A2",
+    "category": "teamwork"
+  },
+  {
+    "id": 294,
+    "word": "Two wrongs don't make a right",
+    "definition": "Responding to wrongdoing with wrongdoing is not justified",
+    "definitionKo": "잘못 두 개가 옳음을 만들지 않는다",
+    "example": "Don't seek revenge - two wrongs don't make a right.",
+    "exampleKo": "복수하지 마 - 잘못 두 개가 옳음을 만들지 않는다.",
+    "level": "B1",
+    "category": "ethics"
+  },
+  {
+    "id": 295,
+    "word": "United we stand, divided we fall",
+    "definition": "People are stronger when they work together",
+    "definitionKo": "뭉치면 서고 흩어지면 넘어진다",
+    "example": "We must stick together - united we stand, divided we fall.",
+    "exampleKo": "우리는 함께 해야 해 - 뭉치면 서고 흩어지면 넘어진다.",
+    "level": "B1",
+    "category": "unity"
+  },
+  {
+    "id": 296,
+    "word": "What doesn't kill you makes you stronger",
+    "definition": "Difficult experiences can make you more resilient",
+    "definitionKo": "죽지 않으면 더 강해진다",
+    "example": "You'll overcome this challenge - what doesn't kill you makes you stronger.",
+    "exampleKo": "이 도전을 극복할 거야 - 죽지 않으면 더 강해진다.",
+    "level": "B1",
+    "category": "resilience"
+  },
+  {
+    "id": 297,
+    "word": "What goes around comes around",
+    "definition": "Your actions will eventually affect you",
+    "definitionKo": "뿌린 대로 거둔다",
+    "example": "Be kind to others - what goes around comes around.",
+    "exampleKo": "다른 사람에게 친절해 - 뿌린 대로 거둔다.",
+    "level": "B1",
+    "category": "karma"
+  },
+  {
+    "id": 298,
+    "word": "When in Rome, do as the Romans do",
+    "definition": "Follow local customs when visiting new places",
+    "definitionKo": "로마에 가면 로마법을 따르라",
+    "example": "Try the local food - when in Rome, do as the Romans do.",
+    "exampleKo": "현지 음식을 먹어봐 - 로마에 가면 로마법을 따르라.",
+    "level": "B1",
+    "category": "adaptation"
+  },
+  {
+    "id": 299,
+    "word": "When the going gets tough, the tough get going",
+    "definition": "Strong people rise to challenges",
+    "definitionKo": "상황이 힘들어지면 강한 자가 나선다",
+    "example": "Don't give up now - when the going gets tough, the tough get going.",
+    "exampleKo": "지금 포기하지 마 - 상황이 힘들어지면 강한 자가 나선다.",
+    "level": "B2",
+    "category": "perseverance"
+  },
+  {
+    "id": 300,
+    "word": "You can lead a horse to water, but you can't make it drink",
+    "definition": "You can give someone an opportunity but can't force them to take it",
+    "definitionKo": "말을 물가로 데려갈 수 있지만 물을 마시게 할 수는 없다",
+    "example": "I gave him advice but he won't listen - you can lead a horse to water, but you can't make it drink.",
+    "exampleKo": "그에게 조언했지만 듣지 않아 - 말을 물가로 데려갈 수 있지만 물을 마시게 할 수는 없다.",
+    "level": "B2",
+    "category": "influence"
+  }
+]

@@ -1,0 +1,163 @@
+﻿{
+  "@@locale": "en",
+  "appTitle": "English Proverb 300",
+  "todayWord": "📅 Today's Proverb",
+  "learning": "Learning",
+  "levelLearning": "Level Learning",
+  "allWords": "All Proverbs",
+  "viewAllWords": "View All Proverbs",
+  "favorites": "Favorites",
+  "savedWords": "Saved proverbs",
+  "flashcard": "Flashcard",
+  "cardLearning": "Learn with cards",
+  "search": "Search",
+  "searchWords": "Search proverbs",
+  "settings": "Settings",
+  "noWords": "No proverbs found",
+  "cannotLoadWords": "Cannot load proverbs",
+  "addedToFavorites": "Added to favorites",
+  "removedFromFavorites": "Removed from favorites",
+  "definition": "📖 Definition",
+  "example": "💬 Example",
+  "translating": "Translating...",
+  "listenPronunciation": "Listen Pronunciation",
+  "markAsLearned": "Mark as Learned",
+  "previous": "Previous",
+  "next": "Next",
+  "pronunciation": "Pronounce",
+  "cardCount": "{current} / {total}",
+  "@cardCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "tapToFlip": "Tap to flip",
+  "levelA1": "Beginner 1",
+  "levelA2": "Beginner 2",
+  "levelB1": "Intermediate 1",
+  "levelB2": "Intermediate 2",
+  "levelC1": "Advanced",
+  "levelWords": "{level} Proverbs",
+  "@levelWords": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
+  "flashcardMode": "Flashcard Mode",
+  "listMode": "List Mode",
+  "language": "Language",
+  "selectLanguage": "Select Your Language",
+  "languageChanged": "Language changed to {language}",
+  "@languageChanged": {
+    "placeholders": {
+      "language": {"type": "String"}
+    }
+  },
+  "translationInfo": "Translation Info",
+  "translationInfoDesc": "Translations will be downloaded automatically when you view Proverbs. Once downloaded, they are cached locally for offline use.",
+  "ok": "OK",
+  "darkMode": "Dark Mode",
+  "speechRate": "Speech Rate",
+  "notifications": "Notifications",
+  "dailyReminder": "Daily Reminder",
+  "about": "About",
+  "version": "Version",
+  "developer": "Developer",
+  "searchHint": "Search for Proverbs...",
+  "noSearchResults": "No results found",
+  "typeToSearch": "Type to Search for Proverbs...",
+  "noFavorites": "No favorites yet",
+  "addFavoritesHint": "Add Proverbs to favorites by tapping the heart icon",
+  "posNoun": "noun",
+  "posVerb": "verb",
+  "posAdjective": "adjective",
+  "posAdverb": "adverb",
+  "posPronoun": "pronoun",
+  "posPreposition": "preposition",
+  "posConjunction": "conjunction",
+  "posInterjection": "interjection",
+  "posArticle": "article",
+  "posDeterminer": "determiner",
+  "posAuxiliary": "auxiliary verb",
+  "posPhrasal": "phrasal verb",
+  "showTranslationFirst": "Show translation first",
+  "showTranslationFirstDesc": "Display translated meaning before English",
+  "display": "Display",
+  "useDarkTheme": "Use dark theme",
+  "restartToApply": "Restart app to apply theme change",
+  "learningSection": "Learning",
+  "currentSpeed": "Current: {speed}x",
+  "@currentSpeed": {
+    "placeholders": {
+      "speed": {"type": "String"}
+    }
+  },
+  "getDailyReminders": "Get daily learning reminders",
+  "copyright": "Copyright",
+  "copyrightDesc": "All definitions are original or AI-generated",
+  "copyrightNotice": "Copyright Notice",
+  "copyrightContent": "All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.\n\nTranslations are provided by MyMemory API (free translation service).",
+  "privacyPolicy": "Privacy Policy",
+  "privacyContent": "This app does not collect, store, or share any personal information.\n\nTranslation requests are sent to MyMemory API for processing. No user data is stored on external servers.",
+  "alphabetical": "Alphabetical",
+  "random": "Random",
+  "quiz": "Quiz",
+  "testYourself": "Test yourself",
+  "wordQuiz": "Proverb Quiz",
+  "quizWithLevel": "{level} Quiz",
+  "@quizWithLevel": {
+    "placeholders": {
+      "level": {"type": "String"}
+    }
+  },
+  "wordToMeaningMode": "Proverb→Meaning",
+  "meaningToWordMode": "Meaning→Proverb",
+  "quizComplete": "🎉 Quiz Complete!",
+  "correctAnswers": "{percentage}% Correct",
+  "@correctAnswers": {
+    "placeholders": {
+      "percentage": {"type": "int"}
+    }
+  },
+  "exit": "Exit",
+  "tryAgain": "Try Again",
+  "quizCompleteMessage": "Quiz Complete!",
+  "excellent": "Excellent! 🌟",
+  "greatJob": "Great Job! 👏",
+  "goodStart": "Good Start! 💪",
+  "keepPracticing": "Keep Practicing! 📚",
+  "questionProgress": "{current} / {total}",
+  "@questionProgress": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "whatIsTheMeaning": "What is the meaning of this Proverb?",
+  "whichWordMatches": "Which Proverb matches this meaning?",
+  "nextQuestion": "Next",
+  "loading": "Loading...",
+  "removeAds": "Remove Ads",
+  "removeAdsTitle": "Remove All Ads",
+  "removeAdsDesc": "Enjoy ad-free learning experience",
+  "adsRemoved": "Ads Removed",
+  "enjoyAdFree": "Enjoy your ad-free experience!",
+  "restorePurchase": "Restore Purchase",
+  "restorePurchaseDesc": "Reinstalled or switched devices? Tap here to restore your ad-free purchase.",
+  "purchaseFailed": "Purchase failed. Please try again.",
+  "purchaseRestored": "Purchase restored successfully!",
+  "noPurchaseToRestore": "No purchase found to restore",
+  "buy": "Buy",
+  "wordFontSize": "Flashcard Proverb Size",
+  "fontSizeSmall": "Small",
+  "fontSizeMediumSmall": "Medium Small",
+  "fontSizeNormal": "Normal",
+  "fontSizeMediumLarge": "Medium Large",
+  "fontSizeLarge": "Large",
+  "fontSizeExtraLarge": "Extra Large",
+  "apiTranslationNotice": "Translations are being provided via API (online translation)"
+}
+
+
+
