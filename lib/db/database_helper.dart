@@ -230,12 +230,12 @@ class DatabaseHelper {
             await db.rawQuery('SELECT COUNT(*) FROM words'),
           ) ??
           0;
-      
+
       if (count == 0) {
         print('No words in database');
         return null;
       }
-      
+
       final index = seed % count;
 
       final result = await db.rawQuery('SELECT * FROM words LIMIT 1 OFFSET ?', [
