@@ -75,21 +75,26 @@ class DatabaseHelper {
   }
 
   Future<void> _loadInitialData(Database db) async {
-    final String response = await rootBundle.loadString(
-      'assets/data/words.json',
-    );
-    final List<dynamic> data = json.decode(response);
+    try {
+      final String response = await rootBundle.loadString(
+        'assets/data/words.json',
+      );
+      final List<dynamic> data = json.decode(response);
 
-    for (var wordJson in data) {
-      await db.insert('words', {
-        'id': wordJson['id'],
-        'word': wordJson['word'],
-        'level': wordJson['level'],
-        'partOfSpeech': wordJson['partOfSpeech'],
-        'definition': wordJson['definition'],
-        'example': wordJson['example'],
-        'isFavorite': 0,
-      });
+      for (var wordJson in data) {
+        await db.insert('words', {
+          'id': wordJson['id'],
+          'word': wordJson['word'],
+          'level': wordJson['level'],
+          'partOfSpeech': wordJson['partOfSpeech'],
+          'definition': wordJson['definition'],
+          'example': wordJson['example'],
+          'isFavorite': 0,
+        });
+      }
+      print('Loaded ${data.length} proverbs successfully');
+    } catch (e) {
+      print('Error loading initial data: $e');
     }
   }
 
@@ -215,22 +220,33 @@ class DatabaseHelper {
   }
 
   Future<Word?> getTodayWord() async {
-    final db = await instance.database;
-    // Use date as seed for consistent daily word
-    final today = DateTime.now();
-    final seed = today.year * 10000 + today.month * 100 + today.day;
-    final count =
-        Sqflite.firstIntValue(
-          await db.rawQuery('SELECT COUNT(*) FROM words'),
-        ) ??
-        1;
-    final index = seed % count;
+    try {
+      final db = await instance.database;
+      // Use date as seed for consistent daily word
+      final today = DateTime.now();
+      final seed = today.year * 10000 + today.month * 100 + today.day;
+      final count =
+          Sqflite.firstIntValue(
+            await db.rawQuery('SELECT COUNT(*) FROM words'),
+          ) ??
+          0;
+      
+      if (count == 0) {
+        print('No words in database');
+        return null;
+      }
+      
+      final index = seed % count;
 
-    final result = await db.rawQuery('SELECT * FROM words LIMIT 1 OFFSET ?', [
-      index,
-    ]);
-    if (result.isEmpty) return null;
-    return Word.fromDb(result.first);
+      final result = await db.rawQuery('SELECT * FROM words LIMIT 1 OFFSET ?', [
+        index,
+      ]);
+      if (result.isEmpty) return null;
+      return Word.fromDb(result.first);
+    } catch (e) {
+      print('Error getting today word: $e');
+      return null;
+    }
   }
 
   /// 단어에 번역 데이터 적용

@@ -12,7 +12,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get appTitle => 'English Idioms 1000';
 
   @override
-  String get todayWord => '📅 오늘의 숙어';
+  String get todayWord => '📅 오늘의 속담';
 
   @override
   String get learning => '학습하기';
@@ -21,16 +21,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get levelLearning => '난이도별 학습';
 
   @override
-  String get allWords => '전체 숙어';
+  String get allWords => '전체 속담';
 
   @override
-  String get viewAllWords => '모든 숙어 보기';
+  String get viewAllWords => '모든 속담 보기';
 
   @override
   String get favorites => '즐겨찾기';
 
   @override
-  String get savedWords => '저장한 숙어';
+  String get savedWords => '저장한 속담';
 
   @override
   String get flashcard => '플래시카드';
@@ -42,16 +42,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get search => '검색';
 
   @override
-  String get searchWords => '숙어 찾기';
+  String get searchWords => '속담 찾기';
 
   @override
   String get settings => '설정';
 
   @override
-  String get noWords => '숙어가 없습니다';
+  String get noWords => '속담이 없습니다';
 
   @override
-  String get cannotLoadWords => '숙어를 불러올 수 없습니다';
+  String get cannotLoadWords => '속담을 불러올 수 없습니다';
 
   @override
   String get addedToFavorites => '즐겨찾기에 추가되었습니다';
@@ -108,7 +108,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String levelWords(String level) {
-    return '$level 숙어';
+    return '$level 속담';
   }
 
   @override
@@ -132,7 +132,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get translationInfo => '번역 안내';
 
   @override
-  String get translationInfoDesc => '숙어를 볼 때 자동으로 번역이 다운로드됩니다. 다운로드된 번역은 오프라인에서도 사용할 수 있도록 저장됩니다.';
+  String get translationInfoDesc => '속담을 볼 때 자동으로 번역이 다운로드됩니다. 다운로드된 번역은 오프라인에서도 사용할 수 있도록 저장됩니다.';
 
   @override
   String get ok => '확인';
@@ -159,13 +159,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get developer => '개발자';
 
   @override
-  String get searchHint => '숙어를 검색하세요...';
+  String get searchHint => '속담을 검색하세요...';
 
   @override
   String get noSearchResults => '검색 결과가 없습니다';
 
   @override
-  String get typeToSearch => '숙어를 검색해 보세요';
+  String get typeToSearch => '속담을 검색해 보세요';
 
   @override
   String get noFavorites => '즐겨찾기가 없습니다';
@@ -245,7 +245,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get copyrightNotice => '저작권 안내';
 
   @override
-  String get copyrightContent => '이 앱의 모든 숙어 정의와 예문은 오리지널이거나 AI로 생성되었습니다. 저작권이 있는 사전 콘텐츠는 사용되지 않았습니다.\n\n번역은 MyMemory API(무료 번역 서비스)로 제공됩니다.';
+  String get copyrightContent => '이 앱의 모든 속담 정의와 예문은 오리지널이거나 AI로 생성되었습니다. 저작권이 있는 사전 콘텐츠는 사용되지 않았습니다.\n\n번역은 MyMemory API(무료 번역 서비스)로 제공됩니다.';
 
   @override
   String get privacyPolicy => '개인정보 처리방침';
@@ -266,7 +266,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get testYourself => '실력 테스트';
 
   @override
-  String get wordQuiz => '숙어 퀴즈';
+  String get wordQuiz => '속담 퀴즈';
 
   @override
   String quizWithLevel(String level) {
@@ -274,10 +274,10 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get wordToMeaningMode => '숙어→뜻';
+  String get wordToMeaningMode => '속담→뜻';
 
   @override
-  String get meaningToWordMode => '뜻→숙어';
+  String get meaningToWordMode => '뜻→속담';
 
   @override
   String get quizComplete => '🎉 퀴즈 완료!';
@@ -314,10 +314,10 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get whatIsTheMeaning => '이 숙어의 뜻은 무엇일까요?';
+  String get whatIsTheMeaning => '이 속담의 뜻은 무엇일까요?';
 
   @override
-  String get whichWordMatches => '이 뜻에 해당하는 숙어는?';
+  String get whichWordMatches => '이 뜻에 해당하는 속담는?';
 
   @override
   String get nextQuestion => '다음';
@@ -359,7 +359,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get buy => '구매';
 
   @override
-  String get wordFontSize => '플래시카드 숙어 크기';
+  String get wordFontSize => '플래시카드 속담 크기';
 
   @override
   String get fontSizeSmall => '작게';

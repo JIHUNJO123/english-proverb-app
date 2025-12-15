@@ -359,7 +359,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get buy => 'Beli';
 
   @override
-  String get wordFontSize => 'Flashcard Idiom Size';
+  String get wordFontSize => 'Flashcard Proverb Size';
 
   @override
   String get fontSizeSmall => 'Small';

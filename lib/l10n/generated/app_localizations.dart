@@ -144,13 +144,13 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In en, this message translates to:
-  /// **'English Idioms 1000'**
+  /// **'English Proverb 300'**
   String get appTitle;
 
   /// No description provided for @todayWord.
   ///
   /// In en, this message translates to:
-  /// **'📅 Today\'s Idiom'**
+  /// **'📅 Today\'s Proverb'**
   String get todayWord;
 
   /// No description provided for @learning.
@@ -168,13 +168,13 @@ abstract class AppLocalizations {
   /// No description provided for @allWords.
   ///
   /// In en, this message translates to:
-  /// **'All Idioms'**
+  /// **'All Proverbs'**
   String get allWords;
 
   /// No description provided for @viewAllWords.
   ///
   /// In en, this message translates to:
-  /// **'View All Idioms'**
+  /// **'View All Proverbs'**
   String get viewAllWords;
 
   /// No description provided for @favorites.
@@ -186,7 +186,7 @@ abstract class AppLocalizations {
   /// No description provided for @savedWords.
   ///
   /// In en, this message translates to:
-  /// **'Saved idioms'**
+  /// **'Saved proverbs'**
   String get savedWords;
 
   /// No description provided for @flashcard.
@@ -210,7 +210,7 @@ abstract class AppLocalizations {
   /// No description provided for @searchWords.
   ///
   /// In en, this message translates to:
-  /// **'Search idioms'**
+  /// **'Search proverbs'**
   String get searchWords;
 
   /// No description provided for @settings.
@@ -222,13 +222,13 @@ abstract class AppLocalizations {
   /// No description provided for @noWords.
   ///
   /// In en, this message translates to:
-  /// **'No idioms found'**
+  /// **'No proverbs found'**
   String get noWords;
 
   /// No description provided for @cannotLoadWords.
   ///
   /// In en, this message translates to:
-  /// **'Cannot load idioms'**
+  /// **'Cannot load proverbs'**
   String get cannotLoadWords;
 
   /// No description provided for @addedToFavorites.
@@ -336,7 +336,7 @@ abstract class AppLocalizations {
   /// No description provided for @levelWords.
   ///
   /// In en, this message translates to:
-  /// **'{level} Idioms'**
+  /// **'{level} Proverbs'**
   String levelWords(String level);
 
   /// No description provided for @flashcardMode.
@@ -378,7 +378,7 @@ abstract class AppLocalizations {
   /// No description provided for @translationInfoDesc.
   ///
   /// In en, this message translates to:
-  /// **'Translations will be downloaded automatically when you view idioms. Once downloaded, they are cached locally for offline use.'**
+  /// **'Translations will be downloaded automatically when you view Proverbs. Once downloaded, they are cached locally for offline use.'**
   String get translationInfoDesc;
 
   /// No description provided for @ok.
@@ -432,7 +432,7 @@ abstract class AppLocalizations {
   /// No description provided for @searchHint.
   ///
   /// In en, this message translates to:
-  /// **'Search for idioms...'**
+  /// **'Search for Proverbs...'**
   String get searchHint;
 
   /// No description provided for @noSearchResults.
@@ -444,7 +444,7 @@ abstract class AppLocalizations {
   /// No description provided for @typeToSearch.
   ///
   /// In en, this message translates to:
-  /// **'Type to Search for idioms...'**
+  /// **'Type to Search for Proverbs...'**
   String get typeToSearch;
 
   /// No description provided for @noFavorites.
@@ -456,7 +456,7 @@ abstract class AppLocalizations {
   /// No description provided for @addFavoritesHint.
   ///
   /// In en, this message translates to:
-  /// **'Add idioms to favorites by tapping the heart icon'**
+  /// **'Add Proverbs to favorites by tapping the heart icon'**
   String get addFavoritesHint;
 
   /// No description provided for @posNoun.
@@ -600,7 +600,7 @@ abstract class AppLocalizations {
   /// No description provided for @copyrightContent.
   ///
   /// In en, this message translates to:
-  /// **'All idiom definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.\n\nTranslations are provided by MyMemory API (free translation service).'**
+  /// **'All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.\n\nTranslations are provided by MyMemory API (free translation service).'**
   String get copyrightContent;
 
   /// No description provided for @privacyPolicy.
@@ -642,7 +642,7 @@ abstract class AppLocalizations {
   /// No description provided for @wordQuiz.
   ///
   /// In en, this message translates to:
-  /// **'Idiom Quiz'**
+  /// **'Proverb Quiz'**
   String get wordQuiz;
 
   /// No description provided for @quizWithLevel.
@@ -654,13 +654,13 @@ abstract class AppLocalizations {
   /// No description provided for @wordToMeaningMode.
   ///
   /// In en, this message translates to:
-  /// **'Idiom→Meaning'**
+  /// **'Proverb→Meaning'**
   String get wordToMeaningMode;
 
   /// No description provided for @meaningToWordMode.
   ///
   /// In en, this message translates to:
-  /// **'Meaning→Idiom'**
+  /// **'Meaning→Proverb'**
   String get meaningToWordMode;
 
   /// No description provided for @quizComplete.
@@ -726,13 +726,13 @@ abstract class AppLocalizations {
   /// No description provided for @whatIsTheMeaning.
   ///
   /// In en, this message translates to:
-  /// **'What is the meaning of this idiom?'**
+  /// **'What is the meaning of this Proverb?'**
   String get whatIsTheMeaning;
 
   /// No description provided for @whichWordMatches.
   ///
   /// In en, this message translates to:
-  /// **'Which idiom matches this meaning?'**
+  /// **'Which Proverb matches this meaning?'**
   String get whichWordMatches;
 
   /// No description provided for @nextQuestion.
@@ -816,7 +816,7 @@ abstract class AppLocalizations {
   /// No description provided for @wordFontSize.
   ///
   /// In en, this message translates to:
-  /// **'Flashcard Idiom Size'**
+  /// **'Flashcard Proverb Size'**
   String get wordFontSize;
 
   /// No description provided for @fontSizeSmall.

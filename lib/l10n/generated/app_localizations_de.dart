@@ -21,16 +21,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get levelLearning => 'Nach Niveau';
 
   @override
-  String get allWords => 'All Idioms';
+  String get allWords => 'All Proverbs';
 
   @override
-  String get viewAllWords => 'View All Idioms';
+  String get viewAllWords => 'View All Proverbs';
 
   @override
   String get favorites => 'Favoriten';
 
   @override
-  String get savedWords => 'Saved idioms';
+  String get savedWords => 'Saved proverbs';
 
   @override
   String get flashcard => 'Karteikarten';
@@ -42,16 +42,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get search => 'Suchen';
 
   @override
-  String get searchWords => 'Search idioms';
+  String get searchWords => 'Search proverbs';
 
   @override
   String get settings => 'Einstellungen';
 
   @override
-  String get noWords => 'No idioms found';
+  String get noWords => 'No proverbs found';
 
   @override
-  String get cannotLoadWords => 'Cannot load idioms';
+  String get cannotLoadWords => 'Cannot load proverbs';
 
   @override
   String get addedToFavorites => 'Zu Favoriten hinzugefügt';
@@ -108,7 +108,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String levelWords(String level) {
-    return '$level Idioms';
+    return '$level Proverbs';
   }
 
   @override
@@ -359,7 +359,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get buy => 'Kaufen';
 
   @override
-  String get wordFontSize => 'Flashcard Idiom Size';
+  String get wordFontSize => 'Flashcard Proverb Size';
 
   @override
   String get fontSizeSmall => 'Small';

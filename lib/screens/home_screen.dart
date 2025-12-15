@@ -61,35 +61,51 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _loadTodayWord() async {
-    final word = await DatabaseHelper.instance.getTodayWord();
-    if (word != null) {
-      // 번역 적용
-      final translationService = TranslationService.instance;
-      await translationService.init();
+    try {
+      final word = await DatabaseHelper.instance.getTodayWord();
+      if (word != null) {
+        // 번역 적용
+        final translationService = TranslationService.instance;
+        await translationService.init();
 
-      if (translationService.needsTranslation) {
-        final translated = await translationService.translate(
-          word.definition,
-          word.id,
-          'definition',
-        );
-        setState(() {
-          _todayWord = word;
-          _translatedDefinition = translated;
-          _isLoading = false;
-        });
+        if (translationService.needsTranslation) {
+          final translated = await translationService.translate(
+            word.definition,
+            word.id,
+            'definition',
+          );
+          if (mounted) {
+            setState(() {
+              _todayWord = word;
+              _translatedDefinition = translated;
+              _isLoading = false;
+            });
+          }
+        } else {
+          if (mounted) {
+            setState(() {
+              _todayWord = word;
+              _translatedDefinition = null;
+              _isLoading = false;
+            });
+          }
+        }
       } else {
+        if (mounted) {
+          setState(() {
+            _todayWord = null;
+            _isLoading = false;
+          });
+        }
+      }
+    } catch (e) {
+      print('Error loading today word: $e');
+      if (mounted) {
         setState(() {
-          _todayWord = word;
-          _translatedDefinition = null;
+          _todayWord = null;
           _isLoading = false;
         });
       }
-    } else {
-      setState(() {
-        _todayWord = null;
-        _isLoading = false;
-      });
     }
   }
 
@@ -512,3 +528,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+

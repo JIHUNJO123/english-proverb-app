@@ -9,10 +9,10 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverb 300';
 
   @override
-  String get todayWord => '📅 Today\'s Idiom';
+  String get todayWord => '📅 Today\'s Proverb';
 
   @override
   String get learning => 'Learning';
@@ -21,16 +21,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get levelLearning => 'Level Learning';
 
   @override
-  String get allWords => 'All Idioms';
+  String get allWords => 'All Proverbs';
 
   @override
-  String get viewAllWords => 'View All Idioms';
+  String get viewAllWords => 'View All Proverbs';
 
   @override
   String get favorites => 'Favorites';
 
   @override
-  String get savedWords => 'Saved idioms';
+  String get savedWords => 'Saved proverbs';
 
   @override
   String get flashcard => 'Flashcard';
@@ -42,16 +42,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get search => 'Search';
 
   @override
-  String get searchWords => 'Search idioms';
+  String get searchWords => 'Search proverbs';
 
   @override
   String get settings => 'Settings';
 
   @override
-  String get noWords => 'No idioms found';
+  String get noWords => 'No proverbs found';
 
   @override
-  String get cannotLoadWords => 'Cannot load idioms';
+  String get cannotLoadWords => 'Cannot load proverbs';
 
   @override
   String get addedToFavorites => 'Added to favorites';
@@ -108,7 +108,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String levelWords(String level) {
-    return '$level Idioms';
+    return '$level Proverbs';
   }
 
   @override
@@ -132,7 +132,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get translationInfo => 'Translation Info';
 
   @override
-  String get translationInfoDesc => 'Translations will be downloaded automatically when you view idioms. Once downloaded, they are cached locally for offline use.';
+  String get translationInfoDesc => 'Translations will be downloaded automatically when you view Proverbs. Once downloaded, they are cached locally for offline use.';
 
   @override
   String get ok => 'OK';
@@ -159,19 +159,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get developer => 'Developer';
 
   @override
-  String get searchHint => 'Search for idioms...';
+  String get searchHint => 'Search for Proverbs...';
 
   @override
   String get noSearchResults => 'No results found';
 
   @override
-  String get typeToSearch => 'Type to Search for idioms...';
+  String get typeToSearch => 'Type to Search for Proverbs...';
 
   @override
   String get noFavorites => 'No favorites yet';
 
   @override
-  String get addFavoritesHint => 'Add idioms to favorites by tapping the heart icon';
+  String get addFavoritesHint => 'Add Proverbs to favorites by tapping the heart icon';
 
   @override
   String get posNoun => 'noun';
@@ -245,7 +245,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get copyrightNotice => 'Copyright Notice';
 
   @override
-  String get copyrightContent => 'All idiom definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.\n\nTranslations are provided by MyMemory API (free translation service).';
+  String get copyrightContent => 'All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.\n\nTranslations are provided by MyMemory API (free translation service).';
 
   @override
   String get privacyPolicy => 'Privacy Policy';
@@ -266,7 +266,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get testYourself => 'Test yourself';
 
   @override
-  String get wordQuiz => 'Idiom Quiz';
+  String get wordQuiz => 'Proverb Quiz';
 
   @override
   String quizWithLevel(String level) {
@@ -274,10 +274,10 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get wordToMeaningMode => 'Idiom→Meaning';
+  String get wordToMeaningMode => 'Proverb→Meaning';
 
   @override
-  String get meaningToWordMode => 'Meaning→Idiom';
+  String get meaningToWordMode => 'Meaning→Proverb';
 
   @override
   String get quizComplete => '🎉 Quiz Complete!';
@@ -314,10 +314,10 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get whatIsTheMeaning => 'What is the meaning of this idiom?';
+  String get whatIsTheMeaning => 'What is the meaning of this Proverb?';
 
   @override
-  String get whichWordMatches => 'Which idiom matches this meaning?';
+  String get whichWordMatches => 'Which Proverb matches this meaning?';
 
   @override
   String get nextQuestion => 'Next';
@@ -359,7 +359,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get buy => 'Buy';
 
   @override
-  String get wordFontSize => 'Flashcard Idiom Size';
+  String get wordFontSize => 'Flashcard Proverb Size';
 
   @override
   String get fontSizeSmall => 'Small';
