@@ -349,18 +349,7 @@ class _QuizScreenState extends State<QuizScreen> {
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
                             ),
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            translatePartOfSpeech(
-                              AppLocalizations.of(context)!,
-                              currentWord.partOfSpeech,
-                            ),
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: Colors.grey[600],
-                              fontStyle: FontStyle.italic,
-                            ),
+                            textAlign: TextAlign.center,
                           ),
                           const SizedBox(height: 16),
                           Text(

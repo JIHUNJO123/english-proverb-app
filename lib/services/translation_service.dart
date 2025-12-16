@@ -22,7 +22,7 @@ class TranslationService {
   static final TranslationService instance = TranslationService._init();
   TranslationService._init();
 
-  // 지원 언어 목록
+  // 지원 언어 목록 (내장 번역이 있는 11개 언어만)
   static const List<SupportedLanguage> supportedLanguages = [
     SupportedLanguage(code: 'en', name: 'English', nativeName: 'English'),
     SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어'),
@@ -35,24 +35,6 @@ class TranslationService {
     SupportedLanguage(code: 'ru', name: 'Russian', nativeName: 'Русский'),
     SupportedLanguage(code: 'ar', name: 'Arabic', nativeName: 'العربية'),
     SupportedLanguage(code: 'hi', name: 'Hindi', nativeName: 'हिन्दी'),
-    SupportedLanguage(code: 'bn', name: 'Bengali', nativeName: 'বাংলা'),
-    SupportedLanguage(code: 'ur', name: 'Urdu', nativeName: 'اردو'),
-    SupportedLanguage(code: 'fa', name: 'Persian', nativeName: 'فارسی'),
-    SupportedLanguage(code: 'th', name: 'Thai', nativeName: 'ไทย'),
-    SupportedLanguage(code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt'),
-    SupportedLanguage(
-      code: 'id',
-      name: 'Indonesian',
-      nativeName: 'Bahasa Indonesia',
-    ),
-    SupportedLanguage(code: 'ms', name: 'Malay', nativeName: 'Bahasa Melayu'),
-    SupportedLanguage(code: 'tl', name: 'Filipino', nativeName: 'Filipino'),
-    SupportedLanguage(code: 'tr', name: 'Turkish', nativeName: 'Türkçe'),
-    SupportedLanguage(code: 'uk', name: 'Ukrainian', nativeName: 'Українська'),
-    SupportedLanguage(code: 'pl', name: 'Polish', nativeName: 'Polski'),
-    SupportedLanguage(code: 'nl', name: 'Dutch', nativeName: 'Nederlands'),
-    SupportedLanguage(code: 'it', name: 'Italian', nativeName: 'Italiano'),
-    SupportedLanguage(code: 'sv', name: 'Swedish', nativeName: 'Svenska'),
   ];
 
   String _currentLanguage = 'en';
@@ -100,20 +82,35 @@ class TranslationService {
 
   /// 번역 필요 여부
   bool get needsTranslation => _currentLanguage != 'en';
-  
+
   /// 내장 번역 지원 언어 (오프라인 지원)
   static const Set<String> embeddedLanguages = {
-    'ko', 'ja', 'zh', 'es', 'fr', 'de', 'pt', 'ru', 'ar', 'hi'
+    'ko',
+    'ja',
+    'zh',
+    'es',
+    'fr',
+    'de',
+    'pt',
+    'ru',
+    'ar',
+    'hi',
   };
-  
+
   /// 현재 언어가 내장 번역 지원 여부
-  bool get hasEmbeddedTranslation => embeddedLanguages.contains(_currentLanguage);
+  bool get hasEmbeddedTranslation =>
+      embeddedLanguages.contains(_currentLanguage);
 
   /// 텍스트 번역 (내장 번역 → 캐시 → API 순서)
   /// Returns: (번역된 텍스트, API 사용 여부)
-  Future<(String, bool)> translateWithInfo(String text, int wordId, String fieldType, {String? embeddedTranslation}) async {
+  Future<(String, bool)> translateWithInfo(
+    String text,
+    int wordId,
+    String fieldType, {
+    String? embeddedTranslation,
+  }) async {
     if (!needsTranslation || text.isEmpty) return (text, false);
-    
+
     // 0. 내장 번역 확인 (words.json에 포함된 번역)
     if (embeddedTranslation != null && embeddedTranslation.isNotEmpty) {
       return (embeddedTranslation, false);
@@ -142,10 +139,20 @@ class TranslationService {
 
     return (translated, true); // API 사용됨
   }
-  
+
   /// 기존 호환성을 위한 메서드
-  Future<String> translate(String text, int wordId, String fieldType, {String? embeddedTranslation}) async {
-    final (result, _) = await translateWithInfo(text, wordId, fieldType, embeddedTranslation: embeddedTranslation);
+  Future<String> translate(
+    String text,
+    int wordId,
+    String fieldType, {
+    String? embeddedTranslation,
+  }) async {
+    final (result, _) = await translateWithInfo(
+      text,
+      wordId,
+      fieldType,
+      embeddedTranslation: embeddedTranslation,
+    );
     return result;
   }
 

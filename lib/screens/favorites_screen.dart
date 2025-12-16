@@ -246,11 +246,15 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                         ),
                         title: Row(
                           children: [
-                            Text(
-                              word.word,
-                              style: const TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18,
+                            Expanded(
+                              child: Text(
+                                word.word,
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
                               ),
                             ),
                             const SizedBox(width: 8),
@@ -280,19 +284,11 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              translatePartOfSpeech(l10n, word.partOfSpeech),
-                              style: const TextStyle(
-                                fontStyle: FontStyle.italic,
-                                color: Colors.grey,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
                               _showNativeLanguage
                                   ? (_translatedDefinitions[word.id] ??
                                       word.definition)
                                   : word.definition,
-                              maxLines: 1,
+                              maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),
                           ],

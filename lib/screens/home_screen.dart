@@ -62,33 +62,34 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadTodayWord() async {
     try {
-      final word = await DatabaseHelper.instance.getTodayWord();
+      // JSON에서 내장 번역이 포함된 단어 로드 (API 호출 없음)
+      final word = await DatabaseHelper.instance.getTodayWordWithTranslations();
       if (word != null) {
-        // 번역 적용
         final translationService = TranslationService.instance;
         await translationService.init();
 
+        String? translated;
         if (translationService.needsTranslation) {
-          final translated = await translationService.translate(
-            word.definition,
-            word.id,
-            'definition',
-          );
-          if (mounted) {
-            setState(() {
-              _todayWord = word;
-              _translatedDefinition = translated;
-              _isLoading = false;
-            });
+          // 내장 번역 먼저 확인
+          final langCode = translationService.currentLanguage;
+          translated = word.getEmbeddedTranslation(langCode, 'definition');
+
+          // 내장 번역이 없으면 API 호출 (fallback)
+          if (translated == null || translated.isEmpty) {
+            translated = await translationService.translate(
+              word.definition,
+              word.id,
+              'definition',
+            );
           }
-        } else {
-          if (mounted) {
-            setState(() {
-              _todayWord = word;
-              _translatedDefinition = null;
-              _isLoading = false;
-            });
-          }
+        }
+
+        if (mounted) {
+          setState(() {
+            _todayWord = word;
+            _translatedDefinition = translated;
+            _isLoading = false;
+          });
         }
       } else {
         if (mounted) {

@@ -398,15 +398,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
                 fontWeight: FontWeight.bold,
                 color: const Color(0xFF1565C0),
               ),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              translatePartOfSpeech(l10n, word.partOfSpeech),
-              style: TextStyle(
-                fontSize: 12,
-                color: Colors.grey[500],
-                fontStyle: FontStyle.italic,
-              ),
+              textAlign: TextAlign.center,
             ),
             const SizedBox(height: 16),
             // 의미 (크고 눈에 띄게)
@@ -462,7 +454,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
 
   Widget _buildCard({required Widget child, Color? color}) {
     return Container(
-      margin: const EdgeInsets.all(24),
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
         color: color ?? Colors.white,
