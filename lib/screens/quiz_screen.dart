@@ -4,7 +4,6 @@ import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
-import '../utils/pos_helper.dart';
 
 enum QuizType { wordToMeaning, meaningToWord }
 

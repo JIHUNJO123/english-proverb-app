@@ -9,7 +9,7 @@ class AppLocalizationsUk extends AppLocalizations {
   AppLocalizationsUk([String locale = 'uk']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
   String get todayWord => '📅 Ідіома дня';

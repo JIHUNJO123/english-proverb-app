@@ -9,10 +9,10 @@ class AppLocalizationsId extends AppLocalizations {
   AppLocalizationsId([String locale = 'id']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
-  String get todayWord => '📅 Idiom hari ini';
+  String get todayWord => '📅 Peribahasa hari ini';
 
   @override
   String get learning => 'Belajar';
@@ -24,13 +24,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get allWords => 'Semua';
 
   @override
-  String get viewAllWords => 'Lihat semua idiom';
+  String get viewAllWords => 'Lihat semua peribahasa';
 
   @override
   String get favorites => 'Favorit';
 
   @override
-  String get savedWords => 'Idiom tersimpan';
+  String get savedWords => 'Peribahasa tersimpan';
 
   @override
   String get flashcard => 'Kartu';
@@ -42,13 +42,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get search => 'Cari';
 
   @override
-  String get searchWords => 'Cari idiom';
+  String get searchWords => 'Cari peribahasa';
 
   @override
   String get settings => 'Pengaturan';
 
   @override
-  String get noWords => 'Tidak ada idiom';
+  String get noWords => 'Tidak ada peribahasa';
 
   @override
   String get cannotLoadWords => 'Tidak bisa memuat';
@@ -108,7 +108,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String levelWords(String level) {
-    return 'Idiom $level';
+    return 'Peribahasa $level';
   }
 
   @override
@@ -159,7 +159,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get developer => 'Pengembang';
 
   @override
-  String get searchHint => 'Cari idiom...';
+  String get searchHint => 'Cari peribahasa...';
 
   @override
   String get noSearchResults => 'Tidak ada hasil';
@@ -245,13 +245,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get copyrightNotice => 'Pemberitahuan hak cipta';
 
   @override
-  String get copyrightContent => 'Semua definisi kata dan kalimat contoh dalam aplikasi ini adalah asli atau dibuat oleh AI. Tidak ada konten kamus berhak cipta yang digunakan.\n\nTerjemahan disediakan oleh MyMemory API (layanan terjemahan gratis).';
+  String get copyrightContent => 'Semua definisi kata dan kalimat contoh dalam aplikasi ini adalah asli atau dibuat oleh AI. Tidak ada konten kamus berhak cipta yang digunakan.';
 
   @override
   String get privacyPolicy => 'Kebijakan privasi';
 
   @override
-  String get privacyContent => 'Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan informasi pribadi apa pun.\n\nPermintaan terjemahan dikirim ke MyMemory API untuk diproses. Data pengguna tidak disimpan di server eksternal.';
+  String get privacyContent => 'Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan informasi pribadi apa pun.';
 
   @override
   String get alphabetical => 'Abjad';
@@ -266,7 +266,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get testYourself => 'Uji dirimu';
 
   @override
-  String get wordQuiz => 'Kuis idiom';
+  String get wordQuiz => 'Kuis peribahasa';
 
   @override
   String quizWithLevel(String level) {
@@ -274,10 +274,10 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String get wordToMeaningMode => 'Idiom→Arti';
+  String get wordToMeaningMode => 'Peribahasa→Arti';
 
   @override
-  String get meaningToWordMode => 'Arti→Idiom';
+  String get meaningToWordMode => 'Arti→Peribahasa';
 
   @override
   String get quizComplete => '🎉 Kuis selesai!';
@@ -314,10 +314,10 @@ class AppLocalizationsId extends AppLocalizations {
   }
 
   @override
-  String get whatIsTheMeaning => 'Apa arti idiom ini?';
+  String get whatIsTheMeaning => 'Apa arti peribahasa ini?';
 
   @override
-  String get whichWordMatches => 'Idiom mana yang cocok dengan arti ini?';
+  String get whichWordMatches => 'Peribahasa mana yang cocok dengan arti ini?';
 
   @override
   String get nextQuestion => 'Berikutnya';

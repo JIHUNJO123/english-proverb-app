@@ -9,10 +9,10 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
-  String get todayWord => '📅 Redewendung des Tages';
+  String get todayWord => '📅 Sprichwort des Tages';
 
   @override
   String get learning => 'Lernen';
@@ -159,7 +159,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get developer => 'Entwickler';
 
   @override
-  String get searchHint => 'Redewendungen suchen...';
+  String get searchHint => 'Sprichwörter suchen...';
 
   @override
   String get noSearchResults => 'Keine Ergebnisse';
@@ -245,13 +245,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get copyrightNotice => 'Urheberrechtshinweis';
 
   @override
-  String get copyrightContent => 'Alle Wortdefinitionen und Beispielsätze in dieser App sind original oder KI-generiert. Es werden keine urheberrechtlich geschützten Wörterbuchinhalte verwendet.\n\nÜbersetzungen werden von MyMemory API (kostenloser Übersetzungsdienst) bereitgestellt.';
+  String get copyrightContent => 'Alle Wortdefinitionen und Beispielsätze in dieser App sind original oder KI-generiert. Es werden keine urheberrechtlich geschützten Wörterbuchinhalte verwendet.';
 
   @override
   String get privacyPolicy => 'Datenschutzrichtlinie';
 
   @override
-  String get privacyContent => 'Diese App sammelt, speichert oder teilt keine persönlichen Informationen.\n\nÜbersetzungsanfragen werden an MyMemory API zur Verarbeitung gesendet. Benutzerdaten werden nicht auf externen Servern gespeichert.';
+  String get privacyContent => 'Diese App sammelt, speichert oder teilt keine persönlichen Informationen.';
 
   @override
   String get alphabetical => 'Alphabetisch';
@@ -266,7 +266,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get testYourself => 'Teste dich';
 
   @override
-  String get wordQuiz => 'Redewendungen-Quiz';
+  String get wordQuiz => 'Sprichwörter-Quiz';
 
   @override
   String quizWithLevel(String level) {
@@ -274,10 +274,10 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get wordToMeaningMode => 'Redewendung→Bedeutung';
+  String get wordToMeaningMode => 'Sprichwort→Bedeutung';
 
   @override
-  String get meaningToWordMode => 'Bedeutung→Redewendung';
+  String get meaningToWordMode => 'Bedeutung→Sprichwort';
 
   @override
   String get quizComplete => '🎉 Quiz abgeschlossen!';
@@ -314,10 +314,10 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get whatIsTheMeaning => 'Was bedeutet diese Redewendung?';
+  String get whatIsTheMeaning => 'Was bedeutet diese Sprichwort?';
 
   @override
-  String get whichWordMatches => 'Welche Redewendung passt zu dieser Bedeutung?';
+  String get whichWordMatches => 'Welche Sprichwort passt zu dieser Bedeutung?';
 
   @override
   String get nextQuestion => 'Weiter';

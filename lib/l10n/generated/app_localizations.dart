@@ -600,7 +600,7 @@ abstract class AppLocalizations {
   /// No description provided for @copyrightContent.
   ///
   /// In en, this message translates to:
-  /// **'All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.\n\nTranslations are provided by MyMemory API (free translation service).'**
+  /// **'All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.'**
   String get copyrightContent;
 
   /// No description provided for @privacyPolicy.
@@ -612,7 +612,7 @@ abstract class AppLocalizations {
   /// No description provided for @privacyContent.
   ///
   /// In en, this message translates to:
-  /// **'This app does not collect, store, or share any personal information.\n\nTranslation requests are sent to MyMemory API for processing. No user data is stored on external servers.'**
+  /// **'This app does not collect, store, or share any personal information.'**
   String get privacyContent;
 
   /// No description provided for @alphabetical.

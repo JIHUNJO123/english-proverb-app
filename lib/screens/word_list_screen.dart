@@ -7,7 +7,6 @@ import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
 import '../services/ad_service.dart';
-import '../utils/pos_helper.dart';
 import 'word_detail_screen.dart';
 
 class WordListScreen extends StatefulWidget {
@@ -681,17 +680,7 @@ class _WordListScreenState extends State<WordListScreen> {
                 ),
                 textAlign: TextAlign.center,
               ),
-              Text(
-                translatePartOfSpeech(
-                  AppLocalizations.of(context)!,
-                  word.partOfSpeech,
-                ),
-                style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.white.withAlpha((0.8 * 255).toInt()),
-                  fontStyle: FontStyle.italic,
-                ),
-              ),
+              // partOfSpeech badge removed for proverbs
               const SizedBox(height: 24),
               Container(
                 padding: const EdgeInsets.symmetric(

@@ -9,7 +9,7 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
   String get todayWord => '📅 오늘의 속담';
@@ -245,13 +245,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get copyrightNotice => '저작권 안내';
 
   @override
-  String get copyrightContent => '이 앱의 모든 속담 정의와 예문은 오리지널이거나 AI로 생성되었습니다. 저작권이 있는 사전 콘텐츠는 사용되지 않았습니다.\n\n번역은 MyMemory API(무료 번역 서비스)로 제공됩니다.';
+  String get copyrightContent => '이 앱의 모든 속담 정의와 예문은 오리지널이거나 AI로 생성되었습니다. 저작권이 있는 사전 콘텐츠는 사용되지 않았습니다.';
 
   @override
   String get privacyPolicy => '개인정보 처리방침';
 
   @override
-  String get privacyContent => '이 앱은 개인 정보를 수집, 저장 또는 공유하지 않습니다.\n\n번역 요청은 MyMemory API로 전송되어 처리됩니다. 사용자 데이터는 외부 서버에 저장되지 않습니다.';
+  String get privacyContent => '이 앱은 개인 정보를 수집, 저장 또는 공유하지 않습니다.';
 
   @override
   String get alphabetical => '알파벳순';

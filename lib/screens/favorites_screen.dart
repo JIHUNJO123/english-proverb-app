@@ -2,7 +2,6 @@
 import 'package:english_proverb_app/l10n/generated/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
-import '../utils/pos_helper.dart';
 import '../services/translation_service.dart';
 import 'word_detail_screen.dart';
 import 'favorites_flashcard_screen.dart';

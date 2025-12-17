@@ -9,7 +9,7 @@ class AppLocalizationsBn extends AppLocalizations {
   AppLocalizationsBn([String locale = 'bn']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
   String get todayWord => '📅 আজকের বাগধারা';
@@ -245,7 +245,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get copyrightNotice => 'কপিরাইট বিজ্ঞপ্তি';
 
   @override
-  String get copyrightContent => 'এই অ্যাপের সমস্ত শব্দ সংজ্ঞা এবং উদাহরণ বাক্য মূল বা AI-জেনারেটেড।\n\nঅনুবাদ MyMemory API দ্বারা সরবরাহ করা হয়।';
+  String get copyrightContent => 'এই অ্যাপের সমস্ত শব্দ সংজ্ঞা এবং উদাহরণ বাক্য মূল বা AI-জেনারেটেড।';
 
   @override
   String get privacyPolicy => 'গোপনীয়তা নীতি';

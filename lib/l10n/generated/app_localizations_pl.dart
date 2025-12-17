@@ -9,10 +9,10 @@ class AppLocalizationsPl extends AppLocalizations {
   AppLocalizationsPl([String locale = 'pl']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
-  String get todayWord => '📅 Idiom Dnia';
+  String get todayWord => '📅 Przysłowie Dnia';
 
   @override
   String get learning => 'Nauka';
@@ -21,16 +21,16 @@ class AppLocalizationsPl extends AppLocalizations {
   String get levelLearning => 'Nauka według Poziomu';
 
   @override
-  String get allWords => 'Wszystkie Idiomy';
+  String get allWords => 'Wszystkie Przysłowia';
 
   @override
-  String get viewAllWords => 'Zobacz wszystkie idiomy';
+  String get viewAllWords => 'Zobacz wszystkie przysłowia';
 
   @override
   String get favorites => 'Ulubione';
 
   @override
-  String get savedWords => 'Zapisane idiomy';
+  String get savedWords => 'Zapisane przysłowia';
 
   @override
   String get flashcard => 'Fiszki';
@@ -42,16 +42,16 @@ class AppLocalizationsPl extends AppLocalizations {
   String get search => 'Szukaj';
 
   @override
-  String get searchWords => 'Szukaj idiomów';
+  String get searchWords => 'Szukaj przysłów';
 
   @override
   String get settings => 'Ustawienia';
 
   @override
-  String get noWords => 'Nie znaleziono idiomów';
+  String get noWords => 'Nie znaleziono przysłów';
 
   @override
-  String get cannotLoadWords => 'Nie można załadować idiomów';
+  String get cannotLoadWords => 'Nie można załadować przysłów';
 
   @override
   String get addedToFavorites => 'Dodano do ulubionych';
@@ -108,7 +108,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String levelWords(String level) {
-    return 'Idiomy $level';
+    return 'Przysłowia $level';
   }
 
   @override
@@ -159,7 +159,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get developer => 'Deweloper';
 
   @override
-  String get searchHint => 'Szukaj idiomów...';
+  String get searchHint => 'Szukaj przysłów...';
 
   @override
   String get noSearchResults => 'Nie znaleziono wyników';
@@ -245,13 +245,13 @@ class AppLocalizationsPl extends AppLocalizations {
   String get copyrightNotice => 'Informacja o Prawach Autorskich';
 
   @override
-  String get copyrightContent => 'Wszystkie definicje słów i przykładowe zdania w tej aplikacji są oryginalne lub wygenerowane przez AI. Nie wykorzystano treści słownikowych chronionych prawami autorskimi.\n\nTłumaczenia są dostarczane przez MyMemory API (bezpłatna usługa tłumaczeniowa).';
+  String get copyrightContent => 'Wszystkie definicje słów i przykładowe zdania w tej aplikacji są oryginalne lub wygenerowane przez AI. Nie wykorzystano treści słownikowych chronionych prawami autorskimi.';
 
   @override
   String get privacyPolicy => 'Polityka Prywatności';
 
   @override
-  String get privacyContent => 'Ta aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych.\n\nŻądania tłumaczenia są wysyłane do MyMemory API w celu przetworzenia. Dane użytkownika nie są przechowywane na zewnętrznych serwerach.';
+  String get privacyContent => 'Ta aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych.';
 
   @override
   String get alphabetical => 'Alfabetycznie';
@@ -266,7 +266,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get testYourself => 'Sprawdź się';
 
   @override
-  String get wordQuiz => 'Quiz idiomów';
+  String get wordQuiz => 'Quiz przysłów';
 
   @override
   String quizWithLevel(String level) {
@@ -274,10 +274,10 @@ class AppLocalizationsPl extends AppLocalizations {
   }
 
   @override
-  String get wordToMeaningMode => 'Idiom→Znaczenie';
+  String get wordToMeaningMode => 'Przysłowie→Znaczenie';
 
   @override
-  String get meaningToWordMode => 'Znaczenie→Idiom';
+  String get meaningToWordMode => 'Znaczenie→Przysłowie';
 
   @override
   String get quizComplete => '🎉 Quiz ukończony!';
@@ -317,7 +317,7 @@ class AppLocalizationsPl extends AppLocalizations {
   String get whatIsTheMeaning => 'Jakie jest znaczenie tego słowa?';
 
   @override
-  String get whichWordMatches => 'Który idiom pasuje do tego znaczenia?';
+  String get whichWordMatches => 'Które przysłowie pasuje do tego znaczenia?';
 
   @override
   String get nextQuestion => 'Dalej';

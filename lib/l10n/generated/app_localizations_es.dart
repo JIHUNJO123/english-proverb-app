@@ -9,7 +9,7 @@ class AppLocalizationsEs extends AppLocalizations {
   AppLocalizationsEs([String locale = 'es']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
   String get todayWord => '📅 Modismo del día';
@@ -245,13 +245,13 @@ class AppLocalizationsEs extends AppLocalizations {
   String get copyrightNotice => 'Aviso de derechos de autor';
 
   @override
-  String get copyrightContent => 'Todas las definiciones de palabras y oraciones de ejemplo en esta aplicación son originales o generadas por IA. No se utiliza contenido de diccionarios con derechos de autor.\n\nLas traducciones son proporcionadas por MyMemory API (servicio de traducción gratuito).';
+  String get copyrightContent => 'Todas las definiciones de palabras y oraciones de ejemplo en esta aplicación son originales o generadas por IA. No se utiliza contenido de diccionarios con derechos de autor.';
 
   @override
   String get privacyPolicy => 'Política de privacidad';
 
   @override
-  String get privacyContent => 'Esta aplicación no recopila, almacena ni comparte información personal.\n\nLas solicitudes de traducción se envían a MyMemory API para su procesamiento. Los datos del usuario no se almacenan en servidores externos.';
+  String get privacyContent => 'Esta aplicación no recopila, almacena ni comparte información personal.';
 
   @override
   String get alphabetical => 'Alfabético';

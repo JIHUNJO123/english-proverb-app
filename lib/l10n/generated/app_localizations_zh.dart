@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
   String get todayWord => '📅 今日熟语';
@@ -245,13 +245,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get copyrightNotice => '版权声明';
 
   @override
-  String get copyrightContent => '此应用程序中的所有熟语定义和例句均为原创或AI生成。未使用受版权保护的词典内容。\n\n翻译由MyMemory API（免费翻译服务）提供。';
+  String get copyrightContent => '此应用程序中的所有熟语定义和例句均为原创或AI生成。未使用受版权保护的词典内容。';
 
   @override
   String get privacyPolicy => '隐私政策';
 
   @override
-  String get privacyContent => '此应用程序不收集、存储或分享任何个人信息。\n\n翻译请求发送到MyMemory API进行处理。用户数据不会存储在外部服务器上。';
+  String get privacyContent => '此应用程序不收集、存储或分享任何个人信息。';
 
   @override
   String get alphabetical => '字母顺序';

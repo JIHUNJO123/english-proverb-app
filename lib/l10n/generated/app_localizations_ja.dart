@@ -9,7 +9,7 @@ class AppLocalizationsJa extends AppLocalizations {
   AppLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get appTitle => 'English Idioms 1000';
+  String get appTitle => 'English Proverbs 300';
 
   @override
   String get todayWord => '📅 今日の熟語';
@@ -245,13 +245,13 @@ class AppLocalizationsJa extends AppLocalizations {
   String get copyrightNotice => '著作権情報';
 
   @override
-  String get copyrightContent => 'このアプリのすべての熟語定義と例文はオリジナルまたはAIで生成されています。著作権のある辞書コンテンツは使用されていません。\n\n翻訳はMyMemory API（無料翻訳サービス）で提供されています。';
+  String get copyrightContent => 'このアプリのすべての熟語定義と例文はオリジナルまたはAIで生成されています。著作権のある辞書コンテンツは使用されていません。';
 
   @override
   String get privacyPolicy => 'プライバシーポリシー';
 
   @override
-  String get privacyContent => 'このアプリは個人情報を収集、保存、共有しません。\n\n翻訳リクエストはMyMemory APIに送信されて処理されます。ユーザーデータは外部サーバーに保存されません。';
+  String get privacyContent => 'このアプリは個人情報を収集、保存、共有しません。';
 
   @override
   String get alphabetical => 'アルファベット順';

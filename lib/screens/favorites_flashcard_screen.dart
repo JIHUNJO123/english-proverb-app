@@ -3,7 +3,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:english_proverb_app/l10n/generated/app_localizations.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
-import '../utils/pos_helper.dart';
 
 class FavoritesFlashcardScreen extends StatefulWidget {
   final List<Word> favorites;

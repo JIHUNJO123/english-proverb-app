@@ -3,7 +3,6 @@ import 'package:english_proverb_app/l10n/generated/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
-import '../utils/pos_helper.dart';
 
 class WordDetailScreen extends StatefulWidget {
   final Word word;
@@ -159,48 +158,22 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 4,
-                          ),
-                          decoration: BoxDecoration(
-                            color: Colors.white.withAlpha((0.2 * 255).toInt()),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          child: Text(
-                            translatePartOfSpeech(
-                              AppLocalizations.of(context)!,
-                              _word.partOfSpeech,
-                            ),
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontStyle: FontStyle.italic,
-                            ),
-                          ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: _getLevelColor(_word.level),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text(
+                        _word.level,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
                         ),
-                        const SizedBox(width: 8),
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 12,
-                            vertical: 4,
-                          ),
-                          decoration: BoxDecoration(
-                            color: _getLevelColor(_word.level),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          child: Text(
-                            _word.level,
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                      ],
+                      ),
                     ),
                   ],
                 ),
