@@ -353,15 +353,12 @@ class _QuizScreenState extends State<QuizScreen> {
                           ),
                         ] else ...[
                           // 뜻 → 단어 맞추기
-                          if (_isLoadingTranslation)
-                            const CircularProgressIndicator()
-                          else
-                            Text(
-                              _translatedDefinitions[currentWord.id] ??
-                                  currentWord.definition,
-                              style: const TextStyle(fontSize: 18),
-                              textAlign: TextAlign.center,
-                            ),
+                          Text(
+                            _translatedDefinitions[currentWord.id] ??
+                                currentWord.definition,
+                            style: const TextStyle(fontSize: 18),
+                            textAlign: TextAlign.center,
+                          ),
                           const SizedBox(height: 16),
                           Text(
                             l10n.whichWordMatches,
@@ -445,30 +442,7 @@ class _QuizScreenState extends State<QuizScreen> {
                                 Expanded(
                                   child:
                                       _quizType == QuizType.wordToMeaning
-                                          ? _isLoadingTranslation
-                                              ? Row(
-                                                children: [
-                                                  SizedBox(
-                                                    width: 16,
-                                                    height: 16,
-                                                    child:
-                                                        CircularProgressIndicator(
-                                                          strokeWidth: 2,
-                                                          color:
-                                                              Colors.grey[400],
-                                                        ),
-                                                  ),
-                                                  const SizedBox(width: 8),
-                                                  Text(
-                                                    l10n.loading,
-                                                    style: TextStyle(
-                                                      fontSize: 16,
-                                                      color: Colors.grey[500],
-                                                    ),
-                                                  ),
-                                                ],
-                                              )
-                                              : Text(
+                                          ? Text(
                                                 _translatedDefinitions[option
                                                         .id] ??
                                                     option.definition,

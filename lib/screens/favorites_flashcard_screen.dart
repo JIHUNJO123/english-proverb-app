@@ -391,33 +391,30 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
             ),
             const SizedBox(height: 16),
             // 의미 (크고 눈에 띄게)
-            if (_isLoadingTranslation)
-              const CircularProgressIndicator()
-            else ...[
-              Text(
-                _translatedDefinition ?? '',
-                style: TextStyle(
-                  fontSize: 20 * _wordFontSize,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.black87,
-                  height: 1.3,
-                ),
-                textAlign: TextAlign.center,
+            Text(
+              _translatedDefinition ?? '',
+              style: TextStyle(
+                fontSize: 20 * _wordFontSize,
+                fontWeight: FontWeight.w600,
+                color: Colors.black87,
+                height: 1.3,
               ),
-              const SizedBox(height: 16),
-              // 예문 (덜 눈에 띄게)
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Colors.white.withAlpha(150),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Column(
-                  children: [
-                    Text(
-                      word.example,
-                      style: TextStyle(
-                        fontSize: 13,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 16),
+            // 예문 (덜 눈에 띄게)
+            Container(
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Colors.white.withAlpha(150),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Column(
+                children: [
+                  Text(
+                    word.example,
+                    style: TextStyle(
+                      fontSize: 13,
                         fontStyle: FontStyle.italic,
                         color: Colors.grey[600],
                       ),
@@ -434,7 +431,6 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
                   ],
                 ),
               ),
-            ],
           ],
         ),
       ),

@@ -172,23 +172,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   // 번역이 있으면 번역 먼저 표시
-                  if (_isTranslating)
-                    Row(
-                      children: [
-                        const SizedBox(
-                          width: 16,
-                          height: 16,
-                          child: CircularProgressIndicator(strokeWidth: 2),
-                        ),
-                        const SizedBox(width: 8),
-                        Text(
-                          AppLocalizations.of(context)!.translating,
-                          style: const TextStyle(color: Colors.grey),
-                        ),
-                      ],
-                    )
-                  else if (_hasTranslation &&
-                      _translatedDefinition != null) ...[
+                  if (_hasTranslation && _translatedDefinition != null) ...[
                     Text(
                       _translatedDefinition!,
                       style: const TextStyle(
