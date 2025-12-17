@@ -1,4 +1,6 @@
-﻿/// 단어 모델 (다국어 지원)
+﻿import 'dart:convert';
+
+/// 단어 모델 (다국어 지원)
 /// 영어 원본 데이터 + 내장 번역 + 동적 번역
 class Word {
   final int id;
@@ -8,7 +10,7 @@ class Word {
   final String definition; // 영어 정의
   final String example; // 영어 예문
   bool isFavorite;
-  
+
   // 내장 번역 데이터 (words.json에서 로드)
   final Map<String, Map<String, String>>? translations;
 
@@ -28,7 +30,7 @@ class Word {
     this.translatedDefinition,
     this.translatedExample,
   });
-  
+
   /// 내장 번역 가져오기
   String? getEmbeddedTranslation(String langCode, String fieldType) {
     if (translations == null) return null;
@@ -52,7 +54,7 @@ class Word {
         }
       });
     }
-    
+
     return Word(
       id: json['id'],
       word: json['word'],
@@ -65,8 +67,29 @@ class Word {
     );
   }
 
-  /// DB 맵에서 생성
+  /// DB 맵에서 생성 (translations JSON 파싱 포함)
   factory Word.fromDb(Map<String, dynamic> json) {
+    // DB에서 translations 필드 파싱
+    Map<String, Map<String, String>>? translations;
+    if (json['translations'] != null && json['translations'] is String) {
+      try {
+        final decoded = jsonDecode(json['translations'] as String);
+        if (decoded is Map<String, dynamic>) {
+          translations = {};
+          decoded.forEach((langCode, data) {
+            if (data is Map<String, dynamic>) {
+              translations![langCode] = {
+                'definition': data['definition']?.toString() ?? '',
+                'example': data['example']?.toString() ?? '',
+              };
+            }
+          });
+        }
+      } catch (e) {
+        print('Error parsing translations JSON: $e');
+      }
+    }
+
     return Word(
       id: json['id'] as int,
       word: json['word'] as String,
@@ -75,6 +98,7 @@ class Word {
       definition: json['definition'] as String,
       example: json['example'] as String,
       isFavorite: (json['isFavorite'] as int) == 1,
+      translations: translations,
     );
   }
 

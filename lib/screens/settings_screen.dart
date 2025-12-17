@@ -168,44 +168,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
                                       context,
                                     )!.languageChanged(lang.nativeName),
                                   ),
-                                  action:
-                                      lang.code != 'en'
-                                          ? SnackBarAction(
-                                            label: 'Info',
-                                            onPressed: () {
-                                              showDialog(
-                                                context: context,
-                                                builder:
-                                                    (ctx) => AlertDialog(
-                                                      title: Text(
-                                                        AppLocalizations.of(
-                                                          context,
-                                                        )!.translationInfo,
-                                                      ),
-                                                      content: Text(
-                                                        AppLocalizations.of(
-                                                          context,
-                                                        )!.translationInfoDesc,
-                                                      ),
-                                                      actions: [
-                                                        TextButton(
-                                                          onPressed:
-                                                              () =>
-                                                                  Navigator.pop(
-                                                                    ctx,
-                                                                  ),
-                                                          child: Text(
-                                                            AppLocalizations.of(
-                                                              context,
-                                                            )!.ok,
-                                                          ),
-                                                        ),
-                                                      ],
-                                                    ),
-                                              );
-                                            },
-                                          )
-                                          : null,
                                 ),
                               );
                             },
