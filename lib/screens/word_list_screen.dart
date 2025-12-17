@@ -138,16 +138,33 @@ class _WordListScreenState extends State<WordListScreen> {
 
     setState(() => _loadingTranslations.add(word.id));
 
-    final translatedDef = await translationService.translate(
-      word.definition,
-      word.id,
-      'definition',
-    );
-    final translatedEx = await translationService.translate(
-      word.example,
-      word.id,
-      'example',
-    );
+    // 내장 번역 먼저 확인
+    final langCode = translationService.currentLanguage;
+    final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
+    final embeddedEx = word.getEmbeddedTranslation(langCode, 'example');
+
+    String translatedDef;
+    String translatedEx;
+
+    if (embeddedDef != null && embeddedDef.isNotEmpty) {
+      translatedDef = embeddedDef;
+    } else {
+      translatedDef = await translationService.translate(
+        word.definition,
+        word.id,
+        'definition',
+      );
+    }
+
+    if (embeddedEx != null && embeddedEx.isNotEmpty) {
+      translatedEx = embeddedEx;
+    } else {
+      translatedEx = await translationService.translate(
+        word.example,
+        word.id,
+        'example',
+      );
+    }
 
     if (!mounted) return;
     setState(() {

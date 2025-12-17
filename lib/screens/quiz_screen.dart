@@ -72,14 +72,22 @@ class _QuizScreenState extends State<QuizScreen> {
 
     setState(() => _isLoadingTranslation = true);
 
+    final langCode = translationService.currentLanguage;
     for (final word in _currentOptions) {
       if (!mounted) return;
       if (!_translatedDefinitions.containsKey(word.id)) {
-        final translated = await translationService.translate(
-          word.definition,
-          word.id,
-          'definition',
-        );
+        // 내장 번역 먼저 확인
+        final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
+        String translated;
+        if (embeddedDef != null && embeddedDef.isNotEmpty) {
+          translated = embeddedDef;
+        } else {
+          translated = await translationService.translate(
+            word.definition,
+            word.id,
+            'definition',
+          );
+        }
         if (!mounted) return;
         _translatedDefinitions[word.id] = translated;
       }

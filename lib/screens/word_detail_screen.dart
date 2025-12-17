@@ -35,16 +35,33 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
     setState(() => _isTranslating = true);
 
     try {
-      final translatedDef = await translationService.translate(
-        _word.definition,
-        _word.id,
-        'definition',
-      );
-      final translatedEx = await translationService.translate(
-        _word.example,
-        _word.id,
-        'example',
-      );
+      // 내장 번역 먼저 확인
+      final langCode = translationService.currentLanguage;
+      final embeddedDef = _word.getEmbeddedTranslation(langCode, 'definition');
+      final embeddedEx = _word.getEmbeddedTranslation(langCode, 'example');
+
+      String translatedDef;
+      String translatedEx;
+
+      if (embeddedDef != null && embeddedDef.isNotEmpty) {
+        translatedDef = embeddedDef;
+      } else {
+        translatedDef = await translationService.translate(
+          _word.definition,
+          _word.id,
+          'definition',
+        );
+      }
+
+      if (embeddedEx != null && embeddedEx.isNotEmpty) {
+        translatedEx = embeddedEx;
+      } else {
+        translatedEx = await translationService.translate(
+          _word.example,
+          _word.id,
+          'example',
+        );
+      }
 
       if (mounted) {
         setState(() {

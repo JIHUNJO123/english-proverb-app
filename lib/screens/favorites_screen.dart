@@ -34,12 +34,20 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
 
     Map<int, String> translations = {};
     if (translationService.needsTranslation) {
+      final langCode = translationService.currentLanguage;
       for (var word in favorites) {
-        final translated = await translationService.translate(
-          word.definition,
-          word.id,
-          'definition',
-        );
+        // 내장 번역 먼저 확인
+        final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
+        String translated;
+        if (embeddedDef != null && embeddedDef.isNotEmpty) {
+          translated = embeddedDef;
+        } else {
+          translated = await translationService.translate(
+            word.definition,
+            word.id,
+            'definition',
+          );
+        }
         translations[word.id] = translated;
       }
     }
