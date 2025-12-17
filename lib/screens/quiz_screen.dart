@@ -443,13 +443,12 @@ class _QuizScreenState extends State<QuizScreen> {
                                   child:
                                       _quizType == QuizType.wordToMeaning
                                           ? Text(
-                                                _translatedDefinitions[option
-                                                        .id] ??
-                                                    option.definition,
-                                                style: const TextStyle(
-                                                  fontSize: 16,
-                                                ),
-                                              )
+                                            _translatedDefinitions[option.id] ??
+                                                option.definition,
+                                            style: const TextStyle(
+                                              fontSize: 16,
+                                            ),
+                                          )
                                           : Text(
                                             option.word,
                                             style: const TextStyle(

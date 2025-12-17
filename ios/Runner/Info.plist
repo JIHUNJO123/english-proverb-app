@@ -45,6 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 <key>GADApplicationIdentifier</key>
 <string>ca-app-pub-5837885590326347~3819357246</string>
 <key>NSUserTrackingUsageDescription</key>
