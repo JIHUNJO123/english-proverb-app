@@ -454,7 +454,7 @@ class _WordListScreenState extends State<WordListScreen> {
               ),
               subtitle: Text(
                 _showNativeLanguage
-                    ? (translatedDef ?? word.definition)
+                    ? (translatedDef ?? '')
                     : word.definition,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
@@ -715,7 +715,7 @@ class _WordListScreenState extends State<WordListScreen> {
               const SizedBox(height: 20),
               // 의미 (크고 눈에 띄게)
               Text(
-                translatedDef ?? word.definition,
+                translatedDef ?? '',
                 style: TextStyle(
                   fontSize: 22 * _wordFontSize,
                   fontWeight: FontWeight.w600,

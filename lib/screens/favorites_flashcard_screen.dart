@@ -395,7 +395,7 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
               const CircularProgressIndicator()
             else ...[
               Text(
-                _translatedDefinition ?? word.definition,
+                _translatedDefinition ?? '',
                 style: TextStyle(
                   fontSize: 20 * _wordFontSize,
                   fontWeight: FontWeight.w600,
