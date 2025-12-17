@@ -70,18 +70,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
         String? translated;
         if (translationService.needsTranslation) {
-          // 내장 번역 먼저 확인
+          // 내장 번역만 사용 (API 호출 없음)
           final langCode = translationService.currentLanguage;
           translated = word.getEmbeddedTranslation(langCode, 'definition');
-
-          // 내장 번역이 없으면 API 호출 (fallback)
-          if (translated == null || translated.isEmpty) {
-            translated = await translationService.translate(
-              word.definition,
-              word.id,
-              'definition',
-            );
-          }
         }
 
         if (mounted) {

@@ -25,7 +25,6 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
   // 번역 관련
   String? _translatedDefinition;
   String? _translatedExample;
-  bool _isLoadingTranslation = false;
   double _wordFontSize = 1.0; // 단어 폰트 크기 배율
 
   @override
@@ -62,40 +61,14 @@ class _FavoritesFlashcardScreenState extends State<FavoritesFlashcardScreen>
     await translationService.init();
 
     if (translationService.needsTranslation) {
-      setState(() => _isLoadingTranslation = true);
-
-      // 내장 번역 먼저 확인
+      // 내장 번역만 사용 (API 호출 없음)
       final langCode = translationService.currentLanguage;
       final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
       final embeddedEx = word.getEmbeddedTranslation(langCode, 'example');
 
-      String translatedDef;
-      String translatedEx;
-
-      if (embeddedDef != null && embeddedDef.isNotEmpty) {
-        translatedDef = embeddedDef;
-      } else {
-        translatedDef = await translationService.translate(
-          word.definition,
-          word.id,
-          'definition',
-        );
-      }
-
-      if (embeddedEx != null && embeddedEx.isNotEmpty) {
-        translatedEx = embeddedEx;
-      } else {
-        translatedEx = await translationService.translate(
-          word.example,
-          word.id,
-          'example',
-        );
-      }
-
       setState(() {
-        _translatedDefinition = translatedDef;
-        _translatedExample = translatedEx;
-        _isLoadingTranslation = false;
+        _translatedDefinition = embeddedDef;
+        _translatedExample = embeddedEx;
       });
     } else {
       setState(() {

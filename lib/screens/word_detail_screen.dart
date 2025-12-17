@@ -15,7 +15,6 @@ class WordDetailScreen extends StatefulWidget {
 
 class _WordDetailScreenState extends State<WordDetailScreen> {
   late Word _word;
-  bool _isTranslating = false;
   String? _translatedDefinition;
   String? _translatedExample;
 
@@ -32,48 +31,16 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
 
     if (!translationService.needsTranslation) return;
 
-    setState(() => _isTranslating = true);
+    // 내장 번역만 사용 (API 호출 없음)
+    final langCode = translationService.currentLanguage;
+    final embeddedDef = _word.getEmbeddedTranslation(langCode, 'definition');
+    final embeddedEx = _word.getEmbeddedTranslation(langCode, 'example');
 
-    try {
-      // 내장 번역 먼저 확인
-      final langCode = translationService.currentLanguage;
-      final embeddedDef = _word.getEmbeddedTranslation(langCode, 'definition');
-      final embeddedEx = _word.getEmbeddedTranslation(langCode, 'example');
-
-      String translatedDef;
-      String translatedEx;
-
-      if (embeddedDef != null && embeddedDef.isNotEmpty) {
-        translatedDef = embeddedDef;
-      } else {
-        translatedDef = await translationService.translate(
-          _word.definition,
-          _word.id,
-          'definition',
-        );
-      }
-
-      if (embeddedEx != null && embeddedEx.isNotEmpty) {
-        translatedEx = embeddedEx;
-      } else {
-        translatedEx = await translationService.translate(
-          _word.example,
-          _word.id,
-          'example',
-        );
-      }
-
-      if (mounted) {
-        setState(() {
-          _translatedDefinition = translatedDef;
-          _translatedExample = translatedEx;
-          _isTranslating = false;
-        });
-      }
-    } catch (e) {
-      if (mounted) {
-        setState(() => _isTranslating = false);
-      }
+    if (mounted) {
+      setState(() {
+        _translatedDefinition = embeddedDef;
+        _translatedExample = embeddedEx;
+      });
     }
   }
 

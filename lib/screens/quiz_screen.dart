@@ -29,7 +29,6 @@ class _QuizScreenState extends State<QuizScreen> {
 
   // 번역 관련
   Map<int, String> _translatedDefinitions = {};
-  bool _isLoadingTranslation = false;
 
   @override
   void initState() {
@@ -63,38 +62,24 @@ class _QuizScreenState extends State<QuizScreen> {
     }
   }
 
-  Future<void> _loadTranslationsForOptions() async {
+  void _loadTranslationsForOptions() {
     final translationService = TranslationService.instance;
-    await translationService.init();
 
     if (!translationService.needsTranslation) return;
     if (!mounted) return;
 
-    setState(() => _isLoadingTranslation = true);
-
     final langCode = translationService.currentLanguage;
     for (final word in _currentOptions) {
-      if (!mounted) return;
       if (!_translatedDefinitions.containsKey(word.id)) {
-        // 내장 번역 먼저 확인
+        // 내장 번역만 사용 (API 호출 없음)
         final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
-        String translated;
         if (embeddedDef != null && embeddedDef.isNotEmpty) {
-          translated = embeddedDef;
-        } else {
-          translated = await translationService.translate(
-            word.definition,
-            word.id,
-            'definition',
-          );
+          _translatedDefinitions[word.id] = embeddedDef;
         }
-        if (!mounted) return;
-        _translatedDefinitions[word.id] = translated;
       }
     }
 
-    if (!mounted) return;
-    setState(() => _isLoadingTranslation = false);
+    if (mounted) setState(() {});
   }
 
   void _generateOptions() {

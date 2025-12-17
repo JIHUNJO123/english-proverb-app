@@ -28,7 +28,7 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
   Future<void> _loadFavorites() async {
     final favorites = await DatabaseHelper.instance.getFavorites();
 
-    // 번역 적용
+    // 내장 번역만 사용 (API 호출 없음)
     final translationService = TranslationService.instance;
     await translationService.init();
 
@@ -36,19 +36,10 @@ class _FavoritesScreenState extends State<FavoritesScreen> {
     if (translationService.needsTranslation) {
       final langCode = translationService.currentLanguage;
       for (var word in favorites) {
-        // 내장 번역 먼저 확인
         final embeddedDef = word.getEmbeddedTranslation(langCode, 'definition');
-        String translated;
         if (embeddedDef != null && embeddedDef.isNotEmpty) {
-          translated = embeddedDef;
-        } else {
-          translated = await translationService.translate(
-            word.definition,
-            word.id,
-            'definition',
-          );
+          translations[word.id] = embeddedDef;
         }
-        translations[word.id] = translated;
       }
     }
 
