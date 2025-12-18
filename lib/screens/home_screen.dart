@@ -30,6 +30,10 @@ class _HomeScreenState extends State<HomeScreen> {
     super.initState();
     _loadTodayWord();
     _loadBannerAd();
+    // iOS에서 ATT 권한 요청 (앱이 화면에 표시된 후)
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      AdService.instance.requestTrackingAuthorizationIfNeeded();
+    });
   }
 
   @override
