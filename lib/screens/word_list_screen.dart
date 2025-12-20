@@ -42,6 +42,29 @@ class _WordListScreenState extends State<WordListScreen> {
   String get _positionKey =>
       'word_list_position_${widget.level ?? 'all'}_${widget.isFlashcardMode ? 'flashcard' : 'list'}';
 
+  String get _scrollOffsetKey =>
+      'word_list_scroll_offset_${widget.level ?? 'all'}';
+
+  Future<void> _restoreScrollPosition() async {
+    if (widget.isFlashcardMode) return;
+    final prefs = await SharedPreferences.getInstance();
+    final offset = prefs.getDouble(_scrollOffsetKey) ?? 0.0;
+    if (offset > 0) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (_listScrollController.hasClients && mounted) {
+          _listScrollController.jumpTo(offset);
+        }
+      });
+    }
+  }
+
+  Future<void> _saveScrollPosition() async {
+    if (_listScrollController.hasClients) {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setDouble(_scrollOffsetKey, _listScrollController.offset);
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -109,13 +132,8 @@ class _WordListScreenState extends State<WordListScreen> {
         setState(() {});
       } else {
         _lastListPosition = position;
-        // 리스트 모드에서 저장된 위치로 스크롤
-        WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (_listScrollController.hasClients && position > 0) {
-            // 각 아이템 높이를 약 80으로 추정
-            _listScrollController.jumpTo(position * 80.0);
-          }
-        });
+        // 정확한 스크롤 오프셋으로 복원
+        _restoreScrollPosition();
       }
     }
   }
@@ -226,8 +244,24 @@ class _WordListScreenState extends State<WordListScreen> {
     );
   }
 
+  // 플래시카드 모드에서 뒤로가기 시 전면 광고 표시
+  Future<void> _handleBackPress() async {
+    if (widget.isFlashcardMode) {
+      final adService = AdService.instance;
+      if (!adService.adsRemoved && adService.isInterstitialAdLoaded) {
+        await adService.showInterstitialAd();
+      }
+    }
+    if (mounted) {
+      Navigator.of(context).pop();
+    }
+  }
+
   @override
   void dispose() {
+    if (!widget.isFlashcardMode) {
+      _saveScrollPosition();
+    }
     _pageController.dispose();
     _listScrollController.dispose();
     AdService.instance.disposeBannerAd();
@@ -252,6 +286,12 @@ class _WordListScreenState extends State<WordListScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        leading: widget.isFlashcardMode
+            ? IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: _handleBackPress,
+              )
+            : null,
         title: Text(title),
         centerTitle: true,
         actions: [
