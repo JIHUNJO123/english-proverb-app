@@ -111,7 +111,8 @@
   "purchaseFailed": "Zakup nie powiódł się. Spróbuj ponownie.",
   "purchaseRestored": "Zakup przywrócony pomyślnie!",
   "noPurchaseToRestore": "Nie znaleziono zakupu do przywrócenia",
-  "buy": "Kup"
+  "buy": "Kup",
+  "cancel": "Anuluj"
 }
 
 

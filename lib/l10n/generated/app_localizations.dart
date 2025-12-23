@@ -860,6 +860,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Translations are being provided via API (online translation)'**
   String get apiTranslationNotice;
+
+  /// No description provided for @cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get cancel;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

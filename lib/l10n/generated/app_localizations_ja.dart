@@ -381,4 +381,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+
+  @override
+  String get cancel => 'キャンセル';
 }

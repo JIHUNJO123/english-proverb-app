@@ -116,7 +116,8 @@
   "purchaseFailed": "L'achat a échoué. Veuillez réessayer.",
   "purchaseRestored": "Achat restauré avec succès!",
   "noPurchaseToRestore": "Aucun achat à restaurer",
-  "buy": "Acheter"
+  "buy": "Acheter",
+  "cancel": "Annuler"
 }
 
 

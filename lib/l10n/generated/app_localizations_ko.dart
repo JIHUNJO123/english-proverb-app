@@ -381,4 +381,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get apiTranslationNotice => '온라인 API를 통해 번역이 제공됩니다';
+
+  @override
+  String get cancel => '취소';
 }

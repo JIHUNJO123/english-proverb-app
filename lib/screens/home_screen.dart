@@ -358,27 +358,14 @@ class _HomeScreenState extends State<HomeScreen> {
           title: l10n.flashcard,
           subtitle: l10n.cardLearning,
           color: Colors.orange,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder:
-                    (context) => const WordListScreen(isFlashcardMode: true),
-              ),
-            );
-          },
+          onTap: () => _showLevelSelectionDialog(isQuiz: false),
         ),
         _buildMenuCard(
           icon: Icons.quiz,
           title: l10n.quiz,
           subtitle: l10n.testYourself,
           color: Colors.green,
-          onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => const QuizScreen()),
-            );
-          },
+          onTap: () => _showLevelSelectionDialog(isQuiz: true),
         ),
       ],
     );
@@ -522,5 +509,133 @@ class _HomeScreenState extends State<HomeScreen> {
         },
       ),
     );
+  }
+
+  void _showLevelSelectionDialog({required bool isQuiz}) {
+    final l10n = AppLocalizations.of(context)!;
+
+    final levels = [
+      {'level': 'A1', 'name': l10n.levelA1},
+      {'level': 'A2', 'name': l10n.levelA2},
+      {'level': 'B1', 'name': l10n.levelB1},
+      {'level': 'B2', 'name': l10n.levelB2},
+      {'level': 'C1', 'name': l10n.levelC1},
+    ];
+
+    showDialog(
+      context: context,
+      builder:
+          (context) => AlertDialog(
+            title: Text(isQuiz ? l10n.quiz : l10n.flashcard),
+            content: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  ListTile(
+                    leading: const Icon(Icons.list_alt),
+                    title: Text(l10n.allWords),
+                    onTap: () {
+                      Navigator.pop(context);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (context) =>
+                                  isQuiz
+                                      ? const QuizScreen()
+                                      : const WordListScreen(
+                                        isFlashcardMode: true,
+                                      ),
+                        ),
+                      );
+                    },
+                  ),
+                  ListTile(
+                    leading: const Icon(Icons.favorite, color: Colors.red),
+                    title: Text(l10n.favorites),
+                    onTap: () {
+                      Navigator.pop(context);
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder:
+                              (context) =>
+                                  isQuiz
+                                      ? const QuizScreen(favoritesOnly: true)
+                                      : const WordListScreen(
+                                        isFlashcardMode: true,
+                                        favoritesOnly: true,
+                                      ),
+                        ),
+                      );
+                    },
+                  ),
+                  const Divider(),
+                  // Level options
+                  ...levels.map(
+                    (level) => ListTile(
+                      leading: CircleAvatar(
+                        backgroundColor: _getLevelColor(
+                          level['level'] as String,
+                        ),
+                        radius: 16,
+                        child: Text(
+                          level['level'] as String,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      title: Text('${level['level']} - ${level['name']}'),
+                      onTap: () {
+                        Navigator.pop(context);
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder:
+                                (context) =>
+                                    isQuiz
+                                        ? QuizScreen(
+                                          level: level['level'] as String,
+                                        )
+                                        : WordListScreen(
+                                          isFlashcardMode: true,
+                                          level: level['level'] as String,
+                                        ),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: Text(l10n.cancel),
+              ),
+            ],
+          ),
+    );
+  }
+
+  Color _getLevelColor(String level) {
+    switch (level) {
+      case 'A1':
+        return Colors.green;
+      case 'A2':
+        return Colors.lightGreen;
+      case 'B1':
+        return Colors.orange;
+      case 'B2':
+        return Colors.deepOrange;
+      case 'C1':
+        return Colors.red;
+      default:
+        return Colors.grey;
+    }
   }
 }

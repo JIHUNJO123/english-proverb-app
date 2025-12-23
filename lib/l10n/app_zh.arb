@@ -116,7 +116,8 @@
   "purchaseFailed": "购买失败，请重试。",
   "purchaseRestored": "购买恢复成功！",
   "noPurchaseToRestore": "没有可恢复的购买",
-  "buy": "购买"
+  "buy": "购买",
+  "cancel": "取消"
 }
 
 

@@ -111,7 +111,8 @@
   "purchaseFailed": "Acquisto fallito. Riprova.",
   "purchaseRestored": "Acquisto ripristinato con successo!",
   "noPurchaseToRestore": "Nessun acquisto da ripristinare",
-  "buy": "Acquista"
+  "buy": "Acquista",
+  "cancel": "Annulla"
 }
 
 

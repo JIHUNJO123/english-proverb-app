@@ -116,7 +116,8 @@
   "purchaseFailed": "Kauf fehlgeschlagen. Bitte versuche es erneut.",
   "purchaseRestored": "Kauf erfolgreich wiederhergestellt!",
   "noPurchaseToRestore": "Kein Kauf zum Wiederherstellen gefunden",
-  "buy": "Kaufen"
+  "buy": "Kaufen",
+  "cancel": "Abbrechen"
 }
 
 

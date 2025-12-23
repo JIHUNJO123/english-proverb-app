@@ -111,7 +111,8 @@
   "purchaseFailed": "Köpet misslyckades. Försök igen.",
   "purchaseRestored": "Köpet har återställts!",
   "noPurchaseToRestore": "Inget köp att återställa",
-  "buy": "Köp"
+  "buy": "Köp",
+  "cancel": "Avbryt"
 }
 
 

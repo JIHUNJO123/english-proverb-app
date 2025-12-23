@@ -116,7 +116,8 @@
   "purchaseFailed": "Giao dịch thất bại. Vui lòng thử lại.",
   "purchaseRestored": "Khôi phục giao dịch thành công!",
   "noPurchaseToRestore": "Không tìm thấy giao dịch để khôi phục",
-  "buy": "Mua"
+  "buy": "Mua",
+  "cancel": "Hủy"
 }
 
 

@@ -156,7 +156,8 @@
   "fontSizeMediumLarge": "Medium Large",
   "fontSizeLarge": "Large",
   "fontSizeExtraLarge": "Extra Large",
-  "apiTranslationNotice": "Translations are being provided via API (online translation)"
+  "apiTranslationNotice": "Translations are being provided via API (online translation)",
+  "cancel": "Cancel"
 }
 
 

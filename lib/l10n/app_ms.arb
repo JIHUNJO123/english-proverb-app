@@ -111,7 +111,8 @@
   "purchaseFailed": "Pembelian gagal. Sila cuba lagi.",
   "purchaseRestored": "Pembelian berjaya dipulihkan!",
   "noPurchaseToRestore": "Tiada pembelian untuk dipulihkan",
-  "buy": "Beli"
+  "buy": "Beli",
+  "cancel": "Batal"
 }
 
 

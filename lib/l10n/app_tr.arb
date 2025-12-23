@@ -111,7 +111,8 @@
   "purchaseFailed": "Satın alma başarısız oldu. Lütfen tekrar deneyin.",
   "purchaseRestored": "Satın alma başarıyla geri yüklendi!",
   "noPurchaseToRestore": "Geri yüklenecek satın alma bulunamadı",
-  "buy": "Satın Al"
+  "buy": "Satın Al",
+  "cancel": "İptal"
 }
 
 

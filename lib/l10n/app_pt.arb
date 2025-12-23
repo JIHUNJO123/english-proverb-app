@@ -116,7 +116,8 @@
   "purchaseFailed": "A compra falhou. Por favor, tente novamente.",
   "purchaseRestored": "Compra restaurada com sucesso!",
   "noPurchaseToRestore": "Nenhuma compra encontrada para restaurar",
-  "buy": "Comprar"
+  "buy": "Comprar",
+  "cancel": "Cancelar"
 }
 
 

@@ -9,8 +9,9 @@ enum QuizType { wordToMeaning, meaningToWord }
 
 class QuizScreen extends StatefulWidget {
   final String? level;
+  final bool favoritesOnly;
 
-  const QuizScreen({super.key, this.level});
+  const QuizScreen({super.key, this.level, this.favoritesOnly = false});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -40,7 +41,9 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Future<void> _loadWords() async {
     List<Word> words;
-    if (widget.level != null) {
+    if (widget.favoritesOnly) {
+      words = await DatabaseHelper.instance.getFavorites();
+    } else if (widget.level != null) {
       words = await DatabaseHelper.instance.getWordsByLevel(widget.level!);
     } else {
       words = await DatabaseHelper.instance.getAllWords();
@@ -232,7 +235,9 @@ class _QuizScreenState extends State<QuizScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          widget.level != null
+          widget.favoritesOnly
+              ? '${l10n.favorites} ${l10n.quiz}'
+              : widget.level != null
               ? l10n.quizWithLevel(widget.level!)
               : l10n.wordQuiz,
         ),

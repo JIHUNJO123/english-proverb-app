@@ -116,7 +116,8 @@
   "purchaseFailed": "การซื้อล้มเหลว กรุณาลองอีกครั้ง",
   "purchaseRestored": "กู้คืนการซื้อสำเร็จ!",
   "noPurchaseToRestore": "ไม่พบการซื้อที่จะกู้คืน",
-  "buy": "ซื้อ"
+  "buy": "ซื้อ",
+  "cancel": "ยกเลิก"
 }
 
 
