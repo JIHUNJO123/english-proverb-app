@@ -506,15 +506,28 @@ class _WordListScreenState extends State<WordListScreen> {
                 ),
                 onPressed: () => _toggleFavorite(word),
               ),
-              onTap: () {
+              onTap: () async {
                 // 클릭한 위치 저장
                 _savePosition(index);
-                Navigator.push(
+                final result = await Navigator.push<int>(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => WordDetailScreen(word: word),
+                    builder:
+                        (context) => WordDetailScreen(
+                          word: word,
+                          wordList: List<Word>.from(_words),
+                          currentIndex: index,
+                        ),
                   ),
-                ).then((_) => _loadWords());
+                );
+                if (result != null && result != index && mounted) {
+                  _listScrollController.animateTo(
+                    result * 80.0,
+                    duration: const Duration(milliseconds: 300),
+                    curve: Curves.easeInOut,
+                  );
+                }
+                _loadWords();
               },
             ),
           );
