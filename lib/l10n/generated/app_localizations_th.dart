@@ -132,7 +132,8 @@ class AppLocalizationsTh extends AppLocalizations {
   String get translationInfo => 'ข้อมูลการแปล';
 
   @override
-  String get translationInfoDesc => 'คำแปลจะดาวน์โหลดอัตโนมัติ เมื่อดาวน์โหลดแล้วจะใช้งานออฟไลน์ได้';
+  String get translationInfoDesc =>
+      'คำแปลจะดาวน์โหลดอัตโนมัติ เมื่อดาวน์โหลดแล้วจะใช้งานออฟไลน์ได้';
 
   @override
   String get ok => 'ตกลง';
@@ -245,13 +246,15 @@ class AppLocalizationsTh extends AppLocalizations {
   String get copyrightNotice => 'ประกาศลิขสิทธิ์';
 
   @override
-  String get copyrightContent => 'คำนิยามคำศัพท์และตัวอย่างประโยคทั้งหมดในแอปนี้เป็นต้นฉบับหรือสร้างโดย AI ไม่มีการใช้เนื้อหาพจนานุกรมที่มีลิขสิทธิ์';
+  String get copyrightContent =>
+      'คำนิยามคำศัพท์และตัวอย่างประโยคทั้งหมดในแอปนี้เป็นต้นฉบับหรือสร้างโดย AI ไม่มีการใช้เนื้อหาพจนานุกรมที่มีลิขสิทธิ์';
 
   @override
   String get privacyPolicy => 'นโยบายความเป็นส่วนตัว';
 
   @override
-  String get privacyContent => 'แอปนี้ไม่เก็บรวบรวม จัดเก็บ หรือแชร์ข้อมูลส่วนบุคคลใดๆ';
+  String get privacyContent =>
+      'แอปนี้ไม่เก็บรวบรวม จัดเก็บ หรือแชร์ข้อมูลส่วนบุคคลใดๆ';
 
   @override
   String get alphabetical => 'ตามตัวอักษร';
@@ -344,7 +347,8 @@ class AppLocalizationsTh extends AppLocalizations {
   String get restorePurchase => 'กู้คืนการซื้อ';
 
   @override
-  String get restorePurchaseDesc => 'ติดตั้งแอปใหม่หรือเปลี่ยนอุปกรณ์ใช่ไหม? แตะที่นี่เพื่อกู้คืนการซื้อไม่มีโฆษณาของคุณ';
+  String get restorePurchaseDesc =>
+      'ติดตั้งแอปใหม่หรือเปลี่ยนอุปกรณ์ใช่ไหม? แตะที่นี่เพื่อกู้คืนการซื้อไม่มีโฆษณาของคุณ';
 
   @override
   String get purchaseFailed => 'การซื้อล้มเหลว กรุณาลองอีกครั้ง';
@@ -380,8 +384,25 @@ class AppLocalizationsTh extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'ยกเลิก';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

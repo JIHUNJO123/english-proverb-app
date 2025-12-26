@@ -132,7 +132,8 @@ class AppLocalizationsUr extends AppLocalizations {
   String get translationInfo => 'ترجمہ کی معلومات';
 
   @override
-  String get translationInfoDesc => 'الفاظ دیکھتے وقت ترجمے خود بخود ڈاؤن لوڈ ہوں گے۔ آف لائن استعمال کے لیے مقامی طور پر محفوظ ہوں گے۔';
+  String get translationInfoDesc =>
+      'الفاظ دیکھتے وقت ترجمے خود بخود ڈاؤن لوڈ ہوں گے۔ آف لائن استعمال کے لیے مقامی طور پر محفوظ ہوں گے۔';
 
   @override
   String get ok => 'ٹھیک ہے';
@@ -171,7 +172,8 @@ class AppLocalizationsUr extends AppLocalizations {
   String get noFavorites => 'ابھی کوئی پسندیدہ نہیں';
 
   @override
-  String get addFavoritesHint => 'دل کے آئیکن پر ٹیپ کرکے الفاظ پسندیدہ میں شامل کریں';
+  String get addFavoritesHint =>
+      'دل کے آئیکن پر ٹیپ کرکے الفاظ پسندیدہ میں شامل کریں';
 
   @override
   String get posNoun => 'اسم';
@@ -213,7 +215,8 @@ class AppLocalizationsUr extends AppLocalizations {
   String get showTranslationFirst => 'پہلے ترجمہ دکھائیں';
 
   @override
-  String get showTranslationFirstDesc => 'انگریزی سے پہلے ترجمہ شدہ معنی دکھائیں';
+  String get showTranslationFirstDesc =>
+      'انگریزی سے پہلے ترجمہ شدہ معنی دکھائیں';
 
   @override
   String get display => 'ڈسپلے';
@@ -222,7 +225,8 @@ class AppLocalizationsUr extends AppLocalizations {
   String get useDarkTheme => 'ڈارک تھیم استعمال کریں';
 
   @override
-  String get restartToApply => 'تھیم تبدیلی لاگو کرنے کے لیے ایپ دوبارہ شروع کریں';
+  String get restartToApply =>
+      'تھیم تبدیلی لاگو کرنے کے لیے ایپ دوبارہ شروع کریں';
 
   @override
   String get learningSection => 'سیکھنا';
@@ -245,13 +249,15 @@ class AppLocalizationsUr extends AppLocalizations {
   String get copyrightNotice => 'کاپی رائٹ نوٹس';
 
   @override
-  String get copyrightContent => 'اس ایپ میں تمام محاورے کی تعریفیں اور مثالی جملے اصلی یا AI سے تیار کردہ ہیں۔';
+  String get copyrightContent =>
+      'اس ایپ میں تمام محاورے کی تعریفیں اور مثالی جملے اصلی یا AI سے تیار کردہ ہیں۔';
 
   @override
   String get privacyPolicy => 'رازداری کی پالیسی';
 
   @override
-  String get privacyContent => 'یہ ایپ کوئی ذاتی معلومات جمع، ذخیرہ یا شیئر نہیں کرتی۔';
+  String get privacyContent =>
+      'یہ ایپ کوئی ذاتی معلومات جمع، ذخیرہ یا شیئر نہیں کرتی۔';
 
   @override
   String get alphabetical => 'حروف تہجی';
@@ -344,7 +350,8 @@ class AppLocalizationsUr extends AppLocalizations {
   String get restorePurchase => 'خریداری بحال کریں';
 
   @override
-  String get restorePurchaseDesc => 'ایپ دوبارہ انسٹال کی یا ڈیوائس بدلی؟ اشتہار فری خریداری بحال کرنے کے لیے یہاں ٹیپ کریں۔';
+  String get restorePurchaseDesc =>
+      'ایپ دوبارہ انسٹال کی یا ڈیوائس بدلی؟ اشتہار فری خریداری بحال کرنے کے لیے یہاں ٹیپ کریں۔';
 
   @override
   String get purchaseFailed => 'خریداری ناکام۔ براہ کرم دوبارہ کوشش کریں۔';
@@ -380,8 +387,25 @@ class AppLocalizationsUr extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'منسوخ';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

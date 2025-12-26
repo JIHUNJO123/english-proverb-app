@@ -132,7 +132,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get translationInfo => 'Thông tin dịch';
 
   @override
-  String get translationInfoDesc => 'Bản dịch sẽ được tải xuống tự động. Sau khi tải, có thể sử dụng ngoại tuyến.';
+  String get translationInfoDesc =>
+      'Bản dịch sẽ được tải xuống tự động. Sau khi tải, có thể sử dụng ngoại tuyến.';
 
   @override
   String get ok => 'OK';
@@ -213,7 +214,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get showTranslationFirst => 'Hiển thị bản dịch trước';
 
   @override
-  String get showTranslationFirstDesc => 'Hiển thị nghĩa đã dịch trước tiếng Anh';
+  String get showTranslationFirstDesc =>
+      'Hiển thị nghĩa đã dịch trước tiếng Anh';
 
   @override
   String get display => 'Hiển thị';
@@ -222,7 +224,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get useDarkTheme => 'Sử dụng giao diện tối';
 
   @override
-  String get restartToApply => 'Khởi động lại ứng dụng để áp dụng thay đổi giao diện';
+  String get restartToApply =>
+      'Khởi động lại ứng dụng để áp dụng thay đổi giao diện';
 
   @override
   String get learningSection => 'Học tập';
@@ -245,13 +248,15 @@ class AppLocalizationsVi extends AppLocalizations {
   String get copyrightNotice => 'Thông báo bản quyền';
 
   @override
-  String get copyrightContent => 'Tất cả định nghĩa từ và câu ví dụ trong ứng dụng này là gốc hoặc do AI tạo ra. Không sử dụng nội dung từ điển có bản quyền.';
+  String get copyrightContent =>
+      'Tất cả định nghĩa từ và câu ví dụ trong ứng dụng này là gốc hoặc do AI tạo ra. Không sử dụng nội dung từ điển có bản quyền.';
 
   @override
   String get privacyPolicy => 'Chính sách quyền riêng tư';
 
   @override
-  String get privacyContent => 'Ứng dụng này không thu thập, lưu trữ hoặc chia sẻ bất kỳ thông tin cá nhân nào.';
+  String get privacyContent =>
+      'Ứng dụng này không thu thập, lưu trữ hoặc chia sẻ bất kỳ thông tin cá nhân nào.';
 
   @override
   String get alphabetical => 'Theo bảng chữ cái';
@@ -344,7 +349,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get restorePurchase => 'Khôi phục giao dịch';
 
   @override
-  String get restorePurchaseDesc => 'Đã cài lại ứng dụng hoặc đổi thiết bị? Nhấn vào đây để khôi phục giao dịch không quảng cáo.';
+  String get restorePurchaseDesc =>
+      'Đã cài lại ứng dụng hoặc đổi thiết bị? Nhấn vào đây để khôi phục giao dịch không quảng cáo.';
 
   @override
   String get purchaseFailed => 'Giao dịch thất bại. Vui lòng thử lại.';
@@ -380,8 +386,25 @@ class AppLocalizationsVi extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Hủy';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

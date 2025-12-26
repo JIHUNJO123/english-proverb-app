@@ -132,7 +132,8 @@ class AppLocalizationsPl extends AppLocalizations {
   String get translationInfo => 'Informacje o Tłumaczeniu';
 
   @override
-  String get translationInfoDesc => 'Tłumaczenia zostaną automatycznie pobrane podczas przeglądania słów. Po pobraniu są przechowywane lokalnie do użytku offline.';
+  String get translationInfoDesc =>
+      'Tłumaczenia zostaną automatycznie pobrane podczas przeglądania słów. Po pobraniu są przechowywane lokalnie do użytku offline.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsPl extends AppLocalizations {
   String get noFavorites => 'Brak ulubionych';
 
   @override
-  String get addFavoritesHint => 'Dodaj słowa do ulubionych, dotykając ikony serca';
+  String get addFavoritesHint =>
+      'Dodaj słowa do ulubionych, dotykając ikony serca';
 
   @override
   String get posNoun => 'rzeczownik';
@@ -213,7 +215,8 @@ class AppLocalizationsPl extends AppLocalizations {
   String get showTranslationFirst => 'Pokaż najpierw tłumaczenie';
 
   @override
-  String get showTranslationFirstDesc => 'Wyświetl przetłumaczone znaczenie przed angielskim';
+  String get showTranslationFirstDesc =>
+      'Wyświetl przetłumaczone znaczenie przed angielskim';
 
   @override
   String get display => 'Wyświetlanie';
@@ -222,7 +225,8 @@ class AppLocalizationsPl extends AppLocalizations {
   String get useDarkTheme => 'Użyj ciemnego motywu';
 
   @override
-  String get restartToApply => 'Uruchom ponownie aplikację, aby zastosować zmianę motywu';
+  String get restartToApply =>
+      'Uruchom ponownie aplikację, aby zastosować zmianę motywu';
 
   @override
   String get learningSection => 'Nauka';
@@ -239,19 +243,22 @@ class AppLocalizationsPl extends AppLocalizations {
   String get copyright => 'Prawa autorskie';
 
   @override
-  String get copyrightDesc => 'Wszystkie definicje są oryginalne lub wygenerowane przez AI';
+  String get copyrightDesc =>
+      'Wszystkie definicje są oryginalne lub wygenerowane przez AI';
 
   @override
   String get copyrightNotice => 'Informacja o Prawach Autorskich';
 
   @override
-  String get copyrightContent => 'Wszystkie definicje słów i przykładowe zdania w tej aplikacji są oryginalne lub wygenerowane przez AI. Nie wykorzystano treści słownikowych chronionych prawami autorskimi.';
+  String get copyrightContent =>
+      'Wszystkie definicje słów i przykładowe zdania w tej aplikacji są oryginalne lub wygenerowane przez AI. Nie wykorzystano treści słownikowych chronionych prawami autorskimi.';
 
   @override
   String get privacyPolicy => 'Polityka Prywatności';
 
   @override
-  String get privacyContent => 'Ta aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych.';
+  String get privacyContent =>
+      'Ta aplikacja nie zbiera, nie przechowuje ani nie udostępnia żadnych danych osobowych.';
 
   @override
   String get alphabetical => 'Alfabetycznie';
@@ -344,7 +351,8 @@ class AppLocalizationsPl extends AppLocalizations {
   String get restorePurchase => 'Przywróć zakup';
 
   @override
-  String get restorePurchaseDesc => 'Zainstalowałeś aplikację ponownie lub zmieniłeś urządzenie? Dotknij tutaj, aby przywrócić zakup bez reklam.';
+  String get restorePurchaseDesc =>
+      'Zainstalowałeś aplikację ponownie lub zmieniłeś urządzenie? Dotknij tutaj, aby przywrócić zakup bez reklam.';
 
   @override
   String get purchaseFailed => 'Zakup nie powiódł się. Spróbuj ponownie.';
@@ -380,8 +388,25 @@ class AppLocalizationsPl extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Anuluj';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

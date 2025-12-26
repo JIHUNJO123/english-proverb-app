@@ -132,7 +132,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get translationInfo => 'Übersetzungs-Info';
 
   @override
-  String get translationInfoDesc => 'Übersetzungen werden automatisch heruntergeladen. Nach dem Download sind sie offline verfügbar.';
+  String get translationInfoDesc =>
+      'Übersetzungen werden automatisch heruntergeladen. Nach dem Download sind sie offline verfügbar.';
 
   @override
   String get ok => 'OK';
@@ -213,7 +214,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get showTranslationFirst => 'Übersetzung zuerst anzeigen';
 
   @override
-  String get showTranslationFirstDesc => 'Übersetzte Bedeutung vor Englisch anzeigen';
+  String get showTranslationFirstDesc =>
+      'Übersetzte Bedeutung vor Englisch anzeigen';
 
   @override
   String get display => 'Anzeige';
@@ -239,19 +241,22 @@ class AppLocalizationsDe extends AppLocalizations {
   String get copyright => 'Urheberrecht';
 
   @override
-  String get copyrightDesc => 'Alle Definitionen sind original oder KI-generiert';
+  String get copyrightDesc =>
+      'Alle Definitionen sind original oder KI-generiert';
 
   @override
   String get copyrightNotice => 'Urheberrechtshinweis';
 
   @override
-  String get copyrightContent => 'Alle Wortdefinitionen und Beispielsätze in dieser App sind original oder KI-generiert. Es werden keine urheberrechtlich geschützten Wörterbuchinhalte verwendet.';
+  String get copyrightContent =>
+      'Alle Wortdefinitionen und Beispielsätze in dieser App sind original oder KI-generiert. Es werden keine urheberrechtlich geschützten Wörterbuchinhalte verwendet.';
 
   @override
   String get privacyPolicy => 'Datenschutzrichtlinie';
 
   @override
-  String get privacyContent => 'Diese App sammelt, speichert oder teilt keine persönlichen Informationen.';
+  String get privacyContent =>
+      'Diese App sammelt, speichert oder teilt keine persönlichen Informationen.';
 
   @override
   String get alphabetical => 'Alphabetisch';
@@ -344,7 +349,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get restorePurchase => 'Kauf wiederherstellen';
 
   @override
-  String get restorePurchaseDesc => 'App neu installiert oder Gerät gewechselt? Tippen Sie hier, um Ihren werbefreien Kauf wiederherzustellen.';
+  String get restorePurchaseDesc =>
+      'App neu installiert oder Gerät gewechselt? Tippen Sie hier, um Ihren werbefreien Kauf wiederherzustellen.';
 
   @override
   String get purchaseFailed => 'Kauf fehlgeschlagen. Bitte versuche es erneut.';
@@ -380,8 +386,25 @@ class AppLocalizationsDe extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Abbrechen';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

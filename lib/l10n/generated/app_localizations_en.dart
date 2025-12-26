@@ -132,7 +132,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get translationInfo => 'Translation Info';
 
   @override
-  String get translationInfoDesc => 'Translations will be downloaded automatically when you view Proverbs. Once downloaded, they are cached locally for offline use.';
+  String get translationInfoDesc =>
+      'Translations will be downloaded automatically when you view Proverbs. Once downloaded, they are cached locally for offline use.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get noFavorites => 'No favorites yet';
 
   @override
-  String get addFavoritesHint => 'Add Proverbs to favorites by tapping the heart icon';
+  String get addFavoritesHint =>
+      'Add Proverbs to favorites by tapping the heart icon';
 
   @override
   String get posNoun => 'noun';
@@ -213,7 +215,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get showTranslationFirst => 'Show translation first';
 
   @override
-  String get showTranslationFirstDesc => 'Display translated meaning before English';
+  String get showTranslationFirstDesc =>
+      'Display translated meaning before English';
 
   @override
   String get display => 'Display';
@@ -245,13 +248,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get copyrightNotice => 'Copyright Notice';
 
   @override
-  String get copyrightContent => 'All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.';
+  String get copyrightContent =>
+      'All Proverb definitions and example sentences in this app are original or AI-generated. No copyrighted dictionary content is used.';
 
   @override
   String get privacyPolicy => 'Privacy Policy';
 
   @override
-  String get privacyContent => 'This app does not collect, store, or share any personal information.';
+  String get privacyContent =>
+      'This app does not collect, store, or share any personal information.';
 
   @override
   String get alphabetical => 'Alphabetical';
@@ -344,7 +349,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get restorePurchase => 'Restore Purchase';
 
   @override
-  String get restorePurchaseDesc => 'Reinstalled or switched devices? Tap here to restore your ad-free purchase.';
+  String get restorePurchaseDesc =>
+      'Reinstalled or switched devices? Tap here to restore your ad-free purchase.';
 
   @override
   String get purchaseFailed => 'Purchase failed. Please try again.';
@@ -380,8 +386,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Cancel';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

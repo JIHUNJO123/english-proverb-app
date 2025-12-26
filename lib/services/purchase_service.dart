@@ -2,7 +2,6 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'ad_service.dart';
 
 class PurchaseService {
   static final PurchaseService _instance = PurchaseService._internal();
@@ -108,11 +107,10 @@ class PurchaseService {
       } else if (purchaseDetails.status == PurchaseStatus.purchased ||
           purchaseDetails.status == PurchaseStatus.restored) {
         debugPrint('  Purchase successful or restored!');
-        // 구매 성공 - 광고 제거 처리
+        // 구매 성공
         if (purchaseDetails.productID == removeAdsProductId) {
-          await AdService.instance.removeAds();
           onPurchaseSuccess?.call();
-          debugPrint('  Ads removed successfully');
+          debugPrint('  Purchase completed successfully');
         }
       } else if (purchaseDetails.status == PurchaseStatus.canceled) {
         debugPrint('  Purchase canceled by user');

@@ -132,7 +132,8 @@ class AppLocalizationsSv extends AppLocalizations {
   String get translationInfo => 'Översättningsinformation';
 
   @override
-  String get translationInfoDesc => 'Översättningar laddas ner automatiskt när du visar ord. Efter nedladdning sparas de lokalt för offlineanvändning.';
+  String get translationInfoDesc =>
+      'Översättningar laddas ner automatiskt när du visar ord. Efter nedladdning sparas de lokalt för offlineanvändning.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsSv extends AppLocalizations {
   String get noFavorites => 'Inga favoriter ännu';
 
   @override
-  String get addFavoritesHint => 'Lägg till ord i favoriter genom att trycka på hjärtikonen';
+  String get addFavoritesHint =>
+      'Lägg till ord i favoriter genom att trycka på hjärtikonen';
 
   @override
   String get posNoun => 'substantiv';
@@ -213,7 +215,8 @@ class AppLocalizationsSv extends AppLocalizations {
   String get showTranslationFirst => 'Visa översättning först';
 
   @override
-  String get showTranslationFirstDesc => 'Visa översatt betydelse före engelska';
+  String get showTranslationFirstDesc =>
+      'Visa översatt betydelse före engelska';
 
   @override
   String get display => 'Visning';
@@ -239,19 +242,22 @@ class AppLocalizationsSv extends AppLocalizations {
   String get copyright => 'Upphovsrätt';
 
   @override
-  String get copyrightDesc => 'Alla definitioner är originella eller AI-genererade';
+  String get copyrightDesc =>
+      'Alla definitioner är originella eller AI-genererade';
 
   @override
   String get copyrightNotice => 'Upphovsrättsmeddelande';
 
   @override
-  String get copyrightContent => 'Alla orddefinitioner och exempelmeningar i denna app är originella eller AI-genererade.';
+  String get copyrightContent =>
+      'Alla orddefinitioner och exempelmeningar i denna app är originella eller AI-genererade.';
 
   @override
   String get privacyPolicy => 'Integritetspolicy';
 
   @override
-  String get privacyContent => 'Denna app samlar inte in, lagrar eller delar någon personlig information.';
+  String get privacyContent =>
+      'Denna app samlar inte in, lagrar eller delar någon personlig information.';
 
   @override
   String get alphabetical => 'Alfabetisk';
@@ -344,7 +350,8 @@ class AppLocalizationsSv extends AppLocalizations {
   String get restorePurchase => 'Återställ köp';
 
   @override
-  String get restorePurchaseDesc => 'Ominstallerade appen eller bytte enhet? Tryck här för att återställa ditt reklamfria köp.';
+  String get restorePurchaseDesc =>
+      'Ominstallerade appen eller bytte enhet? Tryck här för att återställa ditt reklamfria köp.';
 
   @override
   String get purchaseFailed => 'Köpet misslyckades. Försök igen.';
@@ -380,8 +387,25 @@ class AppLocalizationsSv extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Avbryt';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

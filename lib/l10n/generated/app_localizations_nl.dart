@@ -132,7 +132,8 @@ class AppLocalizationsNl extends AppLocalizations {
   String get translationInfo => 'Vertaalinformatie';
 
   @override
-  String get translationInfoDesc => 'Vertalingen worden automatisch gedownload wanneer je uitdrukkingen bekijkt. Eenmaal gedownload worden ze lokaal opgeslagen voor offline gebruik.';
+  String get translationInfoDesc =>
+      'Vertalingen worden automatisch gedownload wanneer je uitdrukkingen bekijkt. Eenmaal gedownload worden ze lokaal opgeslagen voor offline gebruik.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsNl extends AppLocalizations {
   String get noFavorites => 'Nog geen favorieten';
 
   @override
-  String get addFavoritesHint => 'Voeg woorden toe aan favorieten door op het hartpictogram te tikken';
+  String get addFavoritesHint =>
+      'Voeg woorden toe aan favorieten door op het hartpictogram te tikken';
 
   @override
   String get posNoun => 'zelfstandig naamwoord';
@@ -239,19 +241,22 @@ class AppLocalizationsNl extends AppLocalizations {
   String get copyright => 'Auteursrecht';
 
   @override
-  String get copyrightDesc => 'Alle definities zijn origineel of door AI gegenereerd';
+  String get copyrightDesc =>
+      'Alle definities zijn origineel of door AI gegenereerd';
 
   @override
   String get copyrightNotice => 'Auteursrechtmelding';
 
   @override
-  String get copyrightContent => 'Alle uitdrukkingsdefinities en voorbeeldzinnen in deze app zijn origineel of door AI gegenereerd. Er wordt geen auteursrechtelijk beschermde woordenboekinhoud gebruikt.';
+  String get copyrightContent =>
+      'Alle uitdrukkingsdefinities en voorbeeldzinnen in deze app zijn origineel of door AI gegenereerd. Er wordt geen auteursrechtelijk beschermde woordenboekinhoud gebruikt.';
 
   @override
   String get privacyPolicy => 'Privacybeleid';
 
   @override
-  String get privacyContent => 'Deze app verzamelt, slaat of deelt geen persoonlijke informatie.';
+  String get privacyContent =>
+      'Deze app verzamelt, slaat of deelt geen persoonlijke informatie.';
 
   @override
   String get alphabetical => 'Alfabetisch';
@@ -344,7 +349,8 @@ class AppLocalizationsNl extends AppLocalizations {
   String get restorePurchase => 'Aankoop herstellen';
 
   @override
-  String get restorePurchaseDesc => 'App opnieuw geïnstalleerd of van apparaat gewisseld? Tik hier om uw advertentievrije aankoop te herstellen.';
+  String get restorePurchaseDesc =>
+      'App opnieuw geïnstalleerd of van apparaat gewisseld? Tik hier om uw advertentievrije aankoop te herstellen.';
 
   @override
   String get purchaseFailed => 'Aankoop mislukt. Probeer het opnieuw.';
@@ -380,8 +386,25 @@ class AppLocalizationsNl extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Annuleren';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

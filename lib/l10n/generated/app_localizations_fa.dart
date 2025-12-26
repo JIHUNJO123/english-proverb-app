@@ -132,7 +132,8 @@ class AppLocalizationsFa extends AppLocalizations {
   String get translationInfo => 'اطلاعات ترجمه';
 
   @override
-  String get translationInfoDesc => 'ترجمه‌ها هنگام مشاهده کلمات به صورت خودکار دانلود می‌شوند. پس از دانلود، برای استفاده آفلاین به صورت محلی ذخیره می‌شوند.';
+  String get translationInfoDesc =>
+      'ترجمه‌ها هنگام مشاهده کلمات به صورت خودکار دانلود می‌شوند. پس از دانلود، برای استفاده آفلاین به صورت محلی ذخیره می‌شوند.';
 
   @override
   String get ok => 'باشه';
@@ -171,7 +172,8 @@ class AppLocalizationsFa extends AppLocalizations {
   String get noFavorites => 'هنوز علاقه‌مندی‌ای نیست';
 
   @override
-  String get addFavoritesHint => 'با ضربه زدن روی آیکون قلب، کلمات را به علاقه‌مندی‌ها اضافه کنید';
+  String get addFavoritesHint =>
+      'با ضربه زدن روی آیکون قلب، کلمات را به علاقه‌مندی‌ها اضافه کنید';
 
   @override
   String get posNoun => 'اسم';
@@ -213,7 +215,8 @@ class AppLocalizationsFa extends AppLocalizations {
   String get showTranslationFirst => 'ابتدا ترجمه نشان داده شود';
 
   @override
-  String get showTranslationFirstDesc => 'معنی ترجمه شده را قبل از انگلیسی نمایش دهید';
+  String get showTranslationFirstDesc =>
+      'معنی ترجمه شده را قبل از انگلیسی نمایش دهید';
 
   @override
   String get display => 'نمایش';
@@ -222,7 +225,8 @@ class AppLocalizationsFa extends AppLocalizations {
   String get useDarkTheme => 'استفاده از تم تاریک';
 
   @override
-  String get restartToApply => 'برای اعمال تغییر تم، برنامه را مجدداً راه‌اندازی کنید';
+  String get restartToApply =>
+      'برای اعمال تغییر تم، برنامه را مجدداً راه‌اندازی کنید';
 
   @override
   String get learningSection => 'یادگیری';
@@ -239,19 +243,22 @@ class AppLocalizationsFa extends AppLocalizations {
   String get copyright => 'حق نشر';
 
   @override
-  String get copyrightDesc => 'تمام تعاریف اصلی یا تولید شده توسط هوش مصنوعی هستند';
+  String get copyrightDesc =>
+      'تمام تعاریف اصلی یا تولید شده توسط هوش مصنوعی هستند';
 
   @override
   String get copyrightNotice => 'اعلامیه حق نشر';
 
   @override
-  String get copyrightContent => 'تمام تعاریف کلمات و جملات مثال در این برنامه اصلی یا تولید شده توسط هوش مصنوعی هستند.';
+  String get copyrightContent =>
+      'تمام تعاریف کلمات و جملات مثال در این برنامه اصلی یا تولید شده توسط هوش مصنوعی هستند.';
 
   @override
   String get privacyPolicy => 'سیاست حفظ حریم خصوصی';
 
   @override
-  String get privacyContent => 'این برنامه هیچ اطلاعات شخصی جمع‌آوری، ذخیره یا به اشتراک نمی‌گذارد.';
+  String get privacyContent =>
+      'این برنامه هیچ اطلاعات شخصی جمع‌آوری، ذخیره یا به اشتراک نمی‌گذارد.';
 
   @override
   String get alphabetical => 'الفبایی';
@@ -344,7 +351,8 @@ class AppLocalizationsFa extends AppLocalizations {
   String get restorePurchase => 'بازیابی خرید';
 
   @override
-  String get restorePurchaseDesc => 'برنامه را دوباره نصب کردید یا دستگاه تغییر دادید؟ برای بازیابی خرید بدون تبلیغ اینجا بزنید.';
+  String get restorePurchaseDesc =>
+      'برنامه را دوباره نصب کردید یا دستگاه تغییر دادید؟ برای بازیابی خرید بدون تبلیغ اینجا بزنید.';
 
   @override
   String get purchaseFailed => 'خرید ناموفق بود. لطفاً دوباره تلاش کنید.';
@@ -380,8 +388,25 @@ class AppLocalizationsFa extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'لغو';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

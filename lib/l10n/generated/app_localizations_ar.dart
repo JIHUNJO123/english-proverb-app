@@ -132,7 +132,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get translationInfo => 'معلومات الترجمة';
 
   @override
-  String get translationInfoDesc => 'سيتم تنزيل الترجمات تلقائياً عند عرض الكلمات. بعد التنزيل، يتم تخزينها محلياً للاستخدام دون اتصال.';
+  String get translationInfoDesc =>
+      'سيتم تنزيل الترجمات تلقائياً عند عرض الكلمات. بعد التنزيل، يتم تخزينها محلياً للاستخدام دون اتصال.';
 
   @override
   String get ok => 'موافق';
@@ -245,13 +246,15 @@ class AppLocalizationsAr extends AppLocalizations {
   String get copyrightNotice => 'إشعار حقوق النشر';
 
   @override
-  String get copyrightContent => 'جميع تعريفات التعابير والجمل المثال في هذا التطبيق أصلية أو مولدة بالذكاء الاصطناعي. لم يتم استخدام محتوى قاموس محمي بحقوق النشر.';
+  String get copyrightContent =>
+      'جميع تعريفات التعابير والجمل المثال في هذا التطبيق أصلية أو مولدة بالذكاء الاصطناعي. لم يتم استخدام محتوى قاموس محمي بحقوق النشر.';
 
   @override
   String get privacyPolicy => 'سياسة الخصوصية';
 
   @override
-  String get privacyContent => 'هذا التطبيق لا يجمع أو يخزن أو يشارك أي معلومات شخصية.';
+  String get privacyContent =>
+      'هذا التطبيق لا يجمع أو يخزن أو يشارك أي معلومات شخصية.';
 
   @override
   String get alphabetical => 'أبجدي';
@@ -344,7 +347,8 @@ class AppLocalizationsAr extends AppLocalizations {
   String get restorePurchase => 'استعادة المشتريات';
 
   @override
-  String get restorePurchaseDesc => 'أعدت تثبيت التطبيق أو غيرت الجهاز؟ اضغط هنا لاستعادة شراء إزالة الإعلانات.';
+  String get restorePurchaseDesc =>
+      'أعدت تثبيت التطبيق أو غيرت الجهاز؟ اضغط هنا لاستعادة شراء إزالة الإعلانات.';
 
   @override
   String get purchaseFailed => 'فشلت عملية الشراء. يرجى المحاولة مرة أخرى.';
@@ -380,8 +384,25 @@ class AppLocalizationsAr extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'إلغاء';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

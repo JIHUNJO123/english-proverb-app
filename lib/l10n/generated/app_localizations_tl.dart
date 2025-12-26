@@ -132,7 +132,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get translationInfo => 'Impormasyon sa Pagsasalin';
 
   @override
-  String get translationInfoDesc => 'Awtomatikong ida-download ang mga pagsasalin kapag tiningnan mo ang mga salita. Pagkatapos i-download, ito ay naka-cache nang lokal para sa offline na paggamit.';
+  String get translationInfoDesc =>
+      'Awtomatikong ida-download ang mga pagsasalin kapag tiningnan mo ang mga salita. Pagkatapos i-download, ito ay naka-cache nang lokal para sa offline na paggamit.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get noFavorites => 'Wala pang mga paborito';
 
   @override
-  String get addFavoritesHint => 'Magdagdag ng mga salita sa mga paborito sa pamamagitan ng pag-tap sa icon ng puso';
+  String get addFavoritesHint =>
+      'Magdagdag ng mga salita sa mga paborito sa pamamagitan ng pag-tap sa icon ng puso';
 
   @override
   String get posNoun => 'pangngalan';
@@ -213,7 +215,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get showTranslationFirst => 'Ipakita muna ang pagsasalin';
 
   @override
-  String get showTranslationFirstDesc => 'Ipakita ang isinalin na kahulugan bago ang English';
+  String get showTranslationFirstDesc =>
+      'Ipakita ang isinalin na kahulugan bago ang English';
 
   @override
   String get display => 'Display';
@@ -222,7 +225,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get useDarkTheme => 'Gumamit ng dark theme';
 
   @override
-  String get restartToApply => 'I-restart ang app para ilapat ang pagbabago ng tema';
+  String get restartToApply =>
+      'I-restart ang app para ilapat ang pagbabago ng tema';
 
   @override
   String get learningSection => 'Pag-aaral';
@@ -233,7 +237,8 @@ class AppLocalizationsTl extends AppLocalizations {
   }
 
   @override
-  String get getDailyReminders => 'Makatanggap ng pang-araw-araw na paalala sa pag-aaral';
+  String get getDailyReminders =>
+      'Makatanggap ng pang-araw-araw na paalala sa pag-aaral';
 
   @override
   String get copyright => 'Copyright';
@@ -245,13 +250,15 @@ class AppLocalizationsTl extends AppLocalizations {
   String get copyrightNotice => 'Abiso sa Copyright';
 
   @override
-  String get copyrightContent => 'Lahat ng kahulugan ng salita at halimbawang pangungusap sa app na ito ay orihinal o AI-generated.';
+  String get copyrightContent =>
+      'Lahat ng kahulugan ng salita at halimbawang pangungusap sa app na ito ay orihinal o AI-generated.';
 
   @override
   String get privacyPolicy => 'Patakaran sa Privacy';
 
   @override
-  String get privacyContent => 'Hindi kumukuha, nag-iimbak, o nagbabahagi ang app na ito ng anumang personal na impormasyon.';
+  String get privacyContent =>
+      'Hindi kumukuha, nag-iimbak, o nagbabahagi ang app na ito ng anumang personal na impormasyon.';
 
   @override
   String get alphabetical => 'Alpabetiko';
@@ -317,7 +324,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get whatIsTheMeaning => 'Ano ang kahulugan ng kasabihan na ito?';
 
   @override
-  String get whichWordMatches => 'Aling kasabihan ang tumutugma sa kahulugang ito?';
+  String get whichWordMatches =>
+      'Aling kasabihan ang tumutugma sa kahulugang ito?';
 
   @override
   String get nextQuestion => 'Susunod';
@@ -332,7 +340,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get removeAdsTitle => 'Alisin ang Lahat ng Ads';
 
   @override
-  String get removeAdsDesc => 'Mag-enjoy ng karanasan sa pag-aaral na walang ads';
+  String get removeAdsDesc =>
+      'Mag-enjoy ng karanasan sa pag-aaral na walang ads';
 
   @override
   String get adsRemoved => 'Naalis na ang Ads';
@@ -344,7 +353,8 @@ class AppLocalizationsTl extends AppLocalizations {
   String get restorePurchase => 'Ibalik ang Pagbili';
 
   @override
-  String get restorePurchaseDesc => 'Nag-reinstall ng app o nagpalit ng device? I-tap dito para ibalik ang iyong walang ads na pagbili.';
+  String get restorePurchaseDesc =>
+      'Nag-reinstall ng app o nagpalit ng device? I-tap dito para ibalik ang iyong walang ads na pagbili.';
 
   @override
   String get purchaseFailed => 'Nabigo ang pagbili. Pakisubukan muli.';
@@ -380,8 +390,25 @@ class AppLocalizationsTl extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Kanselahin';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

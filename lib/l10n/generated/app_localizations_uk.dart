@@ -132,7 +132,8 @@ class AppLocalizationsUk extends AppLocalizations {
   String get translationInfo => 'Інформація про переклад';
 
   @override
-  String get translationInfoDesc => 'Переклади завантажуються автоматично під час перегляду слів. Після завантаження вони зберігаються локально для офлайн-використання.';
+  String get translationInfoDesc =>
+      'Переклади завантажуються автоматично під час перегляду слів. Після завантаження вони зберігаються локально для офлайн-використання.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsUk extends AppLocalizations {
   String get noFavorites => 'Поки що немає обраного';
 
   @override
-  String get addFavoritesHint => 'Додайте слова до обраного, натиснувши на іконку серця';
+  String get addFavoritesHint =>
+      'Додайте слова до обраного, натиснувши на іконку серця';
 
   @override
   String get posNoun => 'іменник';
@@ -213,7 +215,8 @@ class AppLocalizationsUk extends AppLocalizations {
   String get showTranslationFirst => 'Спочатку показати переклад';
 
   @override
-  String get showTranslationFirstDesc => 'Показувати перекладене значення перед англійським';
+  String get showTranslationFirstDesc =>
+      'Показувати перекладене значення перед англійським';
 
   @override
   String get display => 'Відображення';
@@ -222,7 +225,8 @@ class AppLocalizationsUk extends AppLocalizations {
   String get useDarkTheme => 'Використовувати темну тему';
 
   @override
-  String get restartToApply => 'Перезапустіть додаток для застосування зміни теми';
+  String get restartToApply =>
+      'Перезапустіть додаток для застосування зміни теми';
 
   @override
   String get learningSection => 'Навчання';
@@ -245,13 +249,15 @@ class AppLocalizationsUk extends AppLocalizations {
   String get copyrightNotice => 'Повідомлення про авторське право';
 
   @override
-  String get copyrightContent => 'Усі визначення слів та приклади речень у цьому додатку є оригінальними або згенерованими ШІ.';
+  String get copyrightContent =>
+      'Усі визначення слів та приклади речень у цьому додатку є оригінальними або згенерованими ШІ.';
 
   @override
   String get privacyPolicy => 'Політика конфіденційності';
 
   @override
-  String get privacyContent => 'Цей додаток не збирає, не зберігає та не передає жодної персональної інформації.';
+  String get privacyContent =>
+      'Цей додаток не збирає, не зберігає та не передає жодної персональної інформації.';
 
   @override
   String get alphabetical => 'За алфавітом';
@@ -344,7 +350,8 @@ class AppLocalizationsUk extends AppLocalizations {
   String get restorePurchase => 'Відновити покупку';
 
   @override
-  String get restorePurchaseDesc => 'Перевстановили застосунок або змінили пристрій? Натисніть тут, щоб відновити покупку без реклами.';
+  String get restorePurchaseDesc =>
+      'Перевстановили застосунок або змінили пристрій? Натисніть тут, щоб відновити покупку без реклами.';
 
   @override
   String get purchaseFailed => 'Покупка не вдалася. Спробуйте ще раз.';
@@ -380,8 +387,25 @@ class AppLocalizationsUk extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Скасувати';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

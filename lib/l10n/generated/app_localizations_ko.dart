@@ -132,7 +132,8 @@ class AppLocalizationsKo extends AppLocalizations {
   String get translationInfo => '번역 안내';
 
   @override
-  String get translationInfoDesc => '속담을 볼 때 자동으로 번역이 다운로드됩니다. 다운로드된 번역은 오프라인에서도 사용할 수 있도록 저장됩니다.';
+  String get translationInfoDesc =>
+      '속담을 볼 때 자동으로 번역이 다운로드됩니다. 다운로드된 번역은 오프라인에서도 사용할 수 있도록 저장됩니다.';
 
   @override
   String get ok => '확인';
@@ -245,7 +246,8 @@ class AppLocalizationsKo extends AppLocalizations {
   String get copyrightNotice => '저작권 안내';
 
   @override
-  String get copyrightContent => '이 앱의 모든 속담 정의와 예문은 오리지널이거나 AI로 생성되었습니다. 저작권이 있는 사전 콘텐츠는 사용되지 않았습니다.';
+  String get copyrightContent =>
+      '이 앱의 모든 속담 정의와 예문은 오리지널이거나 AI로 생성되었습니다. 저작권이 있는 사전 콘텐츠는 사용되지 않았습니다.';
 
   @override
   String get privacyPolicy => '개인정보 처리방침';
@@ -344,7 +346,8 @@ class AppLocalizationsKo extends AppLocalizations {
   String get restorePurchase => '구매 복원';
 
   @override
-  String get restorePurchaseDesc => '앱을 재설치하거나 기기를 변경하셨나요? 여기를 눌러 광고 제거 구매를 복원하세요.';
+  String get restorePurchaseDesc =>
+      '앱을 재설치하거나 기기를 변경하셨나요? 여기를 눌러 광고 제거 구매를 복원하세요.';
 
   @override
   String get purchaseFailed => '구매에 실패했습니다. 다시 시도해주세요.';
@@ -384,4 +387,19 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get cancel => '취소';
+
+  @override
+  String get lockedContent => '잠긴 콘텐츠';
+
+  @override
+  String get watchAdToUnlock => '짧은 영상을 시청하면 자정까지 모든 단어가 잠금 해제됩니다!';
+
+  @override
+  String get watchAd => '광고 보기';
+
+  @override
+  String get adNotReady => '광고가 준비되지 않았습니다. 다시 시도해 주세요.';
+
+  @override
+  String get unlockedUntilMidnight => '자정까지 모든 단어가 잠금 해제되었습니다!';
 }

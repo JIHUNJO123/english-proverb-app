@@ -132,7 +132,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get translationInfo => 'Info terjemahan';
 
   @override
-  String get translationInfoDesc => 'Terjemahan akan diunduh otomatis. Setelah diunduh, tersedia offline.';
+  String get translationInfoDesc =>
+      'Terjemahan akan diunduh otomatis. Setelah diunduh, tersedia offline.';
 
   @override
   String get ok => 'OK';
@@ -213,7 +214,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get showTranslationFirst => 'Tampilkan terjemahan dulu';
 
   @override
-  String get showTranslationFirstDesc => 'Tampilkan arti yang diterjemahkan sebelum bahasa Inggris';
+  String get showTranslationFirstDesc =>
+      'Tampilkan arti yang diterjemahkan sebelum bahasa Inggris';
 
   @override
   String get display => 'Tampilan';
@@ -222,7 +224,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get useDarkTheme => 'Gunakan tema gelap';
 
   @override
-  String get restartToApply => 'Mulai ulang aplikasi untuk menerapkan perubahan tema';
+  String get restartToApply =>
+      'Mulai ulang aplikasi untuk menerapkan perubahan tema';
 
   @override
   String get learningSection => 'Pembelajaran';
@@ -245,13 +248,15 @@ class AppLocalizationsId extends AppLocalizations {
   String get copyrightNotice => 'Pemberitahuan hak cipta';
 
   @override
-  String get copyrightContent => 'Semua definisi kata dan kalimat contoh dalam aplikasi ini adalah asli atau dibuat oleh AI. Tidak ada konten kamus berhak cipta yang digunakan.';
+  String get copyrightContent =>
+      'Semua definisi kata dan kalimat contoh dalam aplikasi ini adalah asli atau dibuat oleh AI. Tidak ada konten kamus berhak cipta yang digunakan.';
 
   @override
   String get privacyPolicy => 'Kebijakan privasi';
 
   @override
-  String get privacyContent => 'Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan informasi pribadi apa pun.';
+  String get privacyContent =>
+      'Aplikasi ini tidak mengumpulkan, menyimpan, atau membagikan informasi pribadi apa pun.';
 
   @override
   String get alphabetical => 'Abjad';
@@ -344,7 +349,8 @@ class AppLocalizationsId extends AppLocalizations {
   String get restorePurchase => 'Pulihkan Pembelian';
 
   @override
-  String get restorePurchaseDesc => 'Menginstal ulang aplikasi atau ganti perangkat? Ketuk di sini untuk memulihkan pembelian bebas iklan Anda.';
+  String get restorePurchaseDesc =>
+      'Menginstal ulang aplikasi atau ganti perangkat? Ketuk di sini untuk memulihkan pembelian bebas iklan Anda.';
 
   @override
   String get purchaseFailed => 'Pembelian gagal. Silakan coba lagi.';
@@ -380,8 +386,25 @@ class AppLocalizationsId extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Batal';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

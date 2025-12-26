@@ -3,7 +3,6 @@ import 'package:english_proverb_app/l10n/generated/app_localizations.dart';
 import '../db/database_helper.dart';
 import '../models/word.dart';
 import '../services/translation_service.dart';
-import '../services/ad_service.dart';
 
 enum QuizType { wordToMeaning, meaningToWord }
 
@@ -35,8 +34,6 @@ class _QuizScreenState extends State<QuizScreen> {
   void initState() {
     super.initState();
     _loadWords();
-    // 전면 광고 미리 로드
-    AdService.instance.loadInterstitialAd();
   }
 
   Future<void> _loadWords() async {
@@ -139,9 +136,6 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   void _showResultDialog() {
-    // 퀴즈 완료 시 전면 광고 표시
-    AdService.instance.showInterstitialAd();
-
     final l10n = AppLocalizations.of(context)!;
     final percentage =
         _totalAnswered > 0 ? (_score / _totalAnswered * 100).round() : 0;
@@ -224,7 +218,6 @@ class _QuizScreenState extends State<QuizScreen> {
 
   @override
   void dispose() {
-    AdService.instance.disposeInterstitialAd();
     super.dispose();
   }
 

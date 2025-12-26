@@ -265,11 +265,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
           // About
           _buildSectionHeader(l10n.about),
           ListTile(
-            leading: const Icon(Icons.info_outline),
-            title: Text(l10n.version),
-            subtitle: const Text('1.0.0'),
-          ),
-          ListTile(
             leading: const Icon(Icons.description_outlined),
             title: Text(l10n.copyright),
             subtitle: Text(l10n.copyrightDesc),
@@ -342,19 +337,26 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget _buildRemoveAdsSection(AppLocalizations l10n) {
     final adService = AdService.instance;
     final purchaseService = PurchaseService.instance;
+    final isUnlocked = adService.isUnlocked;
+    final isPurchaseAvailable = purchaseService.isAvailable;
 
-    // 이미 광고가 제거된 경우
-    if (adService.adsRemoved) {
-      return ListTile(
-        leading: const Icon(Icons.check_circle, color: Colors.green),
-        title: Text(l10n.adsRemoved),
-        subtitle: Text(l10n.enjoyAdFree),
-      );
-    }
-
-    // 구매 가능한 경우
     return Column(
       children: [
+        // 잠금 해제 상태 표시
+        ListTile(
+          leading: Icon(
+            isUnlocked ? Icons.lock_open : Icons.lock_outline,
+            color: isUnlocked ? Colors.green : null,
+          ),
+          title: Text(isUnlocked ? l10n.unlockedUntilMidnight : l10n.lockedContent),
+          subtitle: Text(
+            isUnlocked 
+              ? l10n.unlockedUntilMidnight 
+              : l10n.watchAdToUnlock,
+          ),
+        ),
+        // IAP 광고 제거 구매 (스토어 사용 가능한 경우에만 표시)
+        if (isPurchaseAvailable) ...[
         ListTile(
           leading: const Icon(Icons.block, color: Colors.orange),
           title: Text(l10n.removeAdsTitle),
@@ -410,23 +412,18 @@ class _SettingsScreenState extends State<SettingsScreen> {
           subtitle: Text(l10n.restorePurchaseDesc),
           onTap: () async {
             await purchaseService.restorePurchases();
-            // 복원 후 화면 갱신 (약간의 딜레이 후)
             await Future.delayed(const Duration(milliseconds: 500));
             if (mounted) {
-              await AdService.instance.restoreAdsRemoved();
               setState(() {});
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text(
-                    adService.adsRemoved
-                        ? l10n.purchaseRestored
-                        : l10n.noPurchaseToRestore,
-                  ),
+                  content: Text(l10n.restorePurchase),
                 ),
               );
             }
           },
         ),
+        ],
       ],
     );
   }

@@ -132,7 +132,8 @@ class AppLocalizationsMs extends AppLocalizations {
   String get translationInfo => 'Maklumat Terjemahan';
 
   @override
-  String get translationInfoDesc => 'Terjemahan akan dimuat turun secara automatik apabila anda melihat perkataan. Setelah dimuat turun, ia disimpan secara tempatan untuk kegunaan luar talian.';
+  String get translationInfoDesc =>
+      'Terjemahan akan dimuat turun secara automatik apabila anda melihat perkataan. Setelah dimuat turun, ia disimpan secara tempatan untuk kegunaan luar talian.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsMs extends AppLocalizations {
   String get noFavorites => 'Tiada kegemaran lagi';
 
   @override
-  String get addFavoritesHint => 'Tambah perkataan ke kegemaran dengan mengetuk ikon hati';
+  String get addFavoritesHint =>
+      'Tambah perkataan ke kegemaran dengan mengetuk ikon hati';
 
   @override
   String get posNoun => 'kata nama';
@@ -213,7 +215,8 @@ class AppLocalizationsMs extends AppLocalizations {
   String get showTranslationFirst => 'Tunjukkan terjemahan dahulu';
 
   @override
-  String get showTranslationFirstDesc => 'Paparkan makna terjemahan sebelum Bahasa Inggeris';
+  String get showTranslationFirstDesc =>
+      'Paparkan makna terjemahan sebelum Bahasa Inggeris';
 
   @override
   String get display => 'Paparan';
@@ -222,7 +225,8 @@ class AppLocalizationsMs extends AppLocalizations {
   String get useDarkTheme => 'Gunakan tema gelap';
 
   @override
-  String get restartToApply => 'Mulakan semula aplikasi untuk menggunakan perubahan tema';
+  String get restartToApply =>
+      'Mulakan semula aplikasi untuk menggunakan perubahan tema';
 
   @override
   String get learningSection => 'Pembelajaran';
@@ -245,13 +249,15 @@ class AppLocalizationsMs extends AppLocalizations {
   String get copyrightNotice => 'Notis Hak Cipta';
 
   @override
-  String get copyrightContent => 'Semua definisi perkataan dan ayat contoh dalam aplikasi ini adalah asli atau dijana AI.';
+  String get copyrightContent =>
+      'Semua definisi perkataan dan ayat contoh dalam aplikasi ini adalah asli atau dijana AI.';
 
   @override
   String get privacyPolicy => 'Dasar Privasi';
 
   @override
-  String get privacyContent => 'Aplikasi ini tidak mengumpul, menyimpan atau berkongsi sebarang maklumat peribadi.';
+  String get privacyContent =>
+      'Aplikasi ini tidak mengumpul, menyimpan atau berkongsi sebarang maklumat peribadi.';
 
   @override
   String get alphabetical => 'Abjad';
@@ -317,7 +323,8 @@ class AppLocalizationsMs extends AppLocalizations {
   String get whatIsTheMeaning => 'Apakah makna perkataan ini?';
 
   @override
-  String get whichWordMatches => 'Peribahasa mana yang sepadan dengan makna ini?';
+  String get whichWordMatches =>
+      'Peribahasa mana yang sepadan dengan makna ini?';
 
   @override
   String get nextQuestion => 'Seterusnya';
@@ -344,7 +351,8 @@ class AppLocalizationsMs extends AppLocalizations {
   String get restorePurchase => 'Pulihkan Pembelian';
 
   @override
-  String get restorePurchaseDesc => 'Memasang semula aplikasi atau menukar peranti? Ketik di sini untuk memulihkan pembelian tanpa iklan anda.';
+  String get restorePurchaseDesc =>
+      'Memasang semula aplikasi atau menukar peranti? Ketik di sini untuk memulihkan pembelian tanpa iklan anda.';
 
   @override
   String get purchaseFailed => 'Pembelian gagal. Sila cuba lagi.';
@@ -380,8 +388,25 @@ class AppLocalizationsMs extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Batal';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

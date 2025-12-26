@@ -132,7 +132,8 @@ class AppLocalizationsTr extends AppLocalizations {
   String get translationInfo => 'Çeviri Bilgisi';
 
   @override
-  String get translationInfoDesc => 'Kelimeleri görüntülediğinizde çeviriler otomatik olarak indirilecektir. İndirildikten sonra çevrimdışı kullanım için yerel olarak önbelleğe alınır.';
+  String get translationInfoDesc =>
+      'Kelimeleri görüntülediğinizde çeviriler otomatik olarak indirilecektir. İndirildikten sonra çevrimdışı kullanım için yerel olarak önbelleğe alınır.';
 
   @override
   String get ok => 'Tamam';
@@ -171,7 +172,8 @@ class AppLocalizationsTr extends AppLocalizations {
   String get noFavorites => 'Henüz favori yok';
 
   @override
-  String get addFavoritesHint => 'Kalp simgesine dokunarak favorilere kelime ekleyin';
+  String get addFavoritesHint =>
+      'Kalp simgesine dokunarak favorilere kelime ekleyin';
 
   @override
   String get posNoun => 'isim';
@@ -213,7 +215,8 @@ class AppLocalizationsTr extends AppLocalizations {
   String get showTranslationFirst => 'Önce çeviriyi göster';
 
   @override
-  String get showTranslationFirstDesc => 'İngilizceden önce çevrilmiş anlamı görüntüle';
+  String get showTranslationFirstDesc =>
+      'İngilizceden önce çevrilmiş anlamı görüntüle';
 
   @override
   String get display => 'Görünüm';
@@ -222,7 +225,8 @@ class AppLocalizationsTr extends AppLocalizations {
   String get useDarkTheme => 'Karanlık tema kullan';
 
   @override
-  String get restartToApply => 'Tema değişikliğini uygulamak için uygulamayı yeniden başlatın';
+  String get restartToApply =>
+      'Tema değişikliğini uygulamak için uygulamayı yeniden başlatın';
 
   @override
   String get learningSection => 'Öğrenme';
@@ -239,19 +243,22 @@ class AppLocalizationsTr extends AppLocalizations {
   String get copyright => 'Telif Hakkı';
 
   @override
-  String get copyrightDesc => 'Tüm tanımlar orijinal veya yapay zeka tarafından oluşturulmuştur';
+  String get copyrightDesc =>
+      'Tüm tanımlar orijinal veya yapay zeka tarafından oluşturulmuştur';
 
   @override
   String get copyrightNotice => 'Telif Hakkı Bildirimi';
 
   @override
-  String get copyrightContent => 'Bu uygulamadaki tüm kelime tanımları ve örnek cümleler orijinaldir veya yapay zeka tarafından oluşturulmuştur. Telif hakkıyla korunan sözlük içeriği kullanılmamıştır.';
+  String get copyrightContent =>
+      'Bu uygulamadaki tüm kelime tanımları ve örnek cümleler orijinaldir veya yapay zeka tarafından oluşturulmuştur. Telif hakkıyla korunan sözlük içeriği kullanılmamıştır.';
 
   @override
   String get privacyPolicy => 'Gizlilik Politikası';
 
   @override
-  String get privacyContent => 'Bu uygulama hiçbir kişisel bilgi toplamaz, saklamaz veya paylaşmaz.';
+  String get privacyContent =>
+      'Bu uygulama hiçbir kişisel bilgi toplamaz, saklamaz veya paylaşmaz.';
 
   @override
   String get alphabetical => 'Alfabetik';
@@ -344,10 +351,12 @@ class AppLocalizationsTr extends AppLocalizations {
   String get restorePurchase => 'Satın Almayı Geri Yükle';
 
   @override
-  String get restorePurchaseDesc => 'Uygulamayı yeniden yüklediniz veya cihaz değiştirdiniz mi? Reklamsız satın alımınızı geri yüklemek için buraya dokunun.';
+  String get restorePurchaseDesc =>
+      'Uygulamayı yeniden yüklediniz veya cihaz değiştirdiniz mi? Reklamsız satın alımınızı geri yüklemek için buraya dokunun.';
 
   @override
-  String get purchaseFailed => 'Satın alma başarısız oldu. Lütfen tekrar deneyin.';
+  String get purchaseFailed =>
+      'Satın alma başarısız oldu. Lütfen tekrar deneyin.';
 
   @override
   String get purchaseRestored => 'Satın alma başarıyla geri yüklendi!';
@@ -380,8 +389,25 @@ class AppLocalizationsTr extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'İptal';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

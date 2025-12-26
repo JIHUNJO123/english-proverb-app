@@ -132,7 +132,8 @@ class AppLocalizationsRu extends AppLocalizations {
   String get translationInfo => 'Информация о переводе';
 
   @override
-  String get translationInfoDesc => 'Переводы будут загружены автоматически при просмотре слов. После загрузки они кэшируются локально для офлайн-использования.';
+  String get translationInfoDesc =>
+      'Переводы будут загружены автоматически при просмотре слов. После загрузки они кэшируются локально для офлайн-использования.';
 
   @override
   String get ok => 'OK';
@@ -171,7 +172,8 @@ class AppLocalizationsRu extends AppLocalizations {
   String get noFavorites => 'Пока нет избранного';
 
   @override
-  String get addFavoritesHint => 'Добавьте слова в избранное, нажав на значок сердца';
+  String get addFavoritesHint =>
+      'Добавьте слова в избранное, нажав на значок сердца';
 
   @override
   String get posNoun => 'существительное';
@@ -213,7 +215,8 @@ class AppLocalizationsRu extends AppLocalizations {
   String get showTranslationFirst => 'Показать перевод первым';
 
   @override
-  String get showTranslationFirstDesc => 'Показывать переведенное значение перед английским';
+  String get showTranslationFirstDesc =>
+      'Показывать переведенное значение перед английским';
 
   @override
   String get display => 'Отображение';
@@ -245,13 +248,15 @@ class AppLocalizationsRu extends AppLocalizations {
   String get copyrightNotice => 'Уведомление об авторских правах';
 
   @override
-  String get copyrightContent => 'Все определения слов и примеры предложений в этом приложении являются оригинальными или созданы ИИ. Контент словарей, защищенный авторским правом, не используется.';
+  String get copyrightContent =>
+      'Все определения слов и примеры предложений в этом приложении являются оригинальными или созданы ИИ. Контент словарей, защищенный авторским правом, не используется.';
 
   @override
   String get privacyPolicy => 'Политика конфиденциальности';
 
   @override
-  String get privacyContent => 'Это приложение не собирает, не хранит и не передает личную информацию.';
+  String get privacyContent =>
+      'Это приложение не собирает, не хранит и не передает личную информацию.';
 
   @override
   String get alphabetical => 'По алфавиту';
@@ -344,10 +349,12 @@ class AppLocalizationsRu extends AppLocalizations {
   String get restorePurchase => 'Восстановить покупку';
 
   @override
-  String get restorePurchaseDesc => 'Переустановили приложение или сменили устройство? Нажмите здесь, чтобы восстановить покупку без рекламы.';
+  String get restorePurchaseDesc =>
+      'Переустановили приложение или сменили устройство? Нажмите здесь, чтобы восстановить покупку без рекламы.';
 
   @override
-  String get purchaseFailed => 'Покупка не удалась. Пожалуйста, попробуйте снова.';
+  String get purchaseFailed =>
+      'Покупка не удалась. Пожалуйста, попробуйте снова.';
 
   @override
   String get purchaseRestored => 'Покупка успешно восстановлена!';
@@ -380,8 +387,25 @@ class AppLocalizationsRu extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'Отмена';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

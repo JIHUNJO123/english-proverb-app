@@ -132,7 +132,8 @@ class AppLocalizationsJa extends AppLocalizations {
   String get translationInfo => '翻訳について';
 
   @override
-  String get translationInfoDesc => '熟語を見ると自動的に翻訳がダウンロードされます。ダウンロードした翻訳はオフラインでも使用できます。';
+  String get translationInfoDesc =>
+      '熟語を見ると自動的に翻訳がダウンロードされます。ダウンロードした翻訳はオフラインでも使用できます。';
 
   @override
   String get ok => 'OK';
@@ -245,7 +246,8 @@ class AppLocalizationsJa extends AppLocalizations {
   String get copyrightNotice => '著作権情報';
 
   @override
-  String get copyrightContent => 'このアプリのすべての熟語定義と例文はオリジナルまたはAIで生成されています。著作権のある辞書コンテンツは使用されていません。';
+  String get copyrightContent =>
+      'このアプリのすべての熟語定義と例文はオリジナルまたはAIで生成されています。著作権のある辞書コンテンツは使用されていません。';
 
   @override
   String get privacyPolicy => 'プライバシーポリシー';
@@ -344,7 +346,8 @@ class AppLocalizationsJa extends AppLocalizations {
   String get restorePurchase => '購入を復元';
 
   @override
-  String get restorePurchaseDesc => '再インストールまたは機種変更しましたか？こちらをタップして広告削除の購入を復元してください。';
+  String get restorePurchaseDesc =>
+      '再インストールまたは機種変更しましたか？こちらをタップして広告削除の購入を復元してください。';
 
   @override
   String get purchaseFailed => '購入に失敗しました。もう一度お試しください。';
@@ -380,8 +383,25 @@ class AppLocalizationsJa extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'キャンセル';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }

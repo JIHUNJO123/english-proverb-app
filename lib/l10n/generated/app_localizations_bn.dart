@@ -132,7 +132,8 @@ class AppLocalizationsBn extends AppLocalizations {
   String get translationInfo => 'অনুবাদ তথ্য';
 
   @override
-  String get translationInfoDesc => 'শব্দ দেখার সময় অনুবাদ স্বয়ংক্রিয়ভাবে ডাউনলোড হবে। ডাউনলোডের পরে অফলাইন ব্যবহারের জন্য স্থানীয়ভাবে সংরক্ষিত থাকবে।';
+  String get translationInfoDesc =>
+      'শব্দ দেখার সময় অনুবাদ স্বয়ংক্রিয়ভাবে ডাউনলোড হবে। ডাউনলোডের পরে অফলাইন ব্যবহারের জন্য স্থানীয়ভাবে সংরক্ষিত থাকবে।';
 
   @override
   String get ok => 'ঠিক আছে';
@@ -245,13 +246,15 @@ class AppLocalizationsBn extends AppLocalizations {
   String get copyrightNotice => 'কপিরাইট বিজ্ঞপ্তি';
 
   @override
-  String get copyrightContent => 'এই অ্যাপের সমস্ত শব্দ সংজ্ঞা এবং উদাহরণ বাক্য মূল বা AI-জেনারেটেড।';
+  String get copyrightContent =>
+      'এই অ্যাপের সমস্ত শব্দ সংজ্ঞা এবং উদাহরণ বাক্য মূল বা AI-জেনারেটেড।';
 
   @override
   String get privacyPolicy => 'গোপনীয়তা নীতি';
 
   @override
-  String get privacyContent => 'এই অ্যাপ কোনো ব্যক্তিগত তথ্য সংগ্রহ, সংরক্ষণ বা শেয়ার করে না।';
+  String get privacyContent =>
+      'এই অ্যাপ কোনো ব্যক্তিগত তথ্য সংগ্রহ, সংরক্ষণ বা শেয়ার করে না।';
 
   @override
   String get alphabetical => 'বর্ণানুক্রমিক';
@@ -344,16 +347,19 @@ class AppLocalizationsBn extends AppLocalizations {
   String get restorePurchase => 'কেনাকাটা পুনরুদ্ধার করুন';
 
   @override
-  String get restorePurchaseDesc => 'অ্যাপ পুনরায় ইনস্টল করেছেন বা ডিভাইস পরিবর্তন করেছেন? বিজ্ঞাপন-মুক্ত কেনাকাটা পুনরুদ্ধার করতে এখানে ট্যাপ করুন।';
+  String get restorePurchaseDesc =>
+      'অ্যাপ পুনরায় ইনস্টল করেছেন বা ডিভাইস পরিবর্তন করেছেন? বিজ্ঞাপন-মুক্ত কেনাকাটা পুনরুদ্ধার করতে এখানে ট্যাপ করুন।';
 
   @override
-  String get purchaseFailed => 'কেনাকাটা ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।';
+  String get purchaseFailed =>
+      'কেনাকাটা ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।';
 
   @override
   String get purchaseRestored => 'কেনাকাটা সফলভাবে পুনরুদ্ধার হয়েছে!';
 
   @override
-  String get noPurchaseToRestore => 'পুনরুদ্ধার করার জন্য কোনো কেনাকাটা পাওয়া যায়নি';
+  String get noPurchaseToRestore =>
+      'পুনরুদ্ধার করার জন্য কোনো কেনাকাটা পাওয়া যায়নি';
 
   @override
   String get buy => 'কিনুন';
@@ -380,8 +386,25 @@ class AppLocalizationsBn extends AppLocalizations {
   String get fontSizeExtraLarge => 'Extra Large';
 
   @override
-  String get apiTranslationNotice => 'Translations are being provided via API (online translation)';
+  String get apiTranslationNotice =>
+      'Translations are being provided via API (online translation)';
 
   @override
   String get cancel => 'বাতিল';
+
+  @override
+  String get lockedContent => 'Locked Content';
+
+  @override
+  String get watchAdToUnlock =>
+      'Watch a short video to unlock all words until midnight!';
+
+  @override
+  String get watchAd => 'Watch Ad';
+
+  @override
+  String get adNotReady => 'Ad is not ready yet. Please try again.';
+
+  @override
+  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
 }
