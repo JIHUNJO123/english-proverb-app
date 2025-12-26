@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "nl",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Uitdrukking van de Dag",
@@ -112,10 +112,10 @@
   "purchaseRestored": "Aankoop succesvol hersteld!",
   "noPurchaseToRestore": "Geen aankoop gevonden om te herstellen",
   "buy": "Kopen",
-  "cancel": "Annuleren"
+  "cancel": "Annuleren",
+  "lockedContent": "Vergrendelde inhoud",
+  "watchAdToUnlock": "Bekijk een korte video om alle woorden tot middernacht te ontgrendelen!",
+  "watchAd": "Bekijk advertentie",
+  "adNotReady": "Advertentie is nog niet klaar. Probeer het opnieuw.",
+  "unlockedUntilMidnight": "Alle woorden ontgrendeld tot middernacht!"
 }
-
-
-
-
-

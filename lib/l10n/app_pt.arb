@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "pt",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Expressão do dia",
@@ -74,7 +74,9 @@
   "currentSpeed": "Atual: {speed}x",
   "@currentSpeed": {
     "placeholders": {
-      "speed": {"type": "String"}
+      "speed": {
+        "type": "String"
+      }
     }
   },
   "getDailyReminders": "Receber lembretes diários de aprendizado",
@@ -117,10 +119,10 @@
   "purchaseRestored": "Compra restaurada com sucesso!",
   "noPurchaseToRestore": "Nenhuma compra encontrada para restaurar",
   "buy": "Comprar",
-  "cancel": "Cancelar"
+  "cancel": "Cancelar",
+  "lockedContent": "Conteúdo bloqueado",
+  "watchAdToUnlock": "Assista a um vídeo curto para desbloquear todas as palavras até a meia-noite!",
+  "watchAd": "Ver anúncio",
+  "adNotReady": "O anúncio ainda não está pronto. Por favor, tente novamente.",
+  "unlockedUntilMidnight": "Todas as palavras desbloqueadas até a meia-noite!"
 }
-
-
-
-
-

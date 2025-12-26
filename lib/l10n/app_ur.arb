@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "ur",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 آج کا محاورہ",
@@ -112,8 +112,10 @@
   "purchaseRestored": "خریداری کامیابی سے بحال ہو گئی!",
   "noPurchaseToRestore": "بحال کرنے کے لیے کوئی خریداری نہیں ملی",
   "buy": "خریدیں",
-  "cancel": "منسوخ"
+  "cancel": "منسوخ",
+  "lockedContent": "مقفل مواد",
+  "watchAdToUnlock": "آدھی رات تک تمام الفاظ کو غیر مقفل کرنے کے لیے ایک مختصر ویڈیو دیکھیں!",
+  "watchAd": "اشتہار دیکھیں",
+  "adNotReady": "اشتہار ابھی تیار نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "unlockedUntilMidnight": "آدھی رات تک تمام الفاظ غیر مقفل ہو گئے!"
 }
-
-
-

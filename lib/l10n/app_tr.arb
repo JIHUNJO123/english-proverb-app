@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "tr",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Günün Deyimi",
@@ -112,10 +112,10 @@
   "purchaseRestored": "Satın alma başarıyla geri yüklendi!",
   "noPurchaseToRestore": "Geri yüklenecek satın alma bulunamadı",
   "buy": "Satın Al",
-  "cancel": "İptal"
+  "cancel": "İptal",
+  "lockedContent": "Kilitli içerik",
+  "watchAdToUnlock": "Gece yarısına kadar tüm kelimelerin kilidini açmak için kısa bir video izleyin!",
+  "watchAd": "Reklam izle",
+  "adNotReady": "Reklam henüz hazır değil. Lütfen tekrar deneyin.",
+  "unlockedUntilMidnight": "Gece yarısına kadar tüm kelimelerin kilidi açıldı!"
 }
-
-
-
-
-

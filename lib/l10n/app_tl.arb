@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "tl",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Kasabihan Ngayong Araw",
@@ -112,8 +112,10 @@
   "purchaseRestored": "Matagumpay na naibalik ang pagbili!",
   "noPurchaseToRestore": "Walang pagbili na maibabalik",
   "buy": "Bumili",
-  "cancel": "Kanselahin"
+  "cancel": "Kanselahin",
+  "lockedContent": "Naka-lock na nilalaman",
+  "watchAdToUnlock": "Manood ng maikling video para i-unlock ang lahat ng salita hanggang hatinggabi!",
+  "watchAd": "Manood ng ad",
+  "adNotReady": "Hindi pa handa ang ad. Pakisubukan muli.",
+  "unlockedUntilMidnight": "Lahat ng salita ay na-unlock hanggang hatinggabi!"
 }
-
-
-

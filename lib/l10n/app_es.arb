@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "es",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Modismo del día",
@@ -74,7 +74,9 @@
   "currentSpeed": "Actual: {speed}x",
   "@currentSpeed": {
     "placeholders": {
-      "speed": {"type": "String"}
+      "speed": {
+        "type": "String"
+      }
     }
   },
   "getDailyReminders": "Recibir recordatorios diarios",
@@ -117,10 +119,10 @@
   "purchaseRestored": "¡Compra restaurada con éxito!",
   "noPurchaseToRestore": "No se encontró ninguna compra para restaurar",
   "buy": "Comprar",
-  "cancel": "Cancelar"
+  "cancel": "Cancelar",
+  "lockedContent": "Contenido bloqueado",
+  "watchAdToUnlock": "¡Mira un video corto para desbloquear todas las palabras hasta la medianoche!",
+  "watchAd": "Ver anuncio",
+  "adNotReady": "El anuncio aún no está listo. Por favor, inténtalo de nuevo.",
+  "unlockedUntilMidnight": "¡Todas las palabras desbloqueadas hasta la medianoche!"
 }
-
-
-
-
-

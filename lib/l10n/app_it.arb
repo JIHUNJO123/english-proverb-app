@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "it",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Espressione del Giorno",
@@ -112,10 +112,10 @@
   "purchaseRestored": "Acquisto ripristinato con successo!",
   "noPurchaseToRestore": "Nessun acquisto da ripristinare",
   "buy": "Acquista",
-  "cancel": "Annulla"
+  "cancel": "Annulla",
+  "lockedContent": "Contenuto bloccato",
+  "watchAdToUnlock": "Guarda un breve video per sbloccare tutte le parole fino a mezzanotte!",
+  "watchAd": "Guarda annuncio",
+  "adNotReady": "L'annuncio non è ancora pronto. Per favore riprova.",
+  "unlockedUntilMidnight": "Tutte le parole sbloccate fino a mezzanotte!"
 }
-
-
-
-
-

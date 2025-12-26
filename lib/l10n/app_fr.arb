@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "fr",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Expression du jour",
@@ -52,37 +52,39 @@
   "noSearchResults": "Aucun résultat",
   "typeToSearch": "Tapez pour rechercher",
   "noFavorites": "Aucun favori",
-  "addFavoritesHint": "Appuyez sur le c\u0153ur pour ajouter",
+  "addFavoritesHint": "Appuyez sur le cœur pour ajouter",
   "posNoun": "nom",
   "posVerb": "verbe",
   "posAdjective": "adjectif",
   "posAdverb": "adverbe",
   "posPronoun": "pronom",
-  "posPreposition": "pr\u00e9position",
+  "posPreposition": "préposition",
   "posConjunction": "conjonction",
   "posInterjection": "interjection",
   "posArticle": "article",
-  "posDeterminer": "d\u00e9terminant",
+  "posDeterminer": "déterminant",
   "posAuxiliary": "verbe auxiliaire",
-  "posPhrasal": "verbe \u00e0 particule",
+  "posPhrasal": "verbe à particule",
   "showTranslationFirst": "Afficher la traduction d'abord",
   "showTranslationFirstDesc": "Afficher la signification traduite avant l'anglais",
   "display": "Affichage",
-  "useDarkTheme": "Utiliser le th\u00e8me sombre",
-  "restartToApply": "Red\u00e9marrez l'app pour appliquer le changement de th\u00e8me",
+  "useDarkTheme": "Utiliser le thème sombre",
+  "restartToApply": "Redémarrez l'app pour appliquer le changement de thème",
   "learningSection": "Apprentissage",
   "currentSpeed": "Actuel: {speed}x",
   "@currentSpeed": {
     "placeholders": {
-      "speed": {"type": "String"}
+      "speed": {
+        "type": "String"
+      }
     }
   },
   "getDailyReminders": "Recevoir des rappels quotidiens",
   "copyright": "Droits d'auteur",
-  "copyrightDesc": "Toutes les d\u00e9finitions sont originales ou g\u00e9n\u00e9r\u00e9es par IA",
+  "copyrightDesc": "Toutes les définitions sont originales ou générées par IA",
   "copyrightNotice": "Avis de droits d'auteur",
-  "copyrightContent": "Toutes les d\u00e9finitions de mots et phrases d'exemple dans cette application sont originales ou g\u00e9n\u00e9r\u00e9es par IA. Aucun contenu de dictionnaire prot\u00e9g\u00e9 par le droit d'auteur n'est utilis\u00e9.",
-  "privacyPolicy": "Politique de confidentialit\u00e9",
+  "copyrightContent": "Toutes les définitions de mots et phrases d'exemple dans cette application sont originales ou générées par IA. Aucun contenu de dictionnaire protégé par le droit d'auteur n'est utilisé.",
+  "privacyPolicy": "Politique de confidentialité",
   "privacyContent": "Cette application ne collecte, ne stocke ni ne partage aucune information personnelle.",
   "alphabetical": "Alphabétique",
   "random": "Aléatoire",
@@ -117,10 +119,10 @@
   "purchaseRestored": "Achat restauré avec succès!",
   "noPurchaseToRestore": "Aucun achat à restaurer",
   "buy": "Acheter",
-  "cancel": "Annuler"
+  "cancel": "Annuler",
+  "lockedContent": "Contenu verrouillé",
+  "watchAdToUnlock": "Regardez une courte vidéo pour débloquer tous les mots jusqu'à minuit !",
+  "watchAd": "Voir la pub",
+  "adNotReady": "La publicité n'est pas encore prête. Veuillez réessayer.",
+  "unlockedUntilMidnight": "Tous les mots débloqués jusqu'à minuit !"
 }
-
-
-
-
-

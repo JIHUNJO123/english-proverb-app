@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "id",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Peribahasa hari ini",
@@ -74,7 +74,9 @@
   "currentSpeed": "Saat ini: {speed}x",
   "@currentSpeed": {
     "placeholders": {
-      "speed": {"type": "String"}
+      "speed": {
+        "type": "String"
+      }
     }
   },
   "getDailyReminders": "Dapatkan pengingat belajar harian",
@@ -117,10 +119,10 @@
   "purchaseRestored": "Pembelian berhasil dipulihkan!",
   "noPurchaseToRestore": "Tidak ada pembelian untuk dipulihkan",
   "buy": "Beli",
-  "cancel": "Batal"
+  "cancel": "Batal",
+  "lockedContent": "Konten terkunci",
+  "watchAdToUnlock": "Tonton video singkat untuk membuka semua kata hingga tengah malam!",
+  "watchAd": "Tonton iklan",
+  "adNotReady": "Iklan belum siap. Silakan coba lagi.",
+  "unlockedUntilMidnight": "Semua kata terbuka hingga tengah malam!"
 }
-
-
-
-
-

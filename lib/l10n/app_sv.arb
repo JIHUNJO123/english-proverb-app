@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "sv",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Dagens Ordspråk",
@@ -112,8 +112,10 @@
   "purchaseRestored": "Köpet har återställts!",
   "noPurchaseToRestore": "Inget köp att återställa",
   "buy": "Köp",
-  "cancel": "Avbryt"
+  "cancel": "Avbryt",
+  "lockedContent": "Låst innehåll",
+  "watchAdToUnlock": "Titta på en kort video för att låsa upp alla ord till midnatt!",
+  "watchAd": "Se annons",
+  "adNotReady": "Annonsen är inte redo ännu. Försök igen.",
+  "unlockedUntilMidnight": "Alla ord upplåsta till midnatt!"
 }
-
-
-

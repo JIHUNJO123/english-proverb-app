@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "vi",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Thành ngữ hôm nay",
@@ -74,7 +74,9 @@
   "currentSpeed": "Hiện tại: {speed}x",
   "@currentSpeed": {
     "placeholders": {
-      "speed": {"type": "String"}
+      "speed": {
+        "type": "String"
+      }
     }
   },
   "getDailyReminders": "Nhận nhắc nhở học tập hàng ngày",
@@ -117,10 +119,10 @@
   "purchaseRestored": "Khôi phục giao dịch thành công!",
   "noPurchaseToRestore": "Không tìm thấy giao dịch để khôi phục",
   "buy": "Mua",
-  "cancel": "Hủy"
+  "cancel": "Hủy",
+  "lockedContent": "Nội dung bị khóa",
+  "watchAdToUnlock": "Xem video ngắn để mở khóa tất cả từ vựng đến nửa đêm!",
+  "watchAd": "Xem quảng cáo",
+  "adNotReady": "Quảng cáo chưa sẵn sàng. Vui lòng thử lại.",
+  "unlockedUntilMidnight": "Tất cả từ vựng đã được mở khóa đến nửa đêm!"
 }
-
-
-
-
-

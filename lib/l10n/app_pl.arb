@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "pl",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Przysłowie Dnia",
@@ -112,10 +112,10 @@
   "purchaseRestored": "Zakup przywrócony pomyślnie!",
   "noPurchaseToRestore": "Nie znaleziono zakupu do przywrócenia",
   "buy": "Kup",
-  "cancel": "Anuluj"
+  "cancel": "Anuluj",
+  "lockedContent": "Zablokowana zawartość",
+  "watchAdToUnlock": "Obejrzyj krótki film, aby odblokować wszystkie słowa do północy!",
+  "watchAd": "Oglądaj reklamę",
+  "adNotReady": "Reklama nie jest jeszcze gotowa. Spróbuj ponownie.",
+  "unlockedUntilMidnight": "Wszystkie słowa odblokowane do północy!"
 }
-
-
-
-
-

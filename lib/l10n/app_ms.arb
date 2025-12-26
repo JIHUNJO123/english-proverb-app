@@ -1,4 +1,4 @@
-﻿{
+{
   "@@locale": "ms",
   "appTitle": "English Proverbs 300",
   "todayWord": "📅 Peribahasa Hari Ini",
@@ -112,8 +112,10 @@
   "purchaseRestored": "Pembelian berjaya dipulihkan!",
   "noPurchaseToRestore": "Tiada pembelian untuk dipulihkan",
   "buy": "Beli",
-  "cancel": "Batal"
+  "cancel": "Batal",
+  "lockedContent": "Kandungan terkunci",
+  "watchAdToUnlock": "Tonton video pendek untuk membuka kunci semua perkataan sehingga tengah malam!",
+  "watchAd": "Tonton iklan",
+  "adNotReady": "Iklan belum sedia. Sila cuba lagi.",
+  "unlockedUntilMidnight": "Semua perkataan dibuka kunci sehingga tengah malam!"
 }
-
-
-
