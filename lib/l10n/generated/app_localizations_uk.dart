@@ -394,18 +394,19 @@ class AppLocalizationsUk extends AppLocalizations {
   String get cancel => 'Скасувати';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'Заблокований вміст';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'Перегляньте коротке відео, щоб розблокувати всі слова до півночі!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'Дивитися рекламу';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady =>
+      'Реклама ще не готова. Будь ласка, спробуйте ще раз.';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight => 'Усі слова розблоковано до півночі!';
 }

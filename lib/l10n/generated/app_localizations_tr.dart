@@ -396,18 +396,19 @@ class AppLocalizationsTr extends AppLocalizations {
   String get cancel => 'İptal';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'Kilitli içerik';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'Gece yarısına kadar tüm kelimelerin kilidini açmak için kısa bir video izleyin!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'Reklam izle';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady => 'Reklam henüz hazır değil. Lütfen tekrar deneyin.';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight =>
+      'Gece yarısına kadar tüm kelimelerin kilidi açıldı!';
 }

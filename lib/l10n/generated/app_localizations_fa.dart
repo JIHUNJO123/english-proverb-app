@@ -395,18 +395,18 @@ class AppLocalizationsFa extends AppLocalizations {
   String get cancel => 'لغو';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'محتوای قفل شده';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'یک ویدیوی کوتاه ببینید تا همه کلمات تا نیمه شب باز شوند!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'تماشای تبلیغ';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady => 'تبلیغ هنوز آماده نیست. لطفا دوباره تلاش کنید.';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight => 'همه کلمات تا نیمه شب باز شدند!';
 }

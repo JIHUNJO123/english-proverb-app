@@ -393,18 +393,20 @@ class AppLocalizationsBn extends AppLocalizations {
   String get cancel => 'বাতিল';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'লক করা বিষয়বস্তু';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'সমস্ত শব্দ মধ্যরাত পর্যন্ত আনলক করতে একটি ছোট ভিডিও দেখুন!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'বিজ্ঞাপন দেখুন';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady =>
+      'বিজ্ঞাপন এখনো প্রস্তুত নয়। অনুগ্রহ করে আবার চেষ্টা করুন।';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight =>
+      'মধ্যরাত পর্যন্ত সমস্ত শব্দ আনলক করা হয়েছে!';
 }

@@ -391,18 +391,19 @@ class AppLocalizationsTh extends AppLocalizations {
   String get cancel => 'ยกเลิก';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'เนื้อหาถูกล็อก';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'ดูวิดีโอสั้นเพื่อปลดล็อกคำศัพท์ทั้งหมดจนถึงเที่ยงคืน!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'ดูโฆษณา';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady => 'โฆษณายังไม่พร้อม กรุณาลองใหม่อีกครั้ง';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight =>
+      'ปลดล็อกคำศัพท์ทั้งหมดจนถึงเที่ยงคืนแล้ว!';
 }

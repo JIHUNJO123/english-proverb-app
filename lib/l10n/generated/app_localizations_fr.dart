@@ -394,18 +394,20 @@ class AppLocalizationsFr extends AppLocalizations {
   String get cancel => 'Annuler';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'Contenu verrouillé';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'Regardez une courte vidéo pour débloquer tous les mots jusqu\'à minuit !';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'Voir la pub';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady =>
+      'La publicité n\'est pas encore prête. Veuillez réessayer.';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight =>
+      'Tous les mots débloqués jusqu\'à minuit !';
 }

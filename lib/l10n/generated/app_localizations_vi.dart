@@ -393,18 +393,19 @@ class AppLocalizationsVi extends AppLocalizations {
   String get cancel => 'Hủy';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'Nội dung bị khóa';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'Xem video ngắn để mở khóa tất cả từ vựng đến nửa đêm!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'Xem quảng cáo';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady => 'Quảng cáo chưa sẵn sàng. Vui lòng thử lại.';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight =>
+      'Tất cả từ vựng đã được mở khóa đến nửa đêm!';
 }

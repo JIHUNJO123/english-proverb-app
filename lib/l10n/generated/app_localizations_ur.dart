@@ -394,18 +394,19 @@ class AppLocalizationsUr extends AppLocalizations {
   String get cancel => 'منسوخ';
 
   @override
-  String get lockedContent => 'Locked Content';
+  String get lockedContent => 'مقفل مواد';
 
   @override
   String get watchAdToUnlock =>
-      'Watch a short video to unlock all words until midnight!';
+      'آدھی رات تک تمام الفاظ کو غیر مقفل کرنے کے لیے ایک مختصر ویڈیو دیکھیں!';
 
   @override
-  String get watchAd => 'Watch Ad';
+  String get watchAd => 'اشتہار دیکھیں';
 
   @override
-  String get adNotReady => 'Ad is not ready yet. Please try again.';
+  String get adNotReady =>
+      'اشتہار ابھی تیار نہیں ہے۔ براہ کرم دوبارہ کوشش کریں۔';
 
   @override
-  String get unlockedUntilMidnight => 'All words unlocked until midnight!';
+  String get unlockedUntilMidnight => 'آدھی رات تک تمام الفاظ غیر مقفل ہو گئے!';
 }
