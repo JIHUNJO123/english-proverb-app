@@ -107,9 +107,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
   void _goToPreviousWord() {
     if (widget.wordList != null && _currentIndex > 0) {
       int newIndex = _currentIndex - 1;
-      while (newIndex > 0 && _isWordLocked(newIndex)) {
-        newIndex--;
-      }
+      // 잠긴 단어면 이동 안 함
       if (_isWordLocked(newIndex)) return;
 
       setState(() {
@@ -126,10 +124,7 @@ class _WordDetailScreenState extends State<WordDetailScreen> {
     if (widget.wordList != null &&
         _currentIndex < widget.wordList!.length - 1) {
       int newIndex = _currentIndex + 1;
-      while (newIndex < widget.wordList!.length - 1 &&
-          _isWordLocked(newIndex)) {
-        newIndex++;
-      }
+      // 잠긴 단어면 이동 안 함
       if (_isWordLocked(newIndex)) return;
 
       setState(() {
