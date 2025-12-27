@@ -2,7 +2,7 @@ name: english_proverb_app
 description: "English Proverb 300 - Learn English proverbs"
 publish_to: 'none'
 
-version: 1.0.7+20
+version: 1.0.8+21
 
 environment:
   sdk: ^3.7.0
